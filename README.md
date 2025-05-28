@@ -41,7 +41,7 @@ I created an interactive dashboard using NBA historical data from 1996 to the 20
   <figcaption><strong>Figure:</strong> Tableau Dashboard (Page 2) </figcaption>
 </figure>
 
-### Time Series and Forecasting: 
+### Time Series Analysis and Forecasting using ARMA Models: A Case Study of the Philippine Stock Exchange
 
 I created an autoregressive moving average model (ARMA) to forecast the future prices of the Philippine Stock Exchange Composite Index (PSEi). The PSEi is the benchmark index for the Philippine stock exchange and is a good representation of the aggregate stock market performance of the largest companies in the Philippines. Publicly available data for the monthly closing prices of the PSEi from 1987 to 2022 were used for the time series models. The training data was preprocessed using log transformation and differencing to ensure that the data was stationary and to remove seasonal patterns or trends. The autocorrelation function (ACF) and the partial autocorrelation function (PACF) of the data were analyzed, which led to three candidate models: AR(1), MA(1), and ARMA(1,1). Based on the Akaike Information Criterion (AIC), a commonly used metric for model fit, the AR(1) was found to be the best-fitting model.
 
