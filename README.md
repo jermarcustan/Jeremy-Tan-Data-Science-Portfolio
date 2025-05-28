@@ -14,8 +14,8 @@ The goal of my master's capstone project was to create an accurate forecasting m
 </a>
 
 <figure>
-  <img src="/img/Capstone_24hr_stonino_2.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
-  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event, highlighting the model's responsiveness to extreme weather.</figcaption>
+  <img src="/img/Capstone_24hr_stonino.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
+  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event.</figcaption>
 </figure>
 
 ### Math 103.1: Classification of Fake and Real News from Filipino Sources using Neural Networks
@@ -23,4 +23,10 @@ The goal of my master's capstone project was to create an accurate forecasting m
 I compared the classification performance of three neural networks: dense neural network, long short-term memory neural network, and convolutional neural network. The dataset for the language model was comprised of 1,603 real news articles from major news websites and 1,603 fake news articles, sourced and tagged by the National Union of Journalists in the Philippines. The models were built using the <b>R</b> programming language using RStudio software. While all three neural networks (DNN, LSTM, CNN) showed great overall performance, the convolutional neural network was the best model in terms of accuracy, loss, and kappa in predicting and classifying the fake news Filipino language dataset.
 
 ![Results of the Neural Networks on the Test Set](/img/Predictive_Modeling_for_Text.png)
+
+
+<figure>
+  <img src="/img/Predictive_Modeling_for_Text.png" alt="Results of the Neural Networks on the Test Set" style="width:100%;">
+  <figcaption><strong>Figure:</strong> Results of the Neural Networks on the Test Set </figcaption>
+</figure>
 
