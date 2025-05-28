@@ -1,0 +1,16 @@
+flight_type,airline_operator,january,february,march,april,may,june,july,august,september,october,november,december,grand_total
+Domestic,Asian Spirit,87,50,-,-,-,-,-,-,-,-,-,-,137
+Domestic,Cebu Pacific,-,-,-,-,-,138,-,-,-,2395,3111,3772,9416
+Domestic,Seair,925,599,930,699,823,568,470,386,331,369,601,622,7323
+International,Air Asia,10615,9865,11741,13056,13109,9041,11140,12809,13112,13216,13899,15803,147406
+International,Asian Spirit,4,-,-,-,-,-,-,-,-,-,-,-,4
+International,Asiana Airlines,7611,8645,5356,5352,5280,4672,6014,7028,5076,4863,6559,6784,73240
+International,Cathay Pacific,-,506,-,-,-,-,-,-,-,-,-,-,506
+International,Cebu Pacific,-,-,-,-,-,-,-,-,52,-,-,-,52
+International,China Southern Airlines,-,-,-,-,639,-,-,-,-,-,-,-,639
+International,CRJ Airways,662,730,661,951,786,523,354,31,-,-,-,-,4698
+International,Far Eastern Air Transport (FAT),-,-,-,-,-,-,-,202,-,-,-,-,202
+International,Hong Kong Airlines,-,-,-,-,-,-,-,-,-,-,-,964,964
+International,Seair,-,149,-,32,-,-,-,-,-,-,-,-,181
+International,Shanghai Airlines,-,-,-,-,-,-,-,-,-,-,-,747,747
+International,Tiger Airways,13663,14205,15760,19589,25796,17309,20940,23308,18876,21519,18358,26026,235349

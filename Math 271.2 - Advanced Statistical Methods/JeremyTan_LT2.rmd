@@ -1,0 +1,110 @@
+---
+title: "Jeremy Tan LT2"
+output: html_notebook
+---
+
+
+```{r}
+library(tseries)
+library(TSA)
+library(forecast)
+library(fGarch)
+```
+
+```{r}
+aptx = read.csv("Item1.csv")
+aptx_ts = ts(aptx)
+```
+
+```{r}
+plot(aptx_ts)
+```
+```{r}
+arch1 = garchFit(~garch(1,0), data = aptx_ts)
+summary(arch1)
+```
+
+```{r}
+summary(arch1)
+```
+
+```{r}
+garch11 = garchFit(~garch(1,1), data = aptx_ts)
+```
+```{r}
+summary(garch11)
+```
+
+```{r}
+fit.vol.sr_item1 = residuals(garch11)/volatility(garch11)
+```
+
+```{r}
+Box.test(fit.vol.sr_item1, type = 'Ljung')
+```
+
+```{r}
+Box.test(fit.vol.sr_item1^2, type = 'Ljung')
+
+```
+
+```{r}
+aptx_predict = predict(garch11, n.ahead = 5, plot = T)
+```
+
+```{r}
+aptx_predict
+```
+
+```{r}
+kaito = read.csv("Item2.csv")
+kaito_ts = ts(kaito)
+```
+
+```{r}
+plot(kaito_ts)
+```
+
+Log Transform 
+
+```{r}
+R_t = log(kaito_ts)
+```
+
+```{r}
+ar1 = Arima(R_t, order = c(1,1,0))
+ar1
+```
+Two Pass 
+
+Get the residuals first
+```{r}
+y2 = residuals(ar1)^2
+```
+
+```{r}
+Box.test(residuals(ar1), type = 'Ljung')
+```
+
+```{r}
+Box.test(y2, type = 'Ljung')
+```
+
+```{r}
+arch3 = Arima(y2, order = c(3,0,0))
+arch3
+```
+Joint Modelling
+
+```{r}
+R_t_diff = diff(R_t)
+```
+
+```{r}
+garch3 = garchFit(~arma(1,0) + garch(3,0), data = R_t_diff)
+
+```
+```{r}
+summary(garch3)
+```
+

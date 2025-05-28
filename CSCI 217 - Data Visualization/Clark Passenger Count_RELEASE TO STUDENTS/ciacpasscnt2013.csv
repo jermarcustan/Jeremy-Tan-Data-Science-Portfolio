@@ -1,0 +1,16 @@
+flight_type,airline_operator,january,february,march,april,may,june
+Domestic,Air Asia Philippines,12259,11832,12876,13025,13248,63240
+Domestic,Cebu Pacific,3390,3120,3326,3305,4005,17146
+Domestic,PAL Express,9460,7273,2264,1603,-,20600
+Domestic,Seair,4122,4226,4407,8381,7677,28813
+Domestic,Zest Air,276,319,43,-,-,638
+International,Air Asia,12112,3240,3940,3313,3234,25839
+International,Air Asia Philippines,27832,29050,33387,34981,31825,157075
+International,Asiana Airlines,11487,8871,10643,9358,7812,48171
+International,Cebu Pacific,20117,18228,20948,21511,22012,102816
+International,China Southern Airlines,-,-,-,110,99,209
+International,Dragon Air,5064,3338,4229,4309,3264,20204
+International,Jin-Air,6539,4326,3425,2789,2027,19106
+International,PAL Express,4831,3397,-,-,-,8228
+International,Seair,26229,22895,30159,30375,27681,137339
+International,Zest Air,10202,6756,1979,-,-,18937

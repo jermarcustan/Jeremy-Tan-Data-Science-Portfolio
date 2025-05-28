@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(TSA)
+library(tseries)
+data("usd.hkd")
+forex = usd.hkd$hkrate
+plot(forex)
+```
+
+```{r}
+adf.test(forex)
+```
+
+Since p < 0.05, we reject the null hypothesis. The time series is stationary.
+
+```{r}
+Box.test(forex, type = "Ljung")
+```
+
+The time series exhibits autocorrelation.
+
+```{r}
+acf(forex) # MA(1)
+pacf(forex) # AR(2)
+```
+
+```{r}
+arima(forex, order = c(2,0,0))
+arima(forex, order = c(2,0,1))
+arima(forex, order = c(0,0,1))
+```
+For ARMA(2,0), since the intercept (mu) is zero, the mean is zero so phi_0 is zero and we can drop it in the equation.
+
+We select ARMA(2,1) as the best fitting model since it has the most negative AIC.
+
+ARMA(2,1): X_t = 0.2899X_t-1 - 0.0588X_t-2 - 0.4763Z_t-1 + Z_t
+
+```{r}
+arma21 = arima(forex, order = c(2,0,1))
+predict(arma21, 5)
+```
+```{r}
+library(forecast)
+arma21.2 = Arima(forex, order = c(2,0,1))
+forecast(arma21.2, h = 5)
+```
+```{r}
+arma21.2
+```
+

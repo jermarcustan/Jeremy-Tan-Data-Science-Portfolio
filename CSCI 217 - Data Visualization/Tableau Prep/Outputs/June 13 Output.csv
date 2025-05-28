@@ -1,0 +1,70 @@
+﻿passenger_count,month,flight_type,airline_operator
+12,august,Domestic,Asian Spirit
+20,december,Domestic,Asian Spirit
+26,february,Domestic,Asian Spirit
+77,january,Domestic,Asian Spirit
+30,july,Domestic,Asian Spirit
+11,june,Domestic,Asian Spirit
+9,september,Domestic,Asian Spirit
+14,october,Domestic,Asian Spirit
+178,november,Domestic,Asian Spirit
+60,may,Domestic,Asian Spirit
+48,march,Domestic,Asian Spirit
+56,april,Domestic,Asian Spirit
+324,february,Domestic,Asiana Airlines
+399,january,Domestic,Asiana Airlines
+138,march,Domestic,Asiana Airlines
+107,april,Domestic,Asiana Airlines
+506,august,Domestic,Seair
+651,december,Domestic,Seair
+552,february,Domestic,Seair
+599,january,Domestic,Seair
+508,july,Domestic,Seair
+503,june,Domestic,Seair
+481,september,Domestic,Seair
+600,october,Domestic,Seair
+608,november,Domestic,Seair
+688,may,Domestic,Seair
+594,march,Domestic,Seair
+755,april,Domestic,Seair
+7570,august,International,Air Asia
+11835,december,International,Air Asia
+7446,july,International,Air Asia
+8105,june,International,Air Asia
+7702,september,International,Air Asia
+7740,october,International,Air Asia
+8373,november,International,Air Asia
+11289,may,International,Air Asia
+7361,april,International,Air Asia
+5845,august,International,Asiana Airlines
+6095,december,International,Asiana Airlines
+5242,february,International,Asiana Airlines
+5775,january,International,Asiana Airlines
+5982,july,International,Asiana Airlines
+5549,june,International,Asiana Airlines
+3722,september,International,Asiana Airlines
+4264,october,International,Asiana Airlines
+5260,november,International,Asiana Airlines
+5640,may,International,Asiana Airlines
+4233,march,International,Asiana Airlines
+4928,april,International,Asiana Airlines
+470,august,International,CRJ Airways
+726,december,International,CRJ Airways
+381,september,International,CRJ Airways
+669,october,International,CRJ Airways
+397,november,International,CRJ Airways
+1698,august,International,Far Eastern Air Transport (FAT)
+346,july,International,Far Eastern Air Transport (FAT)
+1409,september,International,Far Eastern Air Transport (FAT)
+1497,october,International,Far Eastern Air Transport (FAT)
+59,august,International,Hong Kong Express
+2,september,International,Hong Kong Express
+8568,august,International,Tiger Airways
+15945,december,International,Tiger Airways
+5153,july,International,Tiger Airways
+4333,june,International,Tiger Airways
+9114,september,International,Tiger Airways
+9925,october,International,Tiger Airways
+11288,november,International,Tiger Airways
+3685,may,International,Tiger Airways
+3493,april,International,Tiger Airways

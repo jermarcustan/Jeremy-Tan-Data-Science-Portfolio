@@ -1,0 +1,143 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+wl = read.csv("Sto_nino_2017.csv")
+wl_ts = ts(wl)
+```
+
+```{r}
+plot(wl_ts)
+```
+```{r}
+library(tseries)
+library(forecast)
+library(TSA)
+library(fGarch)
+```
+
+```{r}
+adf.test(wl_ts)
+Box.test(wl_ts)
+```
+The data is stationary and autocorrelated.
+
+```{r}
+acf(wl_ts)
+pacf(wl_ts)
+```
+Test out AR(2), AR(3) and AR(11).
+
+```{r}
+Arima(wl_ts, order = c(2,0,0))
+Arima(wl_ts, order = c(3,0,0))
+Arima(wl_ts, order = c(11,0,0))
+```
+
+AR(3) is the best fitting model.
+
+```{r}
+ar3 = Arima(wl_ts, order = c(3,0,0))
+forecast(ar3, h = 10)
+```
+
+```{r}
+plot(forecast(ar3, h = 10))
+```
+```{r}
+res.ar3 = ar3$residuals
+tsdiag(ar3)
+```
+```{r}
+Box.test(res.ar3, type = "Ljung")
+Box.test(res.ar3^2, type = "Ljung")
+
+```
+The squared residuals are correlated. The residuals exhibit the ARCH effect.
+
+```{r}
+y2 = res.ar3^2
+acf(y2)
+pacf(y2)
+```
+The Lag of PACF cuts off at 1.
+We test ARCH(1).
+
+Do Joint Estimation 
+Use AR(3) for the mean model, X_t
+
+#Various hydrologic models used time series models to evaluate volatility and eliminate the ARCH effect. In modeling rainfall–runoff relationships, Modarres and Ouarda (2013) used GARCH(1,1) and ARCH(2) models. Moreover, in predicting daily streamflow, Wang, et al. (2023) used the GARCH(1,1) model. Lastly, in modeling streamflow Fathian, et al. (2019) found the ARCH(5) and ARCH(7) models to be the most fitted to their residual series.
+
+```{r}
+arch1 = garchFit(~arma(3,0) + garch(1,0), data = wl_ts)
+garch11 = garchFit(~arma(3,0) + garch(1,1), data = wl_ts)
+arch2 = garchFit(~arma(3,0) + garch(2,0), data = wl_ts)
+arch5 = garchFit(~arma(3,0) + garch(5,0), data = wl_ts)
+arch7 = garchFit(~arma(3,0) + garch(7,0), data = wl_ts)
+
+```
+```{r}
+garch31 = garchFit(~arma(3,0) + garch(3,1), data = wl_ts)
+```
+```{r}
+summary(garch31)
+```
+
+```{r}
+
+fit.vol_garch31 = volatility(garch31) # gives the sigma_t
+# This is the standardized residuals
+fit.vol.sr_garch31 = residuals(garch31) / fit.vol_garch31
+
+acf(fit.vol.sr_garch31)
+pacf(fit.vol.sr_garch31)
+```
+```{r}
+Box.test(fit.vol.sr_garch31, lag = 2)
+```
+
+```{r}
+summary(arch1)
+```
+```{r}
+summary(arch2)
+```
+
+```{r}
+summary(arch5)
+```
+
+```{r}
+summary(arch7)
+```
+
+```{r}
+summary(garch11)
+```
+
+
+Select ARCH(5) model for Y_t^2.
+
+All the coefficients are significant in the ARMA(4,0)-GARCH(5,0) model. 
+
+
+Check the standardized residuals
+```{r}
+fit.vol = volatility(arch5) # gives the sigma_t
+# This is the standardized residuals
+fit.vol.sr = residuals(arch5) / fit.vol
+```
+
+```{r}
+Box.test(fit.vol.sr, type = "Ljung")
+Box.test(fit.vol.sr^2, type = "Ljung")
+```
+```{r}
+predict(arch5, n.ahead = 2)
+```
+```{r}
+plot(predict(arch5, n.ahead = 2)
+)
+```
+

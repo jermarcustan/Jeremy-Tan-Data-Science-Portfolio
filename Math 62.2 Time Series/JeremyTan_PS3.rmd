@@ -1,0 +1,273 @@
+---
+title: "PS3 Jeremy Tan"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+Loading CSV
+```{r}
+data_1 = read.csv("PS3.csv")
+data_1 = data_1[-1] # remove ID column
+data_1
+```
+
+1. 
+
+a. Fit a linear model to the given data
+
+Full Model All Variables
+```{r}
+model1 = summary(lm(y ~., data = data_1))
+model1
+model_1 = lm(y ~., data = data_1)
+```
+The regression coefficients
+```{r}
+model1$coefficients
+```
+
+b. Check the fit of the model, and identify which coefficients are significant.
+
+Given alpha (level of significance) = 0.05, x02,x05,x06,x08,x09,x12 are the significant coefficients since their p-value is less than alpha.
+
+The fit of the model is measured by the Rsquared value, the coefficient of determination. This is the proportion of the total sum of squares due to regression. Since later on we will be using reduced models with fewer variables, we are going to use adjusted R squared which takes into account the number of independent variables in the model. 
+
+```{r}
+model1$adj.r.squared
+```
+This means that our model can explain 80% of the total variation of y around its mean. Since our adjusted R^2 is between 0.75 to 1.00, our model is a good fit for the data.
+
+
+c. Perform model diagnostics by identifying which variables should be included, analyzing the resulting residuals, and testing for multicollinearity.
+
+Variable Selection
+
+```{r}
+library(leaps)
+nvar = ncol(data_1) - 1 #id col, and y-int are not included
+varsel = regsubsets(y~., data = data_1, nvmax= 13)
+varsel.res = summary(varsel)
+varsel.res
+names(varsel.res)
+```
+
+We will only be considering 1 metric, BIC or the Bayesian Information Criterion. The model with the lowest BIC is usually preferred, as it strikes a balance between goodness of fit and model complexity.
+
+```{r}
+varsel.metric = cbind(1:nvar, varsel.res$bic, varsel.res$cp)
+colnames(varsel.metric) = c("No. of Variables", "BIC", "cp")
+varsel.metric
+```
+
+We plot the BIC against the number of variables in the model
+```{r}
+plot(varsel.res$bic) #BIC
+```
+We find the variables which will result in the lowest BIC value. 
+```{r}
+varsel.res$which[which.min(varsel.res$bic),] #BIC
+```
+The variables which will result in the lowest BIC are x01,x02,x05,x06,x08,x09,x12.
+
+We will select these 7 variables: x01,x02,x05,x06,x08,x09,x12 for our reduced model.
+
+```{r}
+reduced_model_1 = lm(y ~ x01 + x02 + x05 + x06 + x08 + x09 + x12, data = data_1)
+reduced_model1 = summary(reduced_model_1)
+reduced_model1
+```
+Comparison of Fit between the full and reduced models
+
+```{r}
+model1$adj.r.squared
+reduced_model1$adj.r.squared
+anova(model_1, reduced_model_1)
+```
+The reduced model is slightly better fitting compared to the full model; however since the p value in the anova test is 0.5123, which is greater then 0.05, the difference is not significant. We can conclude that the predictive power of both models is roughly the same. 
+
+Residual Analysis
+
+We have to check if the residuals are uncorrelated and if they are normalized as this is one of the assumptions of a multiple linear regression model. 
+
+Normal QQ Plot
+
+First, we check the residuals of model1 or the complete model. 
+```{r}
+library(nortest)
+plot(model1$residuals)
+qqnorm(model1$residuals) 
+qqline(model1$residuals) 
+```
+Residuals of the reduced model
+```{r}
+library(nortest)
+plot(reduced_model1$residuals)
+qqnorm(reduced_model1$residuals) 
+qqline(reduced_model1$residuals) 
+```
+
+For both the complete and reduced models, the residuals don't form a distinct line and are randomly distributed, meaning that the residuals are not correlated. 
+
+The quantiles of the residuals almost perfectly fall on the normal QQ line. This means that the residuals for both the full and reduced models follow a normal distribution. 
+
+```{r}
+cat("Full Model")
+ad.test(model1$residuals) #Anderson-Darling
+shapiro.test(model1$residuals) #Shapiro-Wilk
+cat("Reduced Model")
+ad.test(reduced_model1$residuals) #Anderson-Darling
+shapiro.test(reduced_model1$residuals) #Shapiro-Wilk
+```
+
+This assumption of normality is verified by the AD and SW tests. 
+The null hypothesis of both the AD and SW tests is that the residuals follow a normal distribution. In both tests for  the full and reduced models, the p value > alpha = 0.05 so we fail to reject the null hypothesis that the residuals follow a normal distribution.  
+
+Testing Multicollinearity
+
+We retain the variable if its variance inflation factor is less than 5. The VIF (variance inflation factor) measures how reliably a variable is predicted by the other variables.
+
+First, we check the full model. 
+```{r}
+library(car)
+vif(model_1)
+```
+
+The variables: x01, x04, x07, x08, and x11 all have significant multicollinearity, which means that these variables have a significant correlation with the other variables. 
+
+In particular, x01, x04, x07 are highly correlated with a VIF greater than 10. This means that we can remove two out of the three variables since these variables essentially have the same relationship with the dependent variable. In our case, we only keep x01 in the reduced model. 
+
+VIF of the reduced model 
+```{r}
+vif(reduced_model_1)
+```
+
+In the reduced model, all the variables' VIF are below 5 so none of the variables are significantly correlated or can be reliably predicted by the other variables. There is little multicollinearity between the variables. 
+
+2.
+In some cases, data transformations are necessary to improve the fit of the linear model. Consider the transformation z = ln y for the data given in PS3.csv.
+
+Transforming the data
+```{r}
+library(tidyverse)
+data_2 = data_1
+data_2 = transform(data_2, y = log(y))
+data_2 = rename(data_2, z = y)
+data_2
+```
+
+(a) Fit a linear model to the given data.
+
+```{r}
+model2 = summary(lm(z ~., data = data_2))
+model2
+model_2 = lm(z~., data = data_2 )
+```
+(b) Check the fit of the model, and identify which coefficients are significant.
+
+The fit of the model is given by the adjusted R^2 value, coefficient of determination. This metric penalizes excess independent variables which don't improve the fit of the model.  
+
+```{r}
+model2$adj.r.squared
+```
+The adjusted R squared value of our transformed model is 0.8758, which means it is a very good fit for the data. 
+
+The significant coefficients are those coefficients whose p value is less than alpha, 0.05. 
+
+```{r}
+model2$coefficients
+```
+The significant variables in our model are x01,x02,x05,x06,x08,x09,x12. 
+
+Let's create a reduced model where we only use the significant variables.
+
+```{r}
+reduced_model2 = summary(lm(z ~x01 + x02 + x05 + x06 + x08 + x09 + x12, data = data_2))
+reduced_model2
+reduced_model_2 = lm(z ~x01 + x02 + x05 + x06 + x08 + x09 + x12, data = data_2)
+```
+```{r}
+model2$adj.r.squared
+reduced_model2$adj.r.squared
+anova(model_2, reduced_model_2)
+```
+The adjusted R squared of the reduced model is 0.8749, which is slightly lower than the adj. R squared of the full model. However, since the p-value in the anova test is 0.3111, we can say the difference is insignificant, and both models have around the same predictive power.  
+
+(c) Compare this model with the previous linear model. Which of the two models is a better fit for the given data? Justify your answer.
+
+First, we compare the two full models. 
+
+We compared the adjusted R squared value of both models.
+
+```{r}
+model1$adj.r.squared
+model2$adj.r.squared
+```
+The higher adjusted r squared of the second model means that the model with the transformed dependent variable z is better fitting compared to the first model. It can explain more of the variation of the transformed dependent variable. 
+
+Next, we check the BIC metric of both models.
+```{r}
+# For Model 1
+varsel_1 = regsubsets(y~., data=data_1, nvmax=nvar)
+varsel.res_1 = summary(varsel_1)
+varsel.metric_1 = cbind(1:nvar, varsel.res_1$bic)
+colnames(varsel.metric_1) = c("No. of Variables", "BIC")
+varsel.metric_1
+```
+```{r}
+# For Model 2
+varsel_2 = regsubsets(z~., data=data_2, nvmax=nvar)
+varsel.res_2 = summary(varsel_2)
+varsel.metric_2 = cbind(1:nvar, varsel.res_2$bic)
+colnames(varsel.metric_2) = c("No. of Variables", "BIC")
+varsel.metric_2
+```
+
+In terms of BIC, looking at the full model (no. of variables = 12), the second model has a significantly lower BIC, -254.314 compared to the first model, -184.232. 
+
+We can also compare the residual standard error of both models, where a lower residual means that the model is better fitting.
+
+```{r}
+model1$sigma
+model2$sigma
+```
+
+The residual standard error of model2 is significantly less than that of model1. 
+
+
+Lastly, we have to check if the residuals of both models are normal and uncorrelated. We use the QQ plot, Shapiro Wilk, and Anderson Darling tests.
+
+```{r}
+ad.test(model1$residuals) #Anderson-Darling
+shapiro.test(model1$residuals) #Shapiro-Wilk
+ad.test(model2$residuals) #Anderson-Darling
+shapiro.test(model2$residuals) #Shapiro-Wilk
+```
+The p-values of the 1st and 2nd models under the AD and SW normality tests are greater than 0.05. This means that we can assume that the residuals from both models are normally distributed.
+
+The next question is which residuals are more normal?
+
+For Model 1
+```{r}
+plot(model1$residuals)
+qqnorm(model1$residuals) 
+qqline(model1$residuals) 
+```
+For Model 2 (transformed y)
+```{r}
+plot(model2$residuals)
+qqnorm(model2$residuals) 
+qqline(model2$residuals) 
+```
+Qualitatively, we can see that the residuals of both models are randomly scattered and distributed, meaning that they are uncorrelated. Looking at the QQ Plot, the second model is a slightly better match on the normal line compared to the first model.
+
+Final Comparison between normal linear model and transformed linear model
+```{r}
+# Model 1
+cat("Comparison of the two full models\n")
+cat("Model 1:", "\n", "Adjusted R squared =", model1$adj.r.squared, "\n", "BIC value = ", BIC(model_1), "\n", "Residual Standard Error = ", model1$sigma, "\n" )
+# Model 2
+cat("Model 2:", "\n", "Adjusted R squared =", model2$adj.r.squared, "\n", "BIC value = ", BIC(model_2), "\n", "Residual Standard Error = ", model2$sigma )
+```
+
+Thus, we can conclude that for the full models with all 12 variables, the second model with the transformed dependent variable z is better fitting compared to the first model. 
+

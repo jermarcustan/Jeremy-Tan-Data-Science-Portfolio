@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+cov = matrix(c(5/32, 3/32, 9/160,  27/800, 3/32, 5/32, 3/32, 9/160, 9/160, 3/32, 5/32, 3/32, 27/800, 9/160, 3/32, 5/32), ncol = 4, byrow = T)
+solve(cov)
+      
+```
+
+```{r}
+a = matrix(c(3/32, 9/160, 27/800, 81/4000), ncol = 4)
+a %*% solve(cov) %*% t(a)
+
+
+```
+
+```{r}
+Y = matrix(c(-0.1, 0, 0, 0.6), ncol = 1)
+b = matrix(c(9/160, 27/800, 81/4000, 243/20000), ncol = 4)
+b %*% solve(cov) %*% Y
+
+b %*% solve(cov) %*% t(b)
+```
+
+```{r}
+c = matrix(c(27/800, 81/4000, 243/20000, 729/100000), ncol = 4)
+
+c %*% solve(cov) %*% Y
+
+c %*% solve(cov) %*% t(c)
+```
+

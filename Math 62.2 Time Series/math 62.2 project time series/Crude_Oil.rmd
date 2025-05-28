@@ -1,0 +1,132 @@
+---
+title: "BDO Daily"
+output: html_notebook
+---
+
+Loading Packages
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+library("zoo")
+```
+
+Source of Data:l
+Crude Oil prices from October 2001 to August 2020
+
+Preprocessing the Data
+```{r}
+# Read the CSV data
+Crude = read.csv("GoldUP.csv")
+Crude = Crude[c(4:239),]
+Crude_train = head(Crude, 228)
+Crude_test = Crude["Crude_Oil"]
+Crude
+```
+Create time series data
+```{r}
+Crude_ts = ts(Crude_train$Crude_Oil, start=c(2001, 1), end=c(2019, 12), frequency=12)
+plot(Crude_ts)
+```
+```{r}
+Crude_check=ts(Crude_test$Crude_Oil, start= c(2001,1), frequency=12)
+plot(Crude_check)
+```
+
+
+Check for stationarity
+```{r}
+adf.test(Crude_ts)
+```
+
+
+Pre-process the price data. 
+```{r}
+Crude_ln_diff =diff(log(Crude_ts))
+adf.test(Crude_ln_diff)
+```
+Since p<0.05, the price data is stationary. 
+
+Check for autocorrelation
+```{r}
+Box.test(Crude_ln_diff, type = "Ljung")
+```
+Since p<0.05, we conclude that the price data is autocorrelated.
+
+Modeling
+```{r}
+Acf(Crude_ln_diff, main = "ACF") # Check MA(1), MA(6)
+Acf(Crude_ln_diff, type="partial", main = "PACF") # Check AR(1), AR(6)
+```
+
+We check the following models:
+
+Lower AIC indicates the best fitting model.
+
+```{r}
+arima(Crude_ln_diff, order=c(1,0,0)) 
+arima(Crude_ln_diff, order=c(6,0,0)) 
+arima(Crude_ln_diff, order=c(0,0,1))
+arima(Crude_ln_diff, order=c(0,0,6))
+arima(Crude_ln_diff, order=c(1,0,1)) 
+arima(Crude_ln_diff, order=c(6,0,1)) 
+arima(Crude_ln_diff, order=c(1,0,6)) 
+arima(Crude_ln_diff, order=c(6,0,6)) 
+```
+
+Define the models
+```{r}
+best = Arima(Crude_ln_diff, c(1,0,0))
+ts.plot(Crude_ln_diff)
+AR_fit = Crude_ln_diff - residuals(best)
+lines(AR_fit, col = 2, lty = 2)
+```
+
+```{r}
+predict = predict(best)
+predict(best, n.ahead = 12)
+```
+
+```{r}
+plot(Crude_ln_diff, xlim = c(2000, 2024))
+AR_forecast = predict(best, n.ahead = 12)$pred
+AR_forecast_se = predict(best, n.ahead = 12)$se
+points(AR_forecast, type = "l", col = 'red')
+points(AR_forecast - 2*AR_forecast_se, type = "l", col = 2, lty = 2)
+points(AR_forecast + 2*AR_forecast_se, type = "l", col = 2, lty = 2)
+```
+```{r}
+AR_forecast
+final.ln.diff = ts(c(Crude_ln_diff,AR_forecast), start = c(2001, 1), frequency = 12)
+final.ln = diffinv(final.ln.diff, differences = 1, xi = Crude_ln_diff[1])
+final.ln
+Crude_ln_diff
+final = exp(final.ln)
+
+plot(final, col = 2)
+lines(Crude_ln_diff, col = 1, lty = 1)
+```
+```{r}
+value = exp(cumsum(AR_forecast) + log(rev(Crude_ln_diff)[1]))
+value_ts = ts(c(Crude_ts, value), start = c(2001, 1), end = c(2020, 12),frequency = 12)
+
+plot(value_ts, col = 2)
+lines(Crude_ts, col = 1)
+```
+
+```{r}
+Crude_final_test = ts(Crude_test, start=c(2001, 1), frequency = 12)
+plot(value_ts, col = "blue", ylim = range(min(Crude_final_test, value_ts), max(Crude_final_test, value_ts)))
+lines(Crude_final_test, col = "red")
+legend("topleft", legend = c("Actual Prices", "Predicted Prices"), col = c("red", "blue"), lty = 1)
+```
+
+Check the residuals. We want to see if they are autocorrelated.
+```{r}
+checkresiduals(best, test = "LB")
+```
+Since the p value > 0.05, we conclude that the residuals are not autocorrelated. (which is what we want)
+Looking at the correlograms for the ACF and PACF, there are only a few lags which exceed the confidence threshold so the correlation between the residuals is not significant. The graph of the residuals shows that the residuals have a mean of around 0. 

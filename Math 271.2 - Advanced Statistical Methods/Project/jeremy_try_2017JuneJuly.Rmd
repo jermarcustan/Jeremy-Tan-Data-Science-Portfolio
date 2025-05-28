@@ -1,0 +1,96 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+wl = read.csv("stonino_2017junjuly.csv")
+wl_ts = ts(wl)
+```
+
+```{r}
+plot(wl_ts)
+```
+
+```{r}
+library(tseries)
+library(forecast)
+library(TSA)
+library(fGarch)
+```
+
+```{r}
+adf.test(wl_ts)
+```
+
+```{r}
+wl_ts_diff = diff(wl_ts)
+```
+
+```{r}
+adf.test(wl_ts_diff)
+```
+```{r}
+Box.test(wl_ts_diff, type = "Ljung")
+```
+
+```{r}
+acf(wl_ts_diff) # MA(1), MA(2), MA(8)
+pacf(wl_ts_diff) #AR(1), AR(2)
+```
+
+```{r}
+Arima(wl_ts_diff, order = c(1,0,0))
+Arima(wl_ts_diff, order = c(2,0,0))
+Arima(wl_ts_diff, order = c(0,0,1))
+Arima(wl_ts_diff, order = c(0,0,2))
+Arima(wl_ts_diff, order = c(0,0,8))
+
+
+```
+
+```{r}
+Arima(wl_ts_diff, order = c(1,0,1))
+Arima(wl_ts_diff, order = c(1,0,2))
+Arima(wl_ts_diff, order = c(1,0,8))
+Arima(wl_ts_diff, order = c(2,0,1))
+Arima(wl_ts_diff, order = c(2,0,2))
+Arima(wl_ts_diff, order = c(2,0,8))
+
+```
+ARMA(2,1) is the best model in terms of BIC.
+
+```{r}
+arma21 = Arima(wl_ts, order = c(2,1,1))
+plot(forecast(arma21, h = 10))
+```
+
+```{r}
+res.arma21 = arma21$residuals
+tsdiag(arma21)
+```
+
+```{r}
+Box.test(res.arma21, type = "Ljung")
+Box.test(res.arma21^2, type = "Ljung")
+```
+
+```{r}
+y2 = res.arma21^2
+```
+
+```{r}
+acf(y2)
+pacf(y2)
+```
+test out ARCH(1)
+
+```{r}
+arch1 = garchFit(~arma(2,1) + garch(1,0), data = wl_ts_diff)
+garch11 = garchFit(~arma(2,1) + garch(1,1), data = wl_ts_diff)
+arch2 = garchFit(~arma(3,0) + garch(2,0), data = wl_ts_diff)
+arch5 = garchFit(~arma(3,0) + garch(5,0), data = wl_ts_diff)
+arch7 = garchFit(~arma(3,0) + garch(7,0), data = wl_ts_diff)
+
+```
+

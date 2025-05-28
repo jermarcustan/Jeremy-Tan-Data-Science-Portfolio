@@ -1,0 +1,115 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+wl = read.csv("2022_sto_nino.csv")
+wl.ts = ts(wl)
+```
+
+```{r}
+library(tseries)
+library(forecast)
+library(TSA)
+library(fGarch)
+```
+
+```{r}
+plot(wl.ts)
+```
+
+```{r}
+adf.test(wl.ts)
+```
+```{r}
+Box.test(wl.ts, type = "Ljung")
+```
+
+```{r}
+acf(wl.ts)
+pacf(wl.ts)
+```
+
+We test out AR(1), AR(4), AR(10).
+
+```{r}
+Arima(wl.ts, order = c(1,0,0))
+Arima(wl.ts, order = c(4,0,0))
+Arima(wl.ts, order = c(10,0,0))
+```
+
+
+Based on the BIC and the principle of parsimony, we select AR(4) as the best fitting model.
+
+```{r}
+ar4 = Arima(wl.ts, order = c(4,0,0))
+ar4
+```
+
+```{r}
+forecast(ar4, h = 10)
+```
+```{r}
+plot(forecast(ar4, h = 10))
+```
+```{r}
+res.ar4 = ar4$residuals
+```
+
+```{r}
+tsdiag(ar4)
+```
+The Y_t are not correlated.
+
+```{r}
+Box.test(res.ar4, type = "Ljung")
+```
+
+We test out the squared residuals
+
+```{r}
+y2 = res.ar4^2
+```
+
+```{r}
+Box.test(y2, type = "Ljung")
+```
+The squared residuals are correlated so our data exhibits the ARCH effect. 
+
+```{r}
+acf(y2)
+pacf(y2)
+```
+Lag of PACF cuts off at 1.
+We test ARCH(1).
+
+Test out GARCH models based on literature
+Assume AR(4) for the mean model X_t
+```{r}
+arch1 = garchFit(~arma(4,0) + garch(1,0), data = wl, hessian = "rcd")
+arch1
+```
+The variances are close to zero so the matrix is computationally invertible.
+
+Two Pass Method
+ARCH(1)
+```{r}
+vol.ar1 = Arima(y2, order = c(1,0,0))
+vol.ar1
+```
+Y_t = (sigma_t)(epsilon_t)
+
+alpha_1 = phi_1 + theta_1 = 0.0759 + 0 = 0.2517
+
+alpha_0 = mu(1 - phi_1) = 0.0141(1 - 0.0759)
+```{r}
+forecast(vol.ar1, h = 10)
+```
+The forecasts are in Y_t^2.
+
+
+```{r}
+
+```
+

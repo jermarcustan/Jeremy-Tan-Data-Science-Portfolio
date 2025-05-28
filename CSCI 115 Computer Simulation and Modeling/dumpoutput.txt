@@ -1,0 +1,201 @@
+New customer is served at 1.32
+Customer departs at 1.29
+New customer is served at 2.83
+Customer departs at 3.51
+New customer is served at 3.52
+Customer departs at 3.94
+New customer is served at 4.03
+Customer departs at 4.25
+New customer is served at 4.44
+Customer departs at 4.87
+New customer is served at 4.96
+Customer departs at 5.26
+New customer is served at 7.67
+Customer departs at 8.41
+New customer is served at 12.2
+Customer departs at 12.55
+New customer is served at 12.74
+New customer begins queue at 13.09
+Customer departs, customer in queue no. 1 is served at 13.79
+Customer departs at 14.11
+New customer is served at 16.9
+Customer departs at 17.28
+New customer is served at 19.08
+Customer departs at 19.4
+New customer is served at 21.04
+New customer begins queue at 21.83
+Customer departs, customer in queue no. 1 is served at 21.86
+Customer departs at 22.51
+New customer is served at 22.57
+Customer departs at 22.71
+New customer is served at 26.06
+New customer begins queue at 26.24
+Customer departs, customer in queue no. 1 is served at 26.67
+New customer begins queue at 26.88
+Customer departs, customer in queue no. 1 is served at 27.6
+Customer departs at 28.13
+New customer is served at 31.06
+New customer begins queue at 31.13
+New customer lines up at 31.21
+New customer lines up at 31.23
+Customer departs, customer in queue no. 3 is served at 31.39
+New customer lines up at 31.8
+New customer lines up at 31.98
+New customer lines up at 32.21
+New customer lines up at 32.22
+Customer departs, customer in queue no. 6 is served at 32.39
+Customer departs, customer in queue no. 5 is served at 32.83
+New customer lines up at 34.03
+Customer departs, customer in queue no. 5 is served at 34.07
+Customer departs, customer in queue no. 4 is served at 34.31
+New customer lines up at 34.43
+New customer lines up at 34.53
+Customer departs, customer in queue no. 5 is served at 34.63
+Customer departs, customer in queue no. 4 is served at 34.95
+New customer lines up at 34.98
+Customer departs, customer in queue no. 4 is served at 35.1
+New customer lines up at 35.65
+Customer departs, customer in queue no. 4 is served at 36.05
+Customer departs, customer in queue no. 3 is served at 36.2
+Customer departs, customer in queue no. 2 is served at 36.17
+New customer lines up at 36.25
+Customer departs, customer in queue no. 2 is served at 36.5
+Customer departs, customer in queue no. 1 is served at 36.57
+New customer begins queue at 36.65
+Customer departs, customer in queue no. 1 is served at 36.65
+New customer begins queue at 37.03
+Customer departs, customer in queue no. 1 is served at 37.24
+Customer departs at 37.37
+New customer is served at 38.34
+New customer begins queue at 38.55
+Customer departs, customer in queue no. 1 is served at 38.95
+Customer departs at 39.33
+New customer is served at 39.86
+New customer begins queue at 40.38
+Customer departs, customer in queue no. 1 is served at 40.47
+New customer begins queue at 41.5
+Customer departs, customer in queue no. 1 is served at 41.5
+Customer departs at 41.77
+New customer is served at 46.36
+New customer begins queue at 46.7
+Customer departs, customer in queue no. 1 is served at 46.72
+New customer begins queue at 47.02
+Customer departs, customer in queue no. 1 is served at 47.45
+Customer departs at 48.05
+New customer is served at 50.18
+New customer begins queue at 50.29
+Customer departs, customer in queue no. 1 is served at 50.81
+Customer departs at 51.26
+New customer is served at 51.3
+New customer begins queue at 51.6
+New customer lines up at 51.92
+Customer departs, customer in queue no. 2 is served at 52.29
+Customer departs, customer in queue no. 1 is served at 52.55
+Customer departs at 52.91
+New customer is served at 56.42
+Customer departs at 57.03
+New customer is served at 57.37
+Customer departs at 58.03
+New customer is served at 58.08
+New customer begins queue at 58.51
+Customer departs, customer in queue no. 1 is served at 58.52
+Customer departs at 59.11
+New customer is served at 59.12
+Customer departs at 59.56
+New customer is served at 59.59
+Customer departs at 60.13
+New customer is served at 60.77
+Customer departs at 62.07
+New customer is served at 62.29
+Customer departs at 62.86
+New customer is served at 66.95
+Customer departs at 67.9
+New customer is served at 69.71
+New customer begins queue at 70.02
+Customer departs, customer in queue no. 1 is served at 70.49
+New customer begins queue at 71.2
+Customer departs, customer in queue no. 1 is served at 71.33
+New customer begins queue at 71.77
+Customer departs, customer in queue no. 1 is served at 72.25
+Customer departs at 72.41
+New customer is served at 73.11
+Customer departs at 73.19
+New customer is served at 73.62
+Customer departs at 74.57
+New customer is served at 75.65
+Customer departs at 75.95
+New customer is served at 77.6
+New customer begins queue at 78.1
+Customer departs, customer in queue no. 1 is served at 78.68
+Customer departs at 78.82
+New customer is served at 79.04
+New customer begins queue at 79.43
+Customer departs, customer in queue no. 1 is served at 79.46
+New customer begins queue at 80.06
+Customer departs, customer in queue no. 1 is served at 80.21
+New customer begins queue at 80.75
+Customer departs, customer in queue no. 1 is served at 80.99
+New customer begins queue at 81.22
+Customer departs, customer in queue no. 1 is served at 81.34
+Customer departs at 81.78
+New customer is served at 82.01
+Customer departs at 82.75
+New customer is served at 82.97
+New customer begins queue at 83.24
+New customer lines up at 83.48
+Customer departs, customer in queue no. 2 is served at 83.51
+Customer departs, customer in queue no. 1 is served at 83.92
+Customer departs at 84.27
+New customer is served at 87.09
+Customer departs at 87.24
+New customer is served at 87.57
+New customer begins queue at 87.77
+Customer departs, customer in queue no. 1 is served at 88.13
+New customer begins queue at 88.34
+Customer departs, customer in queue no. 1 is served at 88.57
+Customer departs at 88.87
+New customer is served at 89.51
+New customer begins queue at 89.6
+Customer departs, customer in queue no. 1 is served at 90.1
+New customer begins queue at 90.16
+New customer lines up at 90.33
+New customer lines up at 90.36
+Customer departs, customer in queue no. 3 is served at 90.66
+New customer lines up at 90.9
+New customer lines up at 91.01
+New customer lines up at 91.05
+New customer lines up at 91.15
+New customer lines up at 91.28
+New customer lines up at 91.47
+Customer departs, customer in queue no. 8 is served at 92.0
+Customer departs, customer in queue no. 7 is served at 92.15
+Customer departs, customer in queue no. 6 is served at 92.49
+New customer lines up at 92.58
+Customer departs, customer in queue no. 6 is served at 92.71
+Customer departs, customer in queue no. 5 is served at 93.01
+New customer lines up at 93.6
+Customer departs, customer in queue no. 5 is served at 93.72
+New customer lines up at 94.23
+Customer departs, customer in queue no. 5 is served at 94.41
+New customer lines up at 94.92
+Customer departs, customer in queue no. 5 is served at 94.94
+Customer departs, customer in queue no. 4 is served at 95.58
+Customer departs, customer in queue no. 3 is served at 96.1
+Customer departs, customer in queue no. 2 is served at 96.67
+Customer departs, customer in queue no. 1 is served at 96.84
+New customer begins queue at 97.05
+Customer departs, customer in queue no. 1 is served at 97.3
+Customer departs at 97.49
+New customer is served at 97.82
+New customer begins queue at 98.39
+New customer lines up at 98.66
+Customer departs, customer in queue no. 2 is served at 98.71
+New customer lines up at 99.39
+Customer departs, customer in queue no. 2 is served at 99.52
+Customer departs, customer in queue no. 1 is served at 99.86
+Customer departs at 100.17
+New customer is served at 100.31
+Customer departs at 100.74
+New customer is served at 100.78
+Customer departs at 101.29
+New customer is served at 101.51

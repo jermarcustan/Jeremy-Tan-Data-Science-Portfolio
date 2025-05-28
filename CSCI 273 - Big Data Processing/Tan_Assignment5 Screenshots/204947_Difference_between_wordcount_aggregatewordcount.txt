@@ -1,0 +1,6 @@
+Jeremy Marcus Tan 
+204947
+
+What is the difference between wordcount and aggregatewordcount?
+
+The wordcount program simply counts the number of occurrences of each word in the text. Its mapper splits the input text into words while its reducer sums up the counts for each word. On the other hand, the aggregatewordcount program uses the Hadoop aggregate framework that contains a longvaluesum class for summing up sequences of long values. 

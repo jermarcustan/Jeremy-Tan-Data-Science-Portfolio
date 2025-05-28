@@ -1,0 +1,99 @@
+---
+title: "April 11"
+output: html_notebook
+---
+
+```{r}
+data = read.csv("PS3.csv")
+data_1 = data[-1]
+head(data_1)
+```
+
+```{r}
+d1.lm = lm(y~., data = data_1)
+d1.lm
+summary(d1.lm)
+```
+Check significance of coefficients using F Test. 
+Since p value = 2.2x10^-16 is less than alpha, we reject the null hypothesis that all Beta are 0. 
+
+In our case, x02, x05, x06, x08, x09, x12 are the significant variables. 
+
+In the test, write y = -139.5897 + 91.57240x1 + 17.34218x2 +...
+
+Adjusted Rsquared penalizes the number of variables in the model. 
+Adjusted Rsquared will always be less than Rsquared.
+
+Perform Model Diagnostics
+
+```{r}
+library(leaps)
+varsel = regsubsets(y~., data = data_1, nvmax = 13)
+varsel.res = summary(varsel)
+varsel.res
+```
+If we are selecting only one variables, we select x08. (check the asterisks)
+If we are picking 2 variables, we pick x02 and x03. 
+
+```{r}
+names(varsel.res)
+varsel.res$cp
+```
+
+We find the values closest to p (number of variables used), where cp is less than p
+if p=1, cp = 290.995; cp is not less than 1
+if p=2, cp = 133.444; cp is not less than 2
+...
+if p=8, cp = 7.1713
+if p=9, cp = 8.9594
+if p=10, cp = 9.0654
+
+Here, p = 9, has cp closest to p.
+According to Mallow's CP, we pick 9 variables. 
+
+```{r}
+varsel.res$bic
+```
+
+In BIC, when p = 7, the BIC value is the most negative: -204.55991. 
+
+Based on Mallow's CP, we pick 9 variables while based on BIC, we pick 7 variables. 
+
+```{r}
+varsel.res$which[7,]
+```
+
+Based on BIC, if we have 7 variables, then we pick x01, x02, x05, x06, x08, x09, x12. 
+
+Residuals
+
+```{r}
+qqnorm(d1.lm$residuals)
+qqline(d1.lm$residuals)
+```
+Because the residuals coincide with the normal line, the residuals are normal. 
+
+```{r}
+library(car)
+vif(d1.lm)
+```
+
+If VIF is more than 10, we remove the variable. We remove x01, x04, x07. 
+If VIF is less than 5, we retain the variable. We keep x02, x05, x06, x09, x10, x12.
+x08 and x11 are questionable. 
+
+Transform y to lny
+```{r}
+d1.lm2 = lm(log(y)~., data = data_1)
+summary(d1.lm2)
+```
+Fit a Linear Model
+Z = -4.378075 + 4.126398x01 + 0.859452x02 + ...
+
+The significant variables are x01, x02, x05, x06, x08, x09, x12. 
+
+The adjusted Rsquared = 0.8758. 
+The transformed model is better since the adjusted Rsquared is greater compared to the original model.
+
+
+

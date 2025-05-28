@@ -1,0 +1,256 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+library(TSA)
+library(tseries)
+data("usd.hkd")
+forex = usd.hkd$hkrate
+library(forecast)
+arma21 = Arima(forex, order = c(2,0,1))
+arma21
+```
+
+```{r}
+forecast(arma21, h = 5)
+```
+Gives the point forecast and confidence intervals
+
+```{r}
+plot(forecast(arma21, h = 5))
+```
+
+```{r}
+tsdiag(arma21)
+```
+
+The residuals should be uncorrelated.
+The ACF should be zero for h > 0.
+In this example, the residuals are not correlated.
+
+```{r}
+acf(arma21$residuals)
+```
+```{r}
+jarque.bera.test(residuals(arma21))
+```
+Since p < 0.05, we reject the null hypothesis that the residuals come from a normal distribution. We conclude that the residuals are white noise.
+```{r}
+library(itsmr)
+```
+```{r}
+strikes
+```
+```{r}
+plot(strikes)
+```
+
+Since the values are large, we log transform.
+
+```{r}
+strikes.log = log(strikes)
+detach("package:itsmr", unload = TRUE)
+```
+We unload itsmr since it interferes with the forecast function.
+
+```{r}
+library(forecast)
+plot(strikes.log)
+```
+
+```{r}
+adf.test(strikes.log)
+```
+Since p > 0.05, we do not reject the null hypothesis. The time series is not stationary.
+
+```{r}
+strikes.log_diff = diff(strikes.log)
+adf.test(strikes.log_diff)
+```
+
+The p value is still greater than 0.05 so it is not stationary.
+
+```{r}
+strikes.log_diff2 = diff(strikes.log_diff)
+adf.test(strikes.log_diff2)
+```
+Since p < 0.05, the time series is now stationary.
+
+```{r}
+Box.test(strikes.log_diff2, type = "Ljung")
+```
+Since p < 0.05, we reject the null hypothesis. The time series is autocorrelated.
+
+```{r}
+acf(strikes.log_diff2) #MA(1)
+```
+```{r}
+pacf(strikes.log_diff2) # AR(2)
+```
+
+```{r}
+ma1 = Arima(strikes.log_diff2, order = c(0,0,1))
+ar2 = Arima(strikes.log_diff2, order = c(2,0,0))
+arma21 = Arima(strikes.log_diff2, order = c(2,0,1))
+
+```
+
+```{r}
+ma1
+ar2
+arma21
+```
+
+Snce AR(2) has the lowest AIC, BIC, and AICc, we select AR(2) as the best fitting model.
+
+```{r}
+ar2.d = Arima(strikes.log, order = c(2,2,0))
+```
+The order has middle index, 2 because we differenced twice.
+
+```{r}
+ar2.d
+```
+```{r}
+ar2 = Arima(strikes.log_diff2, order = c(2,0,0), include.mean = F) # we indicate mean zero
+ar2
+```
+For phi_2, we have the interval -0.78 +- 1.96(0.1368) or (-1.048, -0.51187). The interval does not include zero so the coefficient is significant.
+
+```{r}
+plot(forecast(ar2, h = 5)) 
+```
+Forecast of the original data
+
+```{r}
+plot(forecast(ar2.d, h = 5))
+```
+
+```{r}
+tsdiag(ar2.d)
+```
+For all h > 0, the ACF is zero so the residuals are uncorrelated.
+
+Seasonal Models
+
+```{r}
+air = AirPassengers
+air
+```
+```{r}
+plot(air)
+```
+The data has seasonality and follows a trend.
+
+```{r}
+adf.test(air)
+```
+
+The adf test doesn't work with seasonal data.
+
+```{r}
+air.l = log(air)
+air.l.d = diff(air.l)
+```
+
+```{r}
+plot(air.l.d)
+```
+
+```{r}
+plot(decompose(air.l))
+```
+```{r}
+plot(decompose(air.l.d))
+```
+```{r}
+Box.test(air.l.d, type = "Ljung")
+```
+The time series is autocorrelated.
+
+```{r}
+acf(air.l.d)
+```
+```{r}
+acf(air.l.d, lag = 100)
+```
+
+Every twelve months, the ACF is significant.
+
+```{r}
+pacf(air.l.d, lag = 100)
+```
+The PACF cuts off at 12.
+The ACF cuts off at 12, 24, 36, ...
+
+We have an ARMA(1,0)_12 model.
+
+We do seasonal differencing.
+
+```{r}
+air.l.d.d12 = diff(air.l.d, 12)
+plot(air.l.d.d12)
+```
+```{r}
+plot(decompose(air.l.d.d12))
+
+```
+
+We have sARIMA( ,1, ) x (1,1,0)_12
+
+We find the non-seasonal components.
+
+We test out AR(1), MA(1), ARMA(1,1)
+
+```{r}
+sarima.ar1 = Arima(air.l, order = c(1,1,0), seasonal = list(order = c(1,1,0), period= 12))
+sarima.ar1
+```
+
+```{r}
+sarima.arma1 = Arima(air.l, order = c(1,1,1), seasonal = list(order = c(1,1,0), period= 12))
+sarima.arma1
+```
+```{r}
+sarima.ma1 = Arima(air.l, order = c(0,1,1), seasonal = list(order = c(1,1,0), period= 12))
+sarima.ma1
+```
+We select MA(1) as it has the lowest criterion.
+
+Final model is sARIMA(0,1,1) X (1,1,0)_12.
+
+```{r}
+plot(forecast(sarima.ma1, h = 12))
+```
+
+```{r}
+air.f = forecast(sarima.ma1, h = 12)
+air.f
+```
+
+```{r}
+air.f$mean
+```
+```{r}
+preds = exp(air.f$mean)
+preds
+
+```
+
+
+```{r}
+air_preds = ts(c(air, preds), start = c(1949, 1), frequency = 12)
+```
+
+```{r}
+plot(air_preds)
+```
+
+```{r}
+plot(forecast(sarima.ma1, h = 12))
+```
+

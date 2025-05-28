@@ -1,0 +1,23 @@
+Create a /etc/yum.repos.d/mongodb-enterprise.repo file as a super user with the following contents:
+
+	[mongodb-enterprise]
+	name=MongoDB Enterprise Repository
+	baseurl=https://repo.mongodb.com/yum/amazon/2/mongodb-enterprise/5.0/$basearch/
+	gpgcheck=1
+	enabled=1
+	gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
+
+
+Install MongoDb
+	sudo yum install -y mongodb-enterprise
+Start the MongoDb daemon
+	sudo systemctl start mongod.service
+Add to auto-start
+	sudo systemctl enable mongod.service
+
+
+Installing the Mongo Client on Ubuntu
+	wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+	echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+	sudo apt update
+	sudo apt install mongodb-org-shell

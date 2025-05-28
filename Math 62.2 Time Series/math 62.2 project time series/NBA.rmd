@@ -1,0 +1,101 @@
+---
+title: "NBA data"
+output: html_notebook
+---
+
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+library("ggplot2")
+```
+
+```{r}
+NBA = read.csv("NBA.csv")
+NBA = NBA[rowSums(is.na(NBA)) != ncol(NBA),] # remove empty rows
+NBA = NBA[rev(rownames(NBA)), ]
+rownames(NBA) = NBA$Year
+NBA
+```
+
+```{r}
+NBA = NBA["Points"]
+NBA_train = head(NBA, 67)
+NBA_test = NBA["Points"]
+NBA = NBA_train
+NBA_ts = ts(NBA_train, start = 1947)
+plot(NBA_ts, main = "Yearly Average Points Per Game in the NNBA")
+```
+
+```{r}
+NBA_train
+```
+
+
+Check for Stationarity
+```{r}
+adf.test(NBA_ts)
+```
+We can clearly see from the graph and from the AD test that the data is not stationary.
+
+We perform log transformation and then difference the data.
+
+```{r}
+NBA_ts_diff = diff(NBA_ts)
+NBA_ts_diff_2 = diff(NBA_ts_diff)
+plot(NBA_ts_diff_2)
+```
+
+```{r}
+adf.test(NBA_ts_diff_2)
+```
+
+The data is now stationary.
+
+```{r}
+Box.test(NBA_ts_diff_2, type = "Ljung")
+```
+The data is autocorrelated.
+
+We can proceed with modeling.
+
+```{r}
+acf(NBA_ts_diff_2, main = "ACF Correlogram") # MA(1)
+acf(NBA_ts_diff_2, type = "partial", main = "PACF Correlogram") # AR(1), AR(2)
+```
+
+signficant lags at 2 for the pacf.
+
+```{r}
+arima(NBA_ts_diff_2, order = c(1,0,0))
+arima(NBA_ts_diff_2, order = c(2,0,0))
+arima(NBA_ts_diff_2, order = c(0,0,1))
+arima(NBA_ts_diff_2, order = c(1,0,1))
+arima(NBA_ts_diff_2, order = c(2,0,1))
+```
+ARMA(0,1) has the lowest AIC.
+
+Checking Residuals
+
+```{r}
+fit = arima(NBA_ts_diff_2, order = c(0,0,1))
+checkresiduals(fit)
+```
+
+
+```{r}
+NBA_test_2 = ts(NBA_test, start = 1947)
+model = Arima(NBA_ts_diff_2, order = c(0,0,1))
+pred = predict(model, n.ahead= 10)$pred
+pred
+actual_pred = ts(c(NBA_ts_diff_2, pred), start = 1949)
+actual_pred = diffinv(actual_pred, differences = 2, xi = c(NBA_ts[1], NBA_ts[2]))
+actual_pred
+plot(actual_pred, col = "blue", ylim = range(min(NBA_test_2, actual_pred), max(NBA_test_2, actual_pred)))
+lines(NBA_test_2, col = "red")
+legend("topleft", legend = c("Actual Prices", "Predicted Prices"), col = c("red", "blue"), lty = 1)
+
+```

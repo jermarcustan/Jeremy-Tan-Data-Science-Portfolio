@@ -1,0 +1,92 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Jeremy Marcus Tan 
+Problem Set 1
+
+Load the Dataset
+
+```{r}
+library("TSA")
+library("tseries")
+```
+
+```{r}
+sales = read.csv("PS1.csv")
+sales_ts = ts(sales)
+
+# log transform the data
+X_t = log(sales_ts)
+```
+
+```{r}
+plot(X_t, main = "Sales of IG-11 (Log Transform)")
+```
+
+a. Stationarity Test
+
+
+```{r}
+adf.test(X_t)
+
+```
+
+Since p > 0.05, the data is not stationary. 
+
+```{r}
+# Difference the data
+Y_t = diff(X_t)
+plot(Y_t)
+```
+
+
+```{r}
+adf.test(Y_t)
+
+```
+
+Since the p-value is still greater than 0.05, we perform differencing again.
+
+```{r}
+Y_t2 = diff(Y_t)
+plot(Y_t2)
+```
+
+```{r}
+adf.test(Y_t2)
+```
+
+Since p < 0.05, the data is stationary.
+
+b. Check for autocorrelation
+
+```{r}
+Box.test(Y_t2, type = "Ljung")
+
+```
+
+Since p < 0.05, the data is autocorrelated. 
+
+```{r}
+acf(Y_t2, main = "ACF Correlogram") # MA(1)
+acf(Y_t2, type = "partial", main = "PACF Correlogram") # AR(3)
+```
+
+The ACF correlogram cuts off at lag 1 so we test MA(1).
+The PACF correlogram cuts off at lag 3 so we test AR(3). 
+We also test ARMA(3,1)
+
+```{r}
+arima(Y_t2, order = c(3,0,0))
+arima(Y_t2, order = c(0,0,1))
+arima(Y_t2, order = c(3,0,1))
+```
+
+MA(1) had the lowest AIC so we select it as the best model. 
+
+
+
+
+

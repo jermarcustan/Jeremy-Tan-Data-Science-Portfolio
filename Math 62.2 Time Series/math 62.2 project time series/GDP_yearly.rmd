@@ -1,0 +1,53 @@
+---
+title: "GDP Quarterly"
+output: html_notebook
+---
+
+
+
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+```
+
+
+```{r}
+gdp = read.csv("GDP.csv")
+gdp = tail(gdp, 22)
+gdp
+```
+
+```{r}
+gdp_ts = ts(gdp["GDP"], start = 2000, end = 2021, frequency = 1)
+plot(gdp_ts)
+```
+
+Do Log Transformation
+```{r}
+gdp_ts_ln = log(gdp_ts)
+plot(gdp_ts_ln)
+gdp_ts_ln_d = diff(gdp_ts_ln)
+plot(gdp_ts_ln_d)
+```
+
+```{r}
+Box.test(gdp_ts_ln, type = "Ljung")
+```
+
+```{r}
+adf.test(gdp_ts_ln)
+```
+```{r}
+adf.test(gdp_ts_ln_d)
+```
+
+Modeling
+```{r}
+acf(gdp_ts_ln_d, main = "ACF") # Check MA(2), MA(5)
+acf(gdp_ts_ln_d, type="partial", main = "PACF") # Check AR(2), AR(5)
+```
+

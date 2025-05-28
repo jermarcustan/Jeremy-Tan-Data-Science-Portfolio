@@ -1,0 +1,155 @@
+---
+title: "pset no.5 chan shio"
+output: html_notebook
+---
+
+
+
+```{r}
+yA = c(2.3,1.2,2.9,2.0,1.5)
+yB = c(5.0,5.8,6.3,6.5,7.0)
+yC = c(3.4,4.1,3.9,3.1,4.5)
+yD = c(4.6,4.8,5.0,5.2,4.9)
+y = c(yA,yB,yC,yD)
+n = length(yA)
+k = 4
+xA = c(rep(1,n), rep(0,n), rep(0,n), rep(0,n))
+xB = c(rep(0,n), rep(1,n), rep(0,n), rep(0,n))
+xC = c(rep(0,n), rep(0,n), rep(1,n), rep(0,n))
+xD = c(rep(0,n), rep(0,n), rep(0,n), rep(1,n))
+X = cbind(xA,xB, xC, xD)
+```
+
+```{r}
+X
+```
+```{r}
+df1 = k-1
+df2 = k*(n-1)
+XtXi = matrix(rep(0, k*k), nrow = k)
+for(i in 1:k){
+  XtXi[i,i] = 1/n
+}
+XtXi
+```
+
+```{r}
+beta = XtXi %*% t(X) %*%y
+beta
+```
+```{r}
+SSE = t(y)%*%y - t(beta)%*%t(X)%*%y
+s2 = SSE/df2
+```
+Hypothesis testing for Beta: At least two of the means are unequal.
+mu_1 = mu_2 = mu_3 = mu_4
+```{r}
+C = matrix(c(1,-1,0,0,1,0,-1,0,1,0,0,-1), nrow = 3, ncol = 4, byrow = TRUE)
+C
+```
+```{r}
+Fnum = t(C%*%beta)%*%solve(C%*%XtXi%*%t(C))%*%(C%*%beta)
+Fnum
+Fdenom = SSE
+F.all = (Fnum/df1)/(Fdenom/df2)
+F.all
+#F test
+p = 1 - pf(F.1,df1,df2)
+p
+```
+
+Since p < 0.05, we reject the null hypothesis and conclude that at least one mean is different from the other means.
+
+E. Test mu_A = mu_B
+
+```{r}
+c = t(c(1,-1,0,0))
+df1.1 = 1
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = SSE
+F.1=(Fnum/1)/(Fdenom/df2)
+F.1
+pval = 1-pf(F.1,df1.1,df2)
+pval
+```
+
+Since p < 0.05, we reject the null hypothesis. We conclude that that mu_A is not equal to mu_B. 
+
+Testing another contrast mu_B = mu_C
+```{r}
+c = t(c(0,1,-1,0))
+df1.1 = 1
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = SSE
+F.1=(Fnum/1)/(Fdenom/df2)
+F.1
+pval = 1-pf(F.1,df1.1,df2)
+pval
+```
+
+
+To verify:
+```{r}
+ylab = c(rep("A",5), rep("B",5), rep("C", 5), rep("D", 5))
+d2 = data.frame(y, factor(ylab))
+colnames(d2) = c("y", "group")
+y.aov = aov(y~group, data = d2)
+summary(y.aov)
+```
+```{r}
+summary.lm(y.aov)
+```
+```{r}
+d2$group = relevel(d2$group, ref = 2)
+d2.aov2 = aov(y~group, data = d2)
+summary(d2.aov2)
+summary.lm(d2.aov2)
+```
+
+Manual Regression
+
+```{r}
+data = read.csv("PS3.csv")
+data = data[-1]
+data
+```
+
+```{r}
+ts = ts(data["y"])
+plot(ts)
+```
+
+```{r}
+library(TSA)
+library(tseries)
+Box.test(ts, type = "Ljung")
+adf.test(ts)
+```
+The time series data is autocorrelated and stationary since the p values under both tests are below alpha = 0.05.
+
+
+```{r}
+x0 = c(rep(1,147))
+X = cbind(x0, data[,-1])
+X = as.matrix(X)
+X
+```
+```{r}
+y = data[1]
+y = as.matrix(y)
+XtX = t(X) %*% X
+XtXi = solve(XtX)
+XtXi
+```
+
+
+```{r}
+beta = XtXi%*%t(X)%*%y
+beta
+```
+```{r}
+H = diag(147)-X%*%XtXi%*%t(X)
+e = H%*%y
+e
+```
+

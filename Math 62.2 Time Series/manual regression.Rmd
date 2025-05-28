@@ -1,0 +1,125 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Bataller 2018
+```{r}
+y = c(21.1, 23.6, 19.3,33,28.6,35,32,26.8,38.6,21.7,15.7,20.6,41.8,36.7,28.4,23.6,31.8,20.7,22.8,32.8)
+x0 = c(rep(1,20))
+x1 = c(8,5,2,15,11,14,9,7,22,3,1,5,23,17,12,14,8,4,2,8)
+x2 = c(35,43,51,60,73,80,76,54,55,90,30,44,84,76,68,25,90,62,80,72)
+X = cbind(x0,x1,x2)
+```
+
+
+```{r}
+XtXi = solve(t(X)%*%X)
+Xty = t(X)%*%y
+beta = XtXi%*%Xty
+XtXi
+Xty
+beta
+```
+```{r}
+H = diag(20) - X%*%XtXi%*%t(X)
+c = matrix(c(0,1,0,0,0,1), nrow = 2, ncol = 3, byrow = TRUE)
+c
+```
+
+```{r}
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = t(y)%*%H%*%y
+R2 = Fnum/(Fnum+Fdenom)
+R2
+```
+
+Ftest 
+Test the null hypothesis that all the coefficients are zero.
+
+```{r}
+c = matrix(c(0,1,0,0,0,1), nrow = 2, ncol =3, byrow = TRUE)
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = t(y)%*%H%*%y
+df1 =2
+df2 = 17
+F.all = (Fnum/df1)/(Fdenom/df2)
+F.all
+pval = 1-pf(F.all,df1,df2)
+pval 
+```
+Since p < 0.05, we reject the null hypothesis and conclude that at least one variable is nonzero. 
+
+test significance of the intercept
+```{r}
+library(Matrix)
+c = t(c(1,0,0))
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = t(y)%*%H%*%y
+df1 = 1
+df2 = 17
+F.all = (Fnum/df1)/(Fdenom/df2)
+F.all
+pval = 1-pf(F.all,df1,df2)
+pval 
+```
+Since the p value is less than 0.05, the intercept is significant. 
+
+Check the significance of the variables
+
+```{r}
+library(Matrix)
+c = t(c(0,1,0))
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = t(y)%*%H%*%y
+df1 = 1
+df2 = 17
+F.all = (Fnum/df1)/(Fdenom/df2)
+F.all
+pval = 1-pf(F.all,df1,df2)
+pval 
+```
+```{r}
+library(Matrix)
+c = t(c(0,0,1))
+Fnum = t(c%*%beta)%*%solve(c%*%XtXi%*%t(c))%*%(c%*%beta)
+Fdenom = t(y)%*%H%*%y
+df1 = 1
+df2 = 17
+F.all = (Fnum/df1)/(Fdenom/df2)
+F.all
+pval = 1-pf(F.all,df1,df2)
+pval 
+```
+Verify using R function
+
+```{r}
+data1 = data.frame(y,x1,x2)
+model = lm(y~., data = data1)
+summary(model)
+```
+
+Since all the variables have a pvalue less than 0.05, all the variables are significant. 
+
+F. Determine a 95% C.I. for the coefficients including the intercept
+
+```{r}
+data = data.frame(y,x1,x2)
+```
+
+```{r}
+summary(lm(y~., data = data))
+```
+
+F.
+Since the p value of all three variables are below 0.05, we conclude that all three variables are significant.
+
+Confidence Intervals are:
+
+intercept: (9.2535, 10.9779)
+B_1: (0.8529, 0.9324)
+B_2: (0.1334, 0.1593)
+
+G. Find point estimate if teacher has 20 years of experience and principal's rating is 95
+
+Point Estimate: 41.8748

@@ -1,0 +1,53 @@
+---
+title: "Example 7.2"
+output: html_notebook
+---
+
+Data
+```{r}
+y = c(2,3,2,7,6,8,10,7,8,12,11,14)
+x1 = c(0,2,2,2,4,4,4,6,6,6,8,8)
+x2 = c(2,6,7,5,9,8,7,10,11,9,15,13)
+A = data.frame(y,x1,x2)
+A
+```
+
+Relationship of Y and X1
+```{r}
+summary(A)
+plot(y ~ x1, data = A)
+```
+
+Regression Equation of Y and X1
+```{r}
+summary(lm(y ~ x1, data = A))
+```
+y = 1.30x1 + 1.86
+
+Regression Equation of Y and X2
+```{r}
+lm(y ~ x2, data = A)
+```
+y = 0.78x2 + 0.86
+
+Multiple regression Equation of Y and X1,X2
+```{r}
+summary(lm(y ~ x1 + x2, data = A))
+```
+y = 3.01x1 - 1.29x2 + 5.37
+
+Example 7.3.1
+Get the least squared estimates for the regression coefficients
+
+OLS estimator for B hat
+```{r}
+x0 = rep(1,12)
+X = cbind(x0, x1,x2)
+XtX = t(X) %*% X
+Xty = t(X) %*% y
+XtXi = solve(XtX)
+beta = XtXi%*%Xty
+beta
+```
+
+

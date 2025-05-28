@@ -1,0 +1,206 @@
+---
+title: "May 5"
+output: html_notebook
+---
+Time Series
+
+```{r}
+library(TSA)
+library(tseries)
+library(lmtest)
+```
+
+```{r}
+data("ar2.s")
+data("ma1.1.s")
+#rnorm(120, mean = 0, sd = 1) #standard normal
+z = ts(rnorm(120, mean = 0, sd = 1))
+z
+```
+
+```{r}
+ar2.s
+plot(ar2.s)
+plot.ts(ar2.s) # plots as a time series
+```
+
+```{r}
+z1 = ts(z, frequency = 12) # interprets it as monthly data
+z2 = ts(z, frequency = 4) # quarterly
+z1
+```
+same index
+```{r}
+z1[15]
+z2[15]
+```
+
+```{r}
+z3 = ts(z, frequency = 12, start = c(2012,12), end = c(2024,3))
+z3
+plot(z3)
+```
+
+
+```{r}
+plot(z)
+plot(z1)
+plot(z2)
+# time step is 1/freq
+# it always starts at t = 1
+```
+Put a starting time
+```{r}
+z1 = ts(z, start = 2020, frequency = 4) # starts at quarter 1
+z1 = ts(z, start = c(2020,3), frequency = 4) # starts at quarter 3
+z1
+```
+```{r}
+#starts at october 2020
+z1 = ts(z, start = c(2020,10), frequency = 12)
+z1
+```
+
+Testing for correlation
+
+```{r}
+Box.test(z, type = "Ljung", lag = 1)
+```
+Since p is greater than alpha, we don't reject the null hypothesis. 
+H0: p = 0
+Since we don't reject H0, there is no autocorrelation. We don't proceed with modeling z.
+
+```{r}
+Box.test(ar2.s, type = "Ljung")
+```
+
+Since p < alpha, we reject H0 and conclude that the data is autocorrelated.
+
+Check for stationarity
+```{r}
+adf.test(ma1.1.s)
+adf.test(ar2.s)
+```
+
+We want to reject H0 for both autocorrelation and stationarity tests.
+
+Since p<alpha for both ar2 and ma1, we reject H0. We conclude that both time series data are stationary.
+
+After we check for autocorrelation and stationarity, we go ahead with modelling.
+
+```{r}
+# check where the data cuts off
+acf(ar2.s) # cuts off at 8, candidate is ma(8)
+acf(ar2.s, type = "partial") # cuts off at lag 2, we have significant correlation also at lag 9
+```
+
+```{r}
+arima(ar2.s, order = c(0,0,8)) # assuming MA(8)
+arima(ar2.s, order = c(9,0,0)) # assuming AR(9)
+arima(ar2.s, order = c(2,0,0)) # assuming AR(2) 
+arima(ar2.s, order = c(2,0,8)) #ARMA(2,8)
+arima(ar2.s, order = c(9,0,8)) #ARMA(9,8)
+# For AR(2), 
+# X_t = 0.2379 + 1.5061X_t-1 -0.7965 + Z_t
+```
+We select the best model using log likelihood or AIC.
+log likelihood - pick the largest
+AIC - pick the smallest
+Focus on AIC
+
+The best model for ar2.s is AR(2); it has the smallest AIC.
+X_t = 0.2379 + 1.5061X_t-1 - 0.7965X_t-2 + Z_t
+Using S&P 500 data,
+```{r}
+data("SP")
+SP
+adf.test(SP)
+```
+Since p>alpha, we don't reject null hypo. Data is not stationary.
+```{r}
+plot(SP)
+```
+Looking at the graph, the S&P is not stationary it is trending upwards. The means are increasing over time.
+
+We have to do some transformations.
+```{r}
+SP.ln = log(SP)
+SP.ln
+# We take the first difference of the log values
+SP.ln.d = diff(SP.ln)
+# If its still not stationary, do another diff until stationary
+
+```
+
+
+
+```{r}
+plot(SP.ln.d)
+adf.test(SP.ln.d)
+```
+
+
+
+
+The p value is less than alpha. The differenced data is stationary.
+
+```{r}
+Box.test(SP.ln.d, type = "Ljung")
+```
+Since p>alpha, we don't reject null hypothesis. There is no autocorrelation so we don't continue.
+
+```{r}
+acf(SP.ln.d)
+acf(SP.ln.d, type = "partial")
+# There is only a small overlap at lag 4.
+```
+
+
+
+
+```{r}
+data(usd.hkd)
+forex = ts(usd.hkd$hkrate)
+plot(forex)
+```
+Test for stationarity
+```{r}
+adf.test(forex)
+```
+Since p < alpha, we reject H0. The data is stationary.
+
+```{r}
+Box.test(forex, type = "Ljung")
+```
+The data is autocorrelated.
+
+```{r}
+acf(forex) # test MA(1), test MA(2)
+
+acf(forex, type = "partial") # cuts off at 2, test AR(2)
+
+```
+
+```{r}
+#We check ARMA(2,1) and ARMA(2,2)
+arima(forex, order = c(0,0,1)) # MA(1)
+arima(forex, order = c(0,0,2)) # MA(2)
+arima(forex, order = c(2,0,0)) # AR(2)
+arima(forex, order = c(2,0,1)) # ARMA(2,1)
+arima(forex, order = c(2,0,2)) # ARMA(2,2)
+
+```
+ARMA(2,2) has the lowest AIC so its the best model.
+X_t = -0.0004 + 1.3367X_t-1 - 0.7984X_t-2 + Z_t - 1.4935Z_t-1 + 0.8923Z_t-2
+
+Test significance of variables
+```{r}
+coeftest(arima(forex, order = c(2,0,2)))
+```
+
+All of our coefficients except for the intercept are significant since their p values are less than 0.05.
+
+```{r}
+forex
+```
+

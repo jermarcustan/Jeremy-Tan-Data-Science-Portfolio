@@ -1,0 +1,247 @@
+---
+title: "Final Project: LSTM"
+output: html_notebook
+---
+
+### Package Installation and Import
+
+```{r}
+# install.packages('tensorflow')
+# install.packages('keras')
+# install.packages('reticulate')
+# library(keras)
+# install_keras()
+
+library(keras)
+library(tensorflow)
+
+tf$constant("Hello Prof!")
+
+```
+```{r}
+library(tidyverse)
+library(tidymodels)
+library(textrecipes)
+library(tictoc)
+library(tokenizers)
+library(tokenizers.bpe)
+```
+
+### Downloading Dataset
+
+```{r}
+temp <- tempfile()
+download.file("https://s3.us-east-2.amazonaws.com/blaisecruz.com/datasets/fakenews/fakenews.zip",temp)
+temp_2 <- unzip(temp)
+news_dataset <- read.csv(temp_2)
+```
+```{r}
+glimpse(news_dataset)
+```
+Cruz et al.(2020)'s dataset comprises 2 columns: label and article.
+
+
+### Preprocessing Data
+
+```{r}
+set.seed(69)
+
+news_split <- news_dataset %>%
+  initial_split()
+
+news_train <- training(news_split)
+news_test <- testing(news_split)
+```
+
+```{r}
+max_subwords <- 2e4
+max_length <- 200
+
+news_recipe <- recipe(~article, data = news_train) %>%
+  step_tokenize(article, engine = "tokenizers.bpe", 
+                training_options = list(vocab_size = max_subwords)) %>%
+  step_sequence_onehot(article, sequence_length = max_length)
+
+
+news_prep <- prep(news_recipe)
+news_bake <- bake(news_prep, new_data = NULL, composition = "matrix")
+```
+
+
+### Building Model
+
+```{r}
+tic("Process time")
+
+blstm <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_subwords + 1, output_dim = 32) %>%
+  bidirectional(layer_lstm(units = 32, dropout = 0.4, recurrent_dropout = 0.4)) %>%
+  layer_dense(units = 1, activation = "sigmoid")
+
+toc()
+```
+
+```{r}
+blstm
+```
+```{r}
+blstm %>%
+  compile(
+    optimizer = "adam",
+    loss = "binary_crossentropy",
+    metrics = c("accuracy")
+  )
+```   
+
+### Fitting model
+
+```{r}
+tic("Process time")
+
+blstm_history <- blstm %>%
+  fit(
+    news_bake,
+    news_train$label,
+    epochs = 15,
+    validation_split = 0.25,
+    batch_size = 512,
+    verbose = TRUE
+  )
+
+toc()
+  
+```
+
+```{r}
+blstm_history
+```
+```{r}
+plot(blstm_history)
+```
+### Evaluating Model
+
+The keras_predict function is from Silge, Hvitfeldt (2021).
+```{r}
+keras_predict <- function(model, baked_data, response) {
+  predictions <- predict(model, baked_data)[, 1]
+  tibble(
+    .pred_1 = predictions,
+    .pred_class = if_else(.pred_1 < 0.5, 0, 1),
+    state = response
+  ) %>%
+    mutate(across(c(state, .pred_class),            ## create factors
+                  ~ factor(.x, levels = c(1, 0))))  ## with matching levels
+}
+```
+
+```{r}
+blstm_result <- keras_predict(blstm, news_bake, news_train$label)
+blstm_result %>% metrics(state, .pred_class, .pred_1)
+```
+
+```{r}
+blstm_result %>%
+  conf_mat(state, .pred_class) %>%
+  autoplot(type = "heatmap")
+```
+```{r}
+blstm_result %>%
+  roc_curve(truth = state, .pred_1) %>%
+  autoplot() +
+  labs(
+    title = "Receiver operator curve for Fake News Prediction"
+  )
+```
+
+
+```{r}
+news_test_bake <- bake(news_prep, new_data = news_test, composition = "matrix")
+blstm_result_test <- keras_predict(blstm, news_test_bake, news_test$label)
+
+blstm_result_test %>% metrics(state, .pred_class, .pred_1)
+```
+```{r}
+blstm_result_test %>%
+  conf_mat(state, .pred_class) %>%
+  autoplot(type = "heatmap")
+```
+
+```{r}
+blstm_result_test %>%
+  roc_curve(truth = state, .pred_1) %>%
+  autoplot() +
+  labs(
+    title = "Receiver operator curve for Fake News Prediction"
+  )
+```
+
+### Convolutional
+
+```{r}
+max_words = 2e4
+max_length = 200
+
+tic("Process time")
+
+convol <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_words + 1, output_dim = 16,
+                  input_length = max_length) %>%
+  layer_conv_1d(filter = 32, kernel_size = 7,
+                strides = 1, activation = "relu") %>%
+    layer_max_pooling_1d(pool_size = 2) %>%
+  layer_conv_1d(filter = 64, kernel_size = 3, activation = "relu") %>%
+  layer_global_max_pooling_1d() %>%
+  layer_dense(units = 64, activation = "relu") %>%
+  
+  layer_dense(units = 64, activation = "relu") %>%
+  layer_dense(units = 1, activation = "sigmoid")
+
+convol %>%
+  compile(
+    optimizer = "adam",
+    loss = "binary_crossentropy",
+    metrics = c("accuracy")
+  )
+
+toc()
+
+
+```
+
+```{r}
+tic("Process time")
+
+convol_history <- convol %>%
+  fit(
+    news_bake,
+    news_train$label,
+    epochs = 20,
+    validation_split = 0.25,
+    batch_size = 512,
+    verbose = TRUE
+  )
+
+toc()
+  
+```
+
+```{r}
+plot(convol_history)
+```
+
+```{r}
+convol_result_test <- keras_predict(convol, news_test_bake, news_test$label)
+
+convol_result_test %>% metrics(state, .pred_class, .pred_1)
+```
+
+```{r}
+convol_result_test %>%
+  roc_curve(truth = state, .pred_1) %>%
+  autoplot() +
+  labs(
+    title = "Receiver operator curve for Fake News Prediction"
+  )
+```
+
+

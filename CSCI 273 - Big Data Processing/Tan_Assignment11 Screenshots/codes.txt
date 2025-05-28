@@ -1,0 +1,24 @@
+hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator=, -Dimporttsv.columns='HBASE_ROW_KEY,cf:distance,cf:speed' driver_data driver_details.csv
+
+
+
+
+count 'driver_data', { FILTER => "SingleColumnValueFilter('cf', 'speed', =, 'regexstring:^(3[1-9]|[4-9][0-9]|[1-9][0-9]{2,})$')"}
+
+
+beeline -u jdbc:hive2://tan-hbase-m.c.csci-273-451001.internal:10000/ -n Hadoop
+
+CREATE EXTERNAL TABLE driver_data (
+    driver_id STRING,
+    distance STRING,
+    speed STRING
+)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES (
+    "hbase.columns.mapping" = ":key,cf:distance,cf:speed"
+)
+TBLPROPERTIES ("hbase.table.name" = "driver_data");
+
+SELECT COUNT(DISTINCT driver_id)
+FROM driver_data
+WHERE speed REGEXP '^(3[1-9]|[4-9][0-9]|[1-9][0-9]{2,})$';

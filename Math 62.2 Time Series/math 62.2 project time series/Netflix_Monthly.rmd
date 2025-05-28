@@ -1,0 +1,48 @@
+---
+title: "Netflix Monthly"
+output: html_notebook
+---
+
+source: yahoo finance
+
+Loading Packages
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+```
+
+```{r}
+nflx = read.csv("NFLX_monthly.csv")
+nflx$Date =  as.Date(nflx$Date, format = "%Y-%m-%d") # format the dates as date objects
+nflx = nflx[rowSums(is.na(nflx)) != ncol(nflx),] # remove empty rows
+rownames(nflx) = nflx$Date
+nflx
+```
+
+```{r}
+nflx = nflx["Close"]
+nflx_ts = ts(nflx, start = c(2019,4), end = c(2023,5), frequency = 12)
+plot(nflx_ts, main = "Monthly Closing Prices for Netflix")
+```
+```{r}
+adf.test(nflx_ts)
+```
+
+
+```{r}
+nflx_ts_diff = diff(nflx_ts)
+plot(nflx_ts_diff)
+adf.test(nflx_ts_diff)
+```
+
+```{r}
+Box.test(nflx_ts_diff, type = "Ljung")
+```
+
+```{r}
+acf(nflx_ts_diff)
+```
+

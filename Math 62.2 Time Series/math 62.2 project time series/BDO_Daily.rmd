@@ -1,0 +1,153 @@
+---
+title: "BDO Daily"
+output: html_notebook
+---
+
+Loading Packages
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+library("ggplot2")
+```
+
+Source of Data:
+Yahoo Finance 
+Wall Street Journal
+Daily closing prices from May 15, 2018 to May 11, 2023
+
+Preprocessing the Data
+
+Sort data from oldest to newest
+```{r}
+# Read the CSV data
+BDO = read.csv("BDO_daily.csv")
+
+
+#Sort data from oldest to newest
+BDO = BDO[rev(rownames(BDO)), ]
+BDO = tail(BDO, 500)
+
+training_BDO = head(BDO, 470)
+training_BDO 
+
+
+test_BDO = BDO
+```
+
+
+
+Create time series data
+```{r}
+# training data
+BDO = training_BDO["Close"] 
+BDO_TS = ts(BDO)
+BDO_TS
+plot(BDO_TS)
+```
+
+
+Check for stationarity
+```{r}
+adf.test(BDO_TS)
+```
+
+
+Pre-process the price data. 
+```{r}
+BDO_TS_diff = diff(BDO_TS) # differencing
+adf.test(BDO_TS_diff)
+```
+Since p<0.05, the price data is stationary. 
+
+Check for autocorrelation
+```{r}
+Box.test(BDO_TS_diff, type = "Ljung")
+```
+Since p<0.05, we conclude that the price data is autocorrelated.
+
+Modeling
+```{r}
+acf(BDO_TS_diff, main = "ACF") # Check MA(3)
+acf(BDO_TS_diff, type="partial", main = "PACF") # Check AR(3), AR(4)
+```
+
+We check the following models:
+
+Lower AIC indicates the best fitting model.
+
+```{r}
+arima(BDO_TS_diff, order=c(3,0,0)) 
+arima(BDO_TS_diff, order=c(4,0,0)) 
+arima(BDO_TS_diff, order=c(0,0,3)) 
+arima(BDO_TS_diff, order=c(3,0,3)) 
+arima(BDO_TS_diff, order=c(4,0,3)) 
+
+```
+According to AIC,
+our best fitting model is ARMA(4,0)
+
+Define the models
+```{r}
+arma_40 = Arima(BDO_TS_diff, order=c(4,0,0))
+arma_40
+```
+
+Check the residuals. We want to see if they are autocorrelated.
+```{r}
+checkresiduals(arma_40, test = "LB")
+```
+Since the p value > 0.05, we conclude that the residuals are not autocorrelated. (which is what we want)
+Looking at the correlograms for the ACF and PACF, there are only a few lags which exceed the confidence threshold so the correlation between the residuals is not significant. The graph of the residuals shows that the residuals have a mean of around 0. 
+
+
+
+
+```{r}
+# forecast the actual prices
+forecast_40 = forecast(arma_40, level = c(95), h = 30)
+plot(forecast_40)
+```
+
+```{r}
+forecast_40
+```
+
+```{r}
+accuracy(forecast_40)
+```
+```{r}
+best = Arima(BDO_TS, order = c(4,1,0))
+forec = forecast(best, level = c(95), h = 30 )
+forec
+plot(forec)
+```
+```{r}
+plot.ts(test_BDO["Close"])
+```
+
+Using Predict() ung gawa nina deeks
+
+```{r}
+best = arima(BDO_TS_diff, order = c(4,0,0))
+best
+pred = predict(best, n.ahead= 30)$pred
+pred
+```
+
+```{r}
+actual_pred = ts(c(BDO_TS_diff, pred))
+actual_pred = diffinv(actual_pred, differences = 1, xi = BDO_TS[1])
+test_BDO_2 = ts(test_BDO["Close"])
+
+plot(actual_pred, col = "blue", ylim = range(min(test_BDO_2, actual_pred), max(test_BDO_2, actual_pred)))
+lines(test_BDO_2, col = "red")
+legend("topleft", legend = c("Actual Prices", "Predicted Prices"), col = c("red", "blue"), lty = 1)
+
+```
+
+
+

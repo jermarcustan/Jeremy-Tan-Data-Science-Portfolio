@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"81b71dcaac8f40d18fdda00b378acd5c","collectionName":"gold_banking","type":"collection"}

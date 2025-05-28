@@ -1,0 +1,57 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(tseries)
+library(forecast)
+library(TSA)
+library(fGarch)
+```
+
+```{r}
+data("usd.hkd")
+forex = usd.hkd$hkrate
+arma21 = Arima(forex, order = c(2,0,1))
+arma21
+```
+
+phi_2 is not significant since 0 is in the interval.
+We check ARMA(1,1)
+```{r}
+arma11 = Arima(forex, order = c(1,0,1))
+arma11
+```
+We stick with arma(2,1)
+```{r}
+res.arma21 = arma21$residuals
+```
+
+```{r}
+tsdiag(arma21)
+```
+The Y_t's are not correlated.
+
+Check squared residuals (Y_t^2)
+```{r}
+Box.test(res.arma21^2, type = "Ljung")
+```
+Since p< 0.05, the squared residuals are correlated.
+Our data exhibits the ARCH effect.
+
+```{r}
+y2 = res.arma21^2
+pacf(y2)
+```
+We test out ARCH(1)
+
+```{r}
+vol.ar1 = arima(y2, order = c(1,0,0))
+vol.ar1
+```
+
+Y_t = (sigma_t)(epsilon_t)
+
+alpha_1 = phi_1 + theta_1 = 0.2517 + 0 = 0.2517
+alpha_0 = (0.0007)(1-0.2517) = 0.00052
+sigma_t^2 = 0.00052 + 0.2517Y^2_t-1

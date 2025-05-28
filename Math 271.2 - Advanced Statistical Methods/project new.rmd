@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+library(TSA)
+library(tseries)
+library(forecast)
+library(fGarch)
+```
+
+
+
+```{r}
+data = read.csv("Sto_nino_2017.csv")
+X = ts(data)
+```
+
+
+```{r}
+plot(X)
+```
+```{r}
+Arima(X, order= c(2,0,0))
+Arima(X, order = c(3,0,0))
+Arima(X, order = c(11,0,0))
+```
+
+```{r}
+garch11 = garchFit(~arma(1,0) + garch(1,1), data = X)
+summary(garch11)
+```
+
+```{r}
+fit.vol = volatility( garch11 )
+fit.vol.sr = residuals( garch11 ) / volatility( garch11 )
+plot( fit.vol  )
+plot( fit.vol.sr )
+```
+```{r}
+mean(fit.vol.sr)
+```
+```{r}
+Box.test(fit.vol.sr, type = "Ljung")
+Box.test(fit.vol.sr^2, type = "Ljung")
+```
+
+```{r}
+wpredict = predict(garch11, n.ahead = 24, plot = T)
+```
+
+```{r}
+wpredict$meanForecast
+```
+
+```{r}
+wpredict
+
+```
+

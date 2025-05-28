@@ -1,0 +1,176 @@
+---
+title: "Data Analysis Project"
+author: "Brynx Junil Alegarbes, Neil Bryant Que, Jeremy Marcus Tan"
+date: "2024-07-03"
+output: pdf_document
+---
+
+```{r}
+library(TSA)
+library(tseries)
+library(forecast)
+library(fGarch)
+```
+
+```{r}
+data=read.csv("compiled_data.csv")
+X=data$Waterlevel_Sto_Nino
+X=ts(X)
+X
+```
+
+```{r}
+plot(X)
+```
+
+```{r}
+adf.test(X)
+```
+#Since the p-value is less than 0.05, we reject the null hypothesis and by the ADF test, the process is stationary.
+
+```{r}
+Box.test(X, type='Ljung')
+```
+#Since the p-value is less than 0.05, we reject the null hypothesis and by the Ljung-Box test, the process has serial correlation.
+
+```{r}
+acf(X, lag=20, main='ACF Correlogram')
+```
+#The ACF does not seem to cut off so no MA models can be tested.
+
+```{r}
+pacf(X, lag=20, main='PACF Correlogram')
+```
+#The PACF cuts off at lag 3, but we can also test lags 2 and 11.
+
+```{r}
+Arima(X, order=c(2,0,0))
+Arima(X, order=c(3,0,0))
+Arima(X, order=c(11,0,0))
+```
+#The AR(3) model can is better than the AR(2) model in terms of log likelihood, AIC, AICc, and BIC. While the AR(11) model is better than the AR(3) model in terms of log likelihood, AIC, and AICc, we can choose the AR(3) model due to simplicity. 
+
+```{r}
+model=Arima(X, order=c(3,0,0))
+```
+
+```{r}
+tsdiag(model)
+```
+#Through the ACF and p value plot, the residuals do not seem to exhibit autocorrelation.
+
+```{r}
+Box.test(model$residuals, type='Ljung')
+```
+#Through the Ljung-Box test, it is further verified that the residuals are not serially correlated.
+
+```{r}
+Y2=residuals(model)**2
+```
+
+```{r}
+Box.test(Y2, type='Ljung')
+```
+#However, by the Ljung-Box test, the squared residuals are serially correlated. This means that the residuals are autoregressive conditionally heteroscedastic (ARCH).
+
+```{r}
+pacf(Y2, lag=25) #ARCH(1)
+```
+#Through the PACF of the squared residuals, the possible models are ARCH(1) or ARCH(23). For simplicity, we choose the ARCH(1) model.
+
+#Various hydrologic models used time series models to evaluate volatility and eliminate the ARCH effect. In modeling rainfall–runoff relationships, Modarres and Ouarda (2013) used GARCH(1,1) and ARCH(2) models. Moreover, in predicting daily streamflow, Wang, et al. (2023) used the GARCH(1,1) model. Lastly, in modeling streamflow Fathian, et al. (2019) found the ARCH(5) and ARCH(7) models to be the most fitted to their residual series.
+
+#Hence, combining the models above, we will evaluate the volatility models and perform joint estimation with our best ARIMA model.
+
+```{r}
+arch1 = garchFit(~arma(3,0)+garch(1,0),data=X)
+```
+
+```{r}
+arch2 = garchFit(~arma(3,0)+garch(2,0),data=X)
+```
+
+
+```{r}
+arch5 = garchFit(~arma(3,0)+garch(5,0),data=X)
+```
+
+
+```{r}
+arch7 = garchFit(~arma(3,0)+garch(7,0),data=X)
+```
+
+
+```{r}
+garch11 = garchFit(~arma(3,0)+garch(1,1),data=X)
+```
+
+
+```{r}
+#arch1 = Arima(Y2, order=c(1,0,0))
+#arch2 = Arima(Y2, order=c(2,0,0))
+#arch5 = Arima(Y2, order=c(5,0,0))
+#arch7 = Arima(Y2, order=c(7,0,0))
+#garch11 = Arima(Y2, order=c(1,0,1))
+```
+
+```{r}
+summary(arch1)
+```
+
+```{r}
+summary(arch2)
+```
+
+```{r}
+summary(arch5)
+```
+
+```{r}
+summary(arch7)
+```
+
+```{r}
+summary(garch11)
+```
+
+#Best model is AR(4) - ARCH(2)
+
+```{r}
+fit.vol = volatility(arch2)
+fit.vol.sr = residuals(arch2) / volatility(arch2)
+plot(fit.vol)
+plot(fit.vol.sr)
+```
+
+```{r}
+Box.test(fit.vol.sr, type='Ljung')
+```
+#standardized residuals are correlated
+
+```{r}
+Box.test(fit.vol.sr**2, type='Ljung')
+```
+
+```{r}
+#grid search
+check_residuals = function(model) {
+  fit.vol = volatility(model)
+  fit.vol.sr = residuals(model) / volatility(model)
+  
+  print(Box.test(fit.vol.sr, type='Ljung'))
+  print(Box.test(fit.vol.sr**2, type='Ljung'))
+}
+
+fit_model = function(m, s) {
+  model = garchFit(substitute(~arma(3,0)+garch(m,s), list(m=m, s=s)),data=X)
+  summary(model)
+  check_residuals(model)
+}
+
+for (m in 1:4) {
+  for (s in 0:4) {
+    fit_model(m, s)
+  }
+}
+```

@@ -1,0 +1,789 @@
+﻿Date,Count,flight_type,airline_operator,country
+Quarter 1 2010,0,International,Texas Instruments,USA
+Quarter 1 2010,1,Domestic,Texas Instruments,USA
+Quarter 3 2005,2,International,Hong Kong Express,Hong Kong
+Quarter 1 2010,3,Domestic,Air Ads,
+Quarter 3 2011,3,International,Corporate World Aviation Corp. Airline,
+Quarter 1 2006,4,International,Asian Spirit,Philippines
+Quarter 1 2010,4,Domestic,Mid Cost,
+Quarter 2 2010,6,International,Execu Jet Australia,Australia
+Quarter 3 2005,9,Domestic,Asian Spirit,Philippines
+Quarter 3 2010,10,Domestic,King Air Airlines,Philippines
+Quarter 2 2005,11,Domestic,Asian Spirit,Philippines
+Quarter 3 2005,12,Domestic,Asian Spirit,Philippines
+Quarter 1 2010,12,International,Execu Jet Australia,Australia
+Quarter 4 2005,14,Domestic,Asian Spirit,Philippines
+Quarter 4 2012,14,Domestic,Zest Air,Philippines
+Quarter 2 2010,16,Domestic,Lion Air,Indonesia
+Quarter 1 2011,17,Domestic,King Air Airlines,Philippines
+Quarter 4 2005,20,Domestic,Asian Spirit,Philippines
+Quarter 4 2010,20,International,Macau Jet Intl. Corp. LTD,China
+Quarter 4 2010,21,International,Crown Melbourne Australia,Australia
+Quarter 1 2010,22,International,Metro Jet Ltd.,Hong Kong
+Quarter 1 2010,23,Domestic,Lion Air,Indonesia
+Quarter 2 2011,23,International,Beijing Capital Airlines Co. Ltd.,China
+Quarter 1 2005,26,Domestic,Asian Spirit,Philippines
+Quarter 3 2005,30,Domestic,Asian Spirit,Philippines
+Quarter 2 2009,30,Domestic,Zest Air,Philippines
+Quarter 2 2010,30,International,Mandala Airline,Indonesia
+Quarter 3 2006,31,International,CRJ Airways,China
+Quarter 1 2010,31,International,Pacific Flier,
+Quarter 2 2006,32,International,Seair,Philippines
+Quarter 1 2013,43,Domestic,Zest Air,Philippines
+Quarter 4 2009,46,International,Spirit of Manila,Philippines
+Quarter 3 2012,46,Domestic,Simirara Mining Corp,Philippines
+Quarter 1 2005,48,Domestic,Asian Spirit,Philippines
+Quarter 1 2006,50,Domestic,Asian Spirit,Philippines
+Quarter 3 2006,52,International,Cebu Pacific,Philippines
+Quarter 2 2011,55,International,China Eastern,China
+Quarter 2 2005,56,Domestic,Asian Spirit,Philippines
+Quarter 3 2005,59,International,Hong Kong Express,Hong Kong
+Quarter 2 2005,60,Domestic,Asian Spirit,Philippines
+Quarter 3 2009,69,Domestic,Zest Air,Philippines
+Quarter 1 2005,77,Domestic,Asian Spirit,Philippines
+Quarter 1 2006,87,Domestic,Asian Spirit,Philippines
+Quarter 3 2008,89,International,Transglobal Airways,Philippines
+Quarter 4 2008,94,Domestic,Zest Air,Philippines
+Quarter 2 2013,99,International,China Southern Airlines,China
+Quarter 2 2005,107,Domestic,Asiana Airlines,South Korea
+Quarter 2 2013,110,International,China Southern Airlines,China
+Quarter 1 2008,120,International,Deer Air,China
+Quarter 1 2005,138,Domestic,Asiana Airlines,South Korea
+Quarter 2 2006,138,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,143,International,China Southern Airlines,China
+Quarter 4 2007,144,International,Deer Air,China
+Quarter 1 2010,148,Domestic,Zest Air,Philippines
+Quarter 1 2006,149,International,Seair,Philippines
+Quarter 3 2009,154,Domestic,Zest Air,Philippines
+Quarter 3 2011,157,Domestic,Seair,Philippines
+Quarter 4 2008,175,Domestic,Zest Air,Philippines
+Quarter 4 2005,178,Domestic,Asian Spirit,Philippines
+Quarter 2 2010,178,International,Pacific Flier,
+Quarter 2 2010,188,International,Pacific Flier,
+Quarter 2 2008,190,International,Shanghai Airlines,China
+Quarter 3 2010,194,International,Spirit of Manila,Philippines
+Quarter 3 2006,202,International,Far Eastern Air Transport (FAT),Taiwan
+Quarter 2 2013,209,International,China Southern Airlines,China
+Quarter 3 2010,228,International,Pacific Flier,
+Quarter 1 2008,232,International,World Airways,USA
+Quarter 3 2007,241,International,Hong Kong Airlines,Hong Kong
+Quarter 4 2009,251,Domestic,Zest Air,Philippines
+Quarter 4 2009,251,Domestic,Zest Air,Philippines
+Quarter 4 2010,253,International,Spirit of Manila,Philippines
+Quarter 4 2011,268,Domestic,Seair,Philippines
+Quarter 1 2013,276,Domestic,Zest Air,Philippines
+Quarter 1 2012,283,Domestic,Seair,Philippines
+Quarter 4 2007,302,International,Hong Kong Express,Hong Kong
+Quarter 4 2012,308,Domestic,Zest Air,Philippines
+Quarter 4 2009,309,Domestic,Zest Air,Philippines
+Quarter 4 2012,314,Domestic,Zest Air,Philippines
+Quarter 2 2010,315,International,Pacific Flier,
+Quarter 1 2013,319,Domestic,Zest Air,Philippines
+Quarter 1 2005,324,Domestic,Asiana Airlines,South Korea
+Quarter 3 2006,331,Domestic,Seair,Philippines
+Quarter 3 2005,346,International,Far Eastern Air Transport (FAT),Taiwan
+Quarter 3 2006,354,International,CRJ Airways,China
+Quarter 3 2010,356,Domestic,Seair,Philippines
+Quarter 4 2011,356,Domestic,Seair,Philippines
+Quarter 4 2011,368,Domestic,Seair,Philippines
+Quarter 4 2006,369,Domestic,Seair,Philippines
+Quarter 1 2010,371,International,Zest Air,Philippines
+Quarter 3 2010,374,Domestic,Seair,Philippines
+Quarter 3 2005,381,International,CRJ Airways,China
+Quarter 3 2006,386,Domestic,Seair,Philippines
+Quarter 4 2005,397,International,CRJ Airways,China
+Quarter 1 2005,399,Domestic,Asiana Airlines,South Korea
+Quarter 3 2011,409,Domestic,Seair,Philippines
+Quarter 3 2010,413,International,Pacific Flier,
+Quarter 2 2012,419,International,Dragon Air,Hong Kong
+Quarter 3 2010,431,International,Hong Kong Express,Hong Kong
+Quarter 3 2010,432,Domestic,Seair,Philippines
+Quarter 4 2010,433,Domestic,Seair,Philippines
+Quarter 1 2010,436,International,Spirit of Manila,Philippines
+Quarter 1 2012,441,Domestic,Seair,Philippines
+Quarter 4 2010,442,International,Spirit of Manila,Philippines
+Quarter 2 2011,455,Domestic,Seair,Philippines
+Quarter 4 2010,457,Domestic,Seair,Philippines
+Quarter 1 2011,464,Domestic,Seair,Philippines
+Quarter 3 2005,470,International,CRJ Airways,China
+Quarter 3 2006,470,Domestic,Seair,Philippines
+Quarter 1 2008,478,International,China Southern Airlines,China
+Quarter 3 2005,481,Domestic,Seair,Philippines
+Quarter 1 2007,483,International,Shanghai Airlines,China
+Quarter 1 2010,485,International,Jin-Air,South Korea
+Quarter 1 2011,496,Domestic,Seair,Philippines
+Quarter 2 2005,503,Domestic,Seair,Philippines
+Quarter 3 2005,506,Domestic,Seair,Philippines
+Quarter 1 2006,506,International,Cathay Pacific,Hong Kong
+Quarter 3 2005,508,Domestic,Seair,Philippines
+Quarter 2 2010,509,International,Spirit of Manila,Philippines
+Quarter 2 2006,523,International,CRJ Airways,China
+Quarter 3 2009,528,Domestic,Seair,Philippines
+Quarter 2 2009,529,Domestic,Seair,Philippines
+Quarter 3 2010,531,International,Jin-Air,South Korea
+Quarter 1 2011,540,Domestic,Seair,Philippines
+Quarter 4 2009,541,Domestic,Seair,Philippines
+Quarter 3 2010,548,International,Spirit of Manila,Philippines
+Quarter 1 2005,552,Domestic,Seair,Philippines
+Quarter 3 2011,562,Domestic,Seair,Philippines
+Quarter 2 2006,568,Domestic,Seair,Philippines
+Quarter 3 2010,572,International,Spirit of Manila,Philippines
+Quarter 4 2010,575,Domestic,Seair,Philippines
+Quarter 1 2005,594,Domestic,Seair,Philippines
+Quarter 1 2005,599,Domestic,Seair,Philippines
+Quarter 1 2006,599,Domestic,Seair,Philippines
+Quarter 4 2005,600,Domestic,Seair,Philippines
+Quarter 4 2006,601,Domestic,Seair,Philippines
+Quarter 4 2005,608,Domestic,Seair,Philippines
+Quarter 3 2008,619,Domestic,Seair,Philippines
+Quarter 4 2006,622,Domestic,Seair,Philippines
+Quarter 3 2009,624,Domestic,Seair,Philippines
+Quarter 1 2011,624,International,Spirit of Manila,Philippines
+Quarter 2 2008,638,International,Shanghai Airlines,China
+Quarter 2 2013,638,Domestic,Zest Air,Philippines
+Quarter 2 2006,639,International,China Southern Airlines,China
+Quarter 4 2005,651,Domestic,Seair,Philippines
+Quarter 1 2006,661,International,CRJ Airways,China
+Quarter 1 2011,661,International,Spirit of Manila,Philippines
+Quarter 1 2006,662,International,CRJ Airways,China
+Quarter 4 2009,667,Domestic,Seair,Philippines
+Quarter 4 2005,669,International,CRJ Airways,China
+Quarter 4 2009,672,International,Zest Air,Philippines
+Quarter 2 2005,688,Domestic,Seair,Philippines
+Quarter 2 2006,699,Domestic,Seair,Philippines
+Quarter 3 2007,701,Domestic,Seair,Philippines
+Quarter 3 2007,705,Domestic,Seair,Philippines
+Quarter 2 2011,707,Domestic,Seair,Philippines
+Quarter 3 2008,716,Domestic,Seair,Philippines
+Quarter 4 2005,726,International,CRJ Airways,China
+Quarter 1 2006,730,International,CRJ Airways,China
+Quarter 1 2008,732,International,China Southern Airlines,China
+Quarter 1 2007,734,Domestic,Seair,Philippines
+Quarter 2 2007,745,Domestic,Seair,Philippines
+Quarter 4 2006,747,International,Shanghai Airlines,China
+Quarter 1 2010,749,Domestic,Seair,Philippines
+Quarter 4 2008,752,Domestic,Seair,Philippines
+Quarter 2 2005,755,Domestic,Seair,Philippines
+Quarter 4 2009,755,Domestic,Seair,Philippines
+Quarter 4 2010,767,International,Jin-Air,South Korea
+Quarter 4 2010,767,International,Spirit of Manila,Philippines
+Quarter 1 2010,782,International,Spirit of Manila,Philippines
+Quarter 2 2011,785,Domestic,Seair,Philippines
+Quarter 2 2006,786,International,CRJ Airways,China
+Quarter 2 2008,800,International,China Southern Airlines,China
+Quarter 1 2009,800,Domestic,Seair,Philippines
+Quarter 1 2007,817,Domestic,Seair,Philippines
+Quarter 4 2008,821,Domestic,Seair,Philippines
+Quarter 4 2012,822,International,Zest Air,Philippines
+Quarter 2 2006,823,Domestic,Seair,Philippines
+Quarter 4 2007,828,Domestic,Seair,Philippines
+Quarter 3 2007,840,Domestic,Seair,Philippines
+Quarter 4 2007,857,Domestic,Seair,Philippines
+Quarter 1 2007,868,Domestic,Seair,Philippines
+Quarter 2 2010,877,Domestic,Seair,Philippines
+Quarter 2 2008,881,Domestic,Seair,Philippines
+Quarter 1 2009,912,Domestic,Seair,Philippines
+Quarter 1 2009,924,Domestic,Seair,Philippines
+Quarter 1 2006,925,Domestic,Seair,Philippines
+Quarter 1 2006,930,Domestic,Seair,Philippines
+Quarter 2 2009,936,Domestic,Seair,Philippines
+Quarter 1 2008,946,International,China Southern Airlines,China
+Quarter 2 2006,951,International,CRJ Airways,China
+Quarter 4 2008,954,Domestic,Seair,Philippines
+Quarter 1 2010,963,Domestic,Seair,Philippines
+Quarter 4 2006,964,International,Hong Kong Airlines,Hong Kong
+Quarter 3 2009,964,Domestic,Cebu Pacific,Philippines
+Quarter 1 2007,971,International,Shanghai Airlines,China
+Quarter 2 2008,994,International,China Southern Airlines,China
+Quarter 2 2007,1015,International,Shanghai Airlines,China
+Quarter 3 2009,1015,Domestic,Seair,Philippines
+Quarter 1 2010,1021,Domestic,Seair,Philippines
+Quarter 2 2010,1041,Domestic,Seair,Philippines
+Quarter 2 2009,1050,Domestic,Seair,Philippines
+Quarter 2 2010,1079,Domestic,Seair,Philippines
+Quarter 3 2009,1082,Domestic,Cebu Pacific,Philippines
+Quarter 2 2007,1104,Domestic,Seair,Philippines
+Quarter 2 2011,1134,International,Spirit of Manila,Philippines
+Quarter 4 2009,1154,International,Zest Air,Philippines
+Quarter 1 2008,1167,International,Hong Kong Express,Hong Kong
+Quarter 1 2008,1172,Domestic,Seair,Philippines
+Quarter 1 2007,1175,International,Hong Kong Airlines,Hong Kong
+Quarter 1 2008,1186,Domestic,Seair,Philippines
+Quarter 1 2011,1200,International,Spirit of Manila,Philippines
+Quarter 4 2007,1232,Domestic,Seair,Philippines
+Quarter 3 2008,1235,Domestic,Seair,Philippines
+Quarter 3 2009,1261,Domestic,Cebu Pacific,Philippines
+Quarter 1 2012,1262,Domestic,PAL Express,Philippines
+Quarter 2 2008,1279,Domestic,Seair,Philippines
+Quarter 2 2007,1303,Domestic,Seair,Philippines
+Quarter 3 2008,1312,Domestic,Cebu Pacific,Philippines
+Quarter 4 2009,1318,International,Zest Air,Philippines
+Quarter 2 2009,1358,Domestic,Cebu Pacific,Philippines
+Quarter 1 2008,1375,Domestic,Seair,Philippines
+Quarter 2 2010,1378,International,Spirit of Manila,Philippines
+Quarter 1 2010,1398,International,Spirit of Manila,Philippines
+Quarter 2 2008,1408,Domestic,Seair,Philippines
+Quarter 3 2005,1409,International,Far Eastern Air Transport (FAT),Taiwan
+Quarter 1 2009,1474,Domestic,Cebu Pacific,Philippines
+Quarter 4 2005,1497,International,Far Eastern Air Transport (FAT),Taiwan
+Quarter 4 2009,1531,Domestic,Cebu Pacific,Philippines
+Quarter 1 2010,1552,International,Jin-Air,South Korea
+Quarter 2 2013,1603,Domestic,PAL Express,Philippines
+Quarter 3 2008,1645,Domestic,Cebu Pacific,Philippines
+Quarter 3 2007,1655,Domestic,Cebu Pacific,Philippines
+Quarter 1 2007,1670,International,Hong Kong Airlines,Hong Kong
+Quarter 1 2009,1678,Domestic,Cebu Pacific,Philippines
+Quarter 3 2005,1698,International,Far Eastern Air Transport (FAT),Taiwan
+Quarter 3 2007,1730,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,1743,International,PAL Express,Philippines
+Quarter 4 2008,1755,Domestic,Cebu Pacific,Philippines
+Quarter 3 2007,1850,Domestic,Cebu Pacific,Philippines
+Quarter 2 2009,1855,Domestic,Cebu Pacific,Philippines
+Quarter 3 2008,1866,Domestic,Cebu Pacific,Philippines
+Quarter 4 2008,1895,Domestic,Cebu Pacific,Philippines
+Quarter 2 2008,1924,Domestic,Cebu Pacific,Philippines
+Quarter 2 2009,1928,Domestic,Cebu Pacific,Philippines
+Quarter 1 2007,1951,International,Hong Kong Airlines,Hong Kong
+Quarter 1 2013,1979,International,Zest Air,Philippines
+Quarter 3 2012,1981,International,Dragon Air,Hong Kong
+Quarter 2 2013,2027,International,Jin-Air,South Korea
+Quarter 1 2009,2068,Domestic,Cebu Pacific,Philippines
+Quarter 4 2008,2160,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2179,International,Jin-Air,South Korea
+Quarter 4 2012,2225,International,Jin-Air,South Korea
+Quarter 4 2007,2243,Domestic,Cebu Pacific,Philippines
+Quarter 1 2012,2251,Domestic,Air Asia Philippines,Philippines
+Quarter 1 2013,2264,Domestic,PAL Express,Philippines
+Quarter 2 2012,2267,Domestic,Seair,Philippines
+Quarter 4 2012,2273,International,Jin-Air,South Korea
+Quarter 4 2009,2294,Domestic,Cebu Pacific,Philippines
+Quarter 3 2011,2308,Domestic,Cebu Pacific,Philippines
+Quarter 4 2007,2354,Domestic,Cebu Pacific,Philippines
+Quarter 2 2011,2357,International,Jin-Air,South Korea
+Quarter 3 2012,2362,International,PAL Express,Philippines
+Quarter 3 2012,2382,International,Jin-Air,South Korea
+Quarter 2 2011,2389,International,Jin-Air,South Korea
+Quarter 4 2006,2395,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2419,International,PAL Express,Philippines
+Quarter 2 2007,2428,International,Hong Kong Airlines,Hong Kong
+Quarter 3 2012,2429,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2480,Domestic,Seair,Philippines
+Quarter 3 2011,2483,International,Jin-Air,South Korea
+Quarter 3 2011,2489,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2509,International,Jin-Air,South Korea
+Quarter 3 2012,2515,Domestic,Seair,Philippines
+Quarter 1 2008,2516,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2517,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2529,Domestic,Seair,Philippines
+Quarter 2 2012,2573,Domestic,Cebu Pacific,Philippines
+Quarter 1 2008,2578,Domestic,Cebu Pacific,Philippines
+Quarter 1 2011,2589,International,Jin-Air,South Korea
+Quarter 2 2011,2611,International,Jin-Air,South Korea
+Quarter 2 2007,2716,Domestic,Cebu Pacific,Philippines
+Quarter 4 2009,2766,Domestic,Cebu Pacific,Philippines
+Quarter 3 2011,2789,Domestic,Cebu Pacific,Philippines
+Quarter 2 2013,2789,International,Jin-Air,South Korea
+Quarter 4 2012,2790,Domestic,Seair,Philippines
+Quarter 1 2007,2838,Domestic,Cebu Pacific,Philippines
+Quarter 3 2010,2850,Domestic,Cebu Pacific,Philippines
+Quarter 1 2010,2860,Domestic,Cebu Pacific,Philippines
+Quarter 4 2007,2879,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,2885,International,Dragon Air,Hong Kong
+Quarter 2 2008,2892,Domestic,Cebu Pacific,Philippines
+Quarter 4 2010,2915,Domestic,Cebu Pacific,Philippines
+Quarter 4 2011,2939,International,Jin-Air,South Korea
+Quarter 1 2011,2957,Domestic,Cebu Pacific,Philippines
+Quarter 2 2011,2989,Domestic,Cebu Pacific,Philippines
+Quarter 1 2011,2992,Domestic,Cebu Pacific,Philippines
+Quarter 4 2011,3020,International,Jin-Air,South Korea
+Quarter 2 2010,3023,Domestic,Cebu Pacific,Philippines
+Quarter 3 2010,3047,Domestic,Cebu Pacific,Philippines
+Quarter 2 2008,3050,Domestic,Cebu Pacific,Philippines
+Quarter 4 2010,3052,International,Jin-Air,South Korea
+Quarter 1 2007,3073,Domestic,Cebu Pacific,Philippines
+Quarter 3 2010,3081,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,3081,Domestic,Cebu Pacific,Philippines
+Quarter 3 2012,3083,International,Dragon Air,Hong Kong
+Quarter 4 2006,3111,Domestic,Cebu Pacific,Philippines
+Quarter 3 2011,3119,International,Jin-Air,South Korea
+Quarter 1 2010,3120,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,3120,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,3128,Domestic,Seair,Philippines
+Quarter 4 2012,3139,Domestic,Cebu Pacific,Philippines
+Quarter 4 2011,3140,Domestic,Cebu Pacific,Philippines
+Quarter 4 2012,3145,Domestic,Seair,Philippines
+Quarter 2 2012,3147,International,Jin-Air,South Korea
+Quarter 2 2012,3154,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,3172,International,Dragon Air,Hong Kong
+Quarter 1 2012,3207,Domestic,Cebu Pacific,Philippines
+Quarter 2 2013,3234,International,Air Asia,Malaysia
+Quarter 1 2013,3240,International,Air Asia,Malaysia
+Quarter 4 2011,3254,Domestic,Cebu Pacific,Philippines
+Quarter 2 2013,3264,International,Dragon Air,Hong Kong
+Quarter 2 2012,3266,International,PAL Express,Philippines
+Quarter 4 2012,3272,Domestic,Cebu Pacific,Philippines
+Quarter 1 2010,3281,Domestic,Cebu Pacific,Philippines
+Quarter 1 2012,3285,Domestic,Cebu Pacific,Philippines
+Quarter 4 2010,3286,Domestic,Cebu Pacific,Philippines
+Quarter 4 2012,3298,Domestic,Cebu Pacific,Philippines
+Quarter 2 2013,3305,Domestic,Cebu Pacific,Philippines
+Quarter 2 2013,3313,International,Air Asia,Malaysia
+Quarter 1 2011,3316,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,3326,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,3338,International,Dragon Air,Hong Kong
+Quarter 2 2012,3365,Domestic,Cebu Pacific,Philippines
+Quarter 4 2011,3371,Domestic,Cebu Pacific,Philippines
+Quarter 1 2008,3379,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,3390,Domestic,Cebu Pacific,Philippines
+Quarter 1 2012,3392,Domestic,Cebu Pacific,Philippines
+Quarter 4 2012,3393,Domestic,Seair,Philippines
+Quarter 4 2012,3395,International,Jin-Air,South Korea
+Quarter 1 2013,3397,International,PAL Express,Philippines
+Quarter 2 2011,3400,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,3425,International,Jin-Air,South Korea
+Quarter 4 2010,3439,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,3452,International,Jin-Air,South Korea
+Quarter 2 2010,3485,Domestic,Cebu Pacific,Philippines
+Quarter 2 2005,3493,International,Tiger Airways,Singapore
+Quarter 4 2012,3528,International,Dragon Air,Hong Kong
+Quarter 2 2011,3529,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,3539,International,Jin-Air,South Korea
+Quarter 2 2010,3576,Domestic,Cebu Pacific,Philippines
+Quarter 2 2007,3626,Domestic,Cebu Pacific,Philippines
+Quarter 2 2005,3685,International,Tiger Airways,Singapore
+Quarter 4 2010,3706,International,Tiger Airways,Singapore
+Quarter 3 2005,3722,International,Asiana Airlines,South Korea
+Quarter 1 2012,3723,International,Jin-Air,South Korea
+Quarter 1 2007,3735,Domestic,Cebu Pacific,Philippines
+Quarter 4 2012,3757,International,PAL Express,Philippines
+Quarter 4 2006,3772,Domestic,Cebu Pacific,Philippines
+Quarter 2 2012,3854,International,Air Asia Philippines,Philippines
+Quarter 2 2007,3855,Domestic,Cebu Pacific,Philippines
+Quarter 1 2012,3870,International,Jin-Air,South Korea
+Quarter 1 2012,3937,International,Jin-Air,South Korea
+Quarter 1 2013,3940,International,Air Asia,Malaysia
+Quarter 4 2011,3941,International,Jin-Air,South Korea
+Quarter 2 2013,4005,Domestic,Cebu Pacific,Philippines
+Quarter 1 2013,4122,Domestic,Seair,Philippines
+Quarter 1 2013,4226,Domestic,Seair,Philippines
+Quarter 1 2013,4229,International,Dragon Air,Hong Kong
+Quarter 1 2005,4233,International,Asiana Airlines,South Korea
+Quarter 4 2005,4264,International,Asiana Airlines,South Korea
+Quarter 2 2013,4309,International,Dragon Air,Hong Kong
+Quarter 1 2013,4326,International,Jin-Air,South Korea
+Quarter 4 2012,4330,International,Dragon Air,Hong Kong
+Quarter 2 2005,4333,International,Tiger Airways,Singapore
+Quarter 2 2012,4346,International,PAL Express,Philippines
+Quarter 4 2007,4357,International,Asiana Airlines,South Korea
+Quarter 1 2013,4407,Domestic,Seair,Philippines
+Quarter 4 2012,4558,International,PAL Express,Philippines
+Quarter 3 2011,4584,International,Jin-Air,South Korea
+Quarter 2 2006,4672,International,Asiana Airlines,South Korea
+Quarter 1 2013,4831,International,PAL Express,Philippines
+Quarter 4 2006,4863,International,Asiana Airlines,South Korea
+Quarter 3 2009,4882,International,Asiana Airlines,South Korea
+Quarter 4 2010,4911,International,Jin-Air,South Korea
+Quarter 2 2005,4928,International,Asiana Airlines,South Korea
+Quarter 3 2010,5019,International,Asiana Airlines,South Korea
+Quarter 1 2013,5064,International,Dragon Air,Hong Kong
+Quarter 3 2007,5071,International,Asiana Airlines,South Korea
+Quarter 3 2006,5076,International,Asiana Airlines,South Korea
+Quarter 1 2011,5102,International,Jin-Air,South Korea
+Quarter 3 2005,5153,International,Tiger Airways,Singapore
+Quarter 4 2010,5195,International,Tiger Airways,Singapore
+Quarter 2 2007,5207,International,Asiana Airlines,South Korea
+Quarter 3 2012,5236,Domestic,PAL Express,Philippines
+Quarter 1 2005,5242,International,Asiana Airlines,South Korea
+Quarter 4 2005,5260,International,Asiana Airlines,South Korea
+Quarter 2 2006,5280,International,Asiana Airlines,South Korea
+Quarter 2 2006,5352,International,Asiana Airlines,South Korea
+Quarter 1 2006,5356,International,Asiana Airlines,South Korea
+Quarter 2 2007,5428,International,Asiana Airlines,South Korea
+Quarter 3 2008,5538,International,Asiana Airlines,South Korea
+Quarter 4 2009,5548,International,Asiana Airlines,South Korea
+Quarter 2 2005,5549,International,Asiana Airlines,South Korea
+Quarter 4 2010,5555,International,Asiana Airlines,South Korea
+Quarter 2 2010,5586,International,Asiana Airlines,South Korea
+Quarter 2 2005,5640,International,Asiana Airlines,South Korea
+Quarter 2 2007,5642,International,Hong Kong Airlines,Hong Kong
+Quarter 3 2007,5670,International,Asiana Airlines,South Korea
+Quarter 2 2009,5687,International,Asiana Airlines,South Korea
+Quarter 2 2011,5716,International,Asiana Airlines,South Korea
+Quarter 1 2005,5775,International,Asiana Airlines,South Korea
+Quarter 2 2007,5842,International,Asiana Airlines,South Korea
+Quarter 3 2005,5845,International,Asiana Airlines,South Korea
+Quarter 4 2008,5871,International,Asiana Airlines,South Korea
+Quarter 4 2012,5903,International,Dragon Air,Hong Kong
+Quarter 3 2007,5936,International,Asiana Airlines,South Korea
+Quarter 3 2005,5982,International,Asiana Airlines,South Korea
+Quarter 4 2008,6005,International,Asiana Airlines,South Korea
+Quarter 3 2006,6014,International,Asiana Airlines,South Korea
+Quarter 3 2011,6051,International,Asiana Airlines,South Korea
+Quarter 4 2012,6088,International,Zest Air,Philippines
+Quarter 4 2005,6095,International,Asiana Airlines,South Korea
+Quarter 2 2008,6095,International,Asiana Airlines,South Korea
+Quarter 2 2007,6124,International,Hong Kong Airlines,Hong Kong
+Quarter 1 2007,6162,International,Asiana Airlines,South Korea
+Quarter 3 2012,6164,Domestic,PAL Express,Philippines
+Quarter 4 2010,6183,International,Asiana Airlines,South Korea
+Quarter 2 2010,6216,International,Asiana Airlines,South Korea
+Quarter 3 2011,6277,International,Asiana Airlines,South Korea
+Quarter 2 2012,6283,International,Asiana Airlines,South Korea
+Quarter 4 2012,6289,Domestic,PAL Express,Philippines
+Quarter 1 2011,6295,International,Jin-Air,South Korea
+Quarter 2 2011,6313,International,Asiana Airlines,South Korea
+Quarter 3 2012,6344,International,Asiana Airlines,South Korea
+Quarter 2 2012,6348,International,Asiana Airlines,South Korea
+Quarter 3 2011,6394,International,Asiana Airlines,South Korea
+Quarter 4 2007,6530,International,Asiana Airlines,South Korea
+Quarter 1 2013,6539,International,Jin-Air,South Korea
+Quarter 4 2006,6559,International,Asiana Airlines,South Korea
+Quarter 2 2008,6584,International,Asiana Airlines,South Korea
+Quarter 4 2010,6591,International,Seair,Philippines
+Quarter 3 2010,6632,International,Asiana Airlines,South Korea
+Quarter 2 2009,6648,International,Asiana Airlines,South Korea
+Quarter 1 2013,6756,International,Zest Air,Philippines
+Quarter 3 2010,6775,International,Asiana Airlines,South Korea
+Quarter 4 2006,6784,International,Asiana Airlines,South Korea
+Quarter 2 2008,6791,International,Asiana Airlines,South Korea
+Quarter 4 2011,6802,International,Asiana Airlines,South Korea
+Quarter 1 2007,6861,International,Asiana Airlines,South Korea
+Quarter 1 2012,6917,International,PAL Express,Philippines
+Quarter 4 2012,6926,International,PAL Express,Philippines
+Quarter 4 2009,6936,International,Asiana Airlines,South Korea
+Quarter 2 2009,7003,International,Asiana Airlines,South Korea
+Quarter 2 2010,7006,International,Asiana Airlines,South Korea
+Quarter 3 2006,7028,International,Asiana Airlines,South Korea
+Quarter 1 2012,7076,International,PAL Express,Philippines
+Quarter 3 2012,7117,Domestic,PAL Express,Philippines
+Quarter 1 2009,7131,International,Asiana Airlines,South Korea
+Quarter 4 2012,7184,International,Asiana Airlines,South Korea
+Quarter 2 2011,7186,International,Asiana Airlines,South Korea
+Quarter 4 2007,7193,International,Asiana Airlines,South Korea
+Quarter 3 2009,7270,International,Asiana Airlines,South Korea
+Quarter 1 2013,7273,Domestic,PAL Express,Philippines
+Quarter 4 2012,7279,International,Zest Air,Philippines
+Quarter 1 2011,7292,International,Asiana Airlines,South Korea
+Quarter 3 2012,7325,International,Asiana Airlines,South Korea
+Quarter 3 2012,7341,International,Asiana Airlines,South Korea
+Quarter 2 2005,7361,International,Air Asia,Malaysia
+Quarter 3 2005,7446,International,Air Asia,Malaysia
+Quarter 4 2011,7477,International,Asiana Airlines,South Korea
+Quarter 4 2012,7505,International,Asiana Airlines,South Korea
+Quarter 1 2008,7508,International,Asiana Airlines,South Korea
+Quarter 3 2005,7570,International,Air Asia,Malaysia
+Quarter 1 2006,7611,International,Asiana Airlines,South Korea
+Quarter 3 2008,7630,International,Asiana Airlines,South Korea
+Quarter 2 2013,7677,Domestic,Seair,Philippines
+Quarter 3 2005,7702,International,Air Asia,Malaysia
+Quarter 4 2005,7740,International,Air Asia,Malaysia
+Quarter 2 2012,7766,International,Asiana Airlines,South Korea
+Quarter 2 2013,7812,International,Asiana Airlines,South Korea
+Quarter 3 2009,7824,International,Tiger Airways,Singapore
+Quarter 1 2009,7862,International,Tiger Airways,Singapore
+Quarter 4 2010,7905,International,Asiana Airlines,South Korea
+Quarter 4 2010,7919,International,Tiger Airways,Singapore
+Quarter 4 2012,7948,Domestic,PAL Express,Philippines
+Quarter 3 2009,7994,International,Tiger Airways,Singapore
+Quarter 1 2007,8001,International,Asiana Airlines,South Korea
+Quarter 1 2012,8023,International,Asiana Airlines,South Korea
+Quarter 3 2010,8079,International,Tiger Airways,Singapore
+Quarter 2 2005,8105,International,Air Asia,Malaysia
+Quarter 1 2010,8187,International,Asiana Airlines,South Korea
+Quarter 2 2013,8228,International,PAL Express,Philippines
+Quarter 1 2011,8346,International,Asiana Airlines,South Korea
+Quarter 4 2005,8373,International,Air Asia,Malaysia
+Quarter 2 2013,8381,Domestic,Seair,Philippines
+Quarter 3 2009,8394,International,Tiger Airways,Singapore
+Quarter 4 2008,8434,International,Asiana Airlines,South Korea
+Quarter 3 2010,8491,International,Tiger Airways,Singapore
+Quarter 3 2005,8568,International,Tiger Airways,Singapore
+Quarter 4 2009,8627,International,Tiger Airways,Singapore
+Quarter 1 2009,8633,International,Asiana Airlines,South Korea
+Quarter 1 2006,8645,International,Asiana Airlines,South Korea
+Quarter 1 2010,8669,International,Asiana Airlines,South Korea
+Quarter 3 2010,8834,International,Tiger Airways,Singapore
+Quarter 1 2008,8842,International,Asiana Airlines,South Korea
+Quarter 4 2009,8842,International,Asiana Airlines,South Korea
+Quarter 1 2013,8871,International,Asiana Airlines,South Korea
+Quarter 3 2009,8882,International,Asiana Airlines,South Korea
+Quarter 4 2011,9014,International,Asiana Airlines,South Korea
+Quarter 3 2008,9029,International,Asiana Airlines,South Korea
+Quarter 2 2006,9041,International,Air Asia,Malaysia
+Quarter 3 2005,9114,International,Tiger Airways,Singapore
+Quarter 1 2008,9180,International,Asiana Airlines,South Korea
+Quarter 4 2009,9202,International,Tiger Airways,Singapore
+Quarter 1 2010,9217,International,Tiger Airways,Singapore
+Quarter 4 2008,9246,International,Tiger Airways,Singapore
+Quarter 2 2013,9358,International,Asiana Airlines,South Korea
+Quarter 1 2011,9393,International,Asiana Airlines,South Korea
+Quarter 1 2009,9444,International,Asiana Airlines,South Korea
+Quarter 1 2013,9460,Domestic,PAL Express,Philippines
+Quarter 2 2010,9481,International,Tiger Airways,Singapore
+Quarter 1 2012,9495,International,Asiana Airlines,South Korea
+Quarter 1 2012,9674,International,PAL Express,Philippines
+Quarter 4 2012,9679,International,Asiana Airlines,South Korea
+Quarter 1 2012,9748,International,Asiana Airlines,South Korea
+Quarter 1 2006,9865,International,Air Asia,Malaysia
+Quarter 4 2005,9925,International,Tiger Airways,Singapore
+Quarter 3 2012,10092,International,Air Asia Philippines,Philippines
+Quarter 4 2012,10189,Domestic,PAL Express,Philippines
+Quarter 1 2013,10202,International,Zest Air,Philippines
+Quarter 1 2010,10275,International,Asiana Airlines,South Korea
+Quarter 1 2009,10389,International,Tiger Airways,Singapore
+Quarter 2 2012,10413,Domestic,PAL Express,Philippines
+Quarter 3 2009,10514,International,Cebu Pacific,Philippines
+Quarter 1 2006,10615,International,Air Asia,Malaysia
+Quarter 1 2013,10643,International,Asiana Airlines,South Korea
+Quarter 1 2010,10728,International,Tiger Airways,Singapore
+Quarter 1 2010,10876,International,Tiger Airways,Singapore
+Quarter 3 2011,10965,International,Air Asia,Malaysia
+Quarter 1 2011,11002,International,Seair,Philippines
+Quarter 3 2006,11140,International,Air Asia,Malaysia
+Quarter 3 2011,11234,International,Air Asia,Malaysia
+Quarter 4 2005,11288,International,Tiger Airways,Singapore
+Quarter 2 2005,11289,International,Air Asia,Malaysia
+Quarter 4 2009,11294,International,Tiger Airways,Singapore
+Quarter 3 2009,11299,International,Cebu Pacific,Philippines
+Quarter 2 2010,11429,International,Tiger Airways,Singapore
+Quarter 4 2012,11485,Domestic,Air Asia Philippines,Philippines
+Quarter 1 2013,11487,International,Asiana Airlines,South Korea
+Quarter 4 2012,11690,International,Air Asia,Malaysia
+Quarter 1 2006,11741,International,Air Asia,Malaysia
+Quarter 1 2011,11743,International,Seair,Philippines
+Quarter 2 2010,11748,International,Tiger Airways,Singapore
+Quarter 1 2013,11832,Domestic,Air Asia Philippines,Philippines
+Quarter 4 2005,11835,International,Air Asia,Malaysia
+Quarter 4 2008,11859,International,Tiger Airways,Singapore
+Quarter 4 2009,11938,International,Cebu Pacific,Philippines
+Quarter 4 2012,11938,International,Air Asia,Malaysia
+Quarter 2 2012,11945,International,Air Asia,Malaysia
+Quarter 3 2012,11987,International,Air Asia,Malaysia
+Quarter 3 2008,12015,International,Air Asia,Malaysia
+Quarter 1 2010,12092,International,Air Asia,Malaysia
+Quarter 1 2011,12112,International,Air Asia,Malaysia
+Quarter 1 2013,12112,International,Air Asia,Malaysia
+Quarter 2 2012,12138,Domestic,Air Asia Philippines,Philippines
+Quarter 1 2013,12259,Domestic,Air Asia Philippines,Philippines
+Quarter 4 2009,12366,International,Air Asia,Malaysia
+Quarter 2 2009,12424,International,Cebu Pacific,Philippines
+Quarter 1 2009,12439,International,Air Asia,Malaysia
+Quarter 3 2009,12493,International,Air Asia,Malaysia
+Quarter 3 2012,12610,International,Air Asia,Malaysia
+Quarter 4 2008,12711,International,Cebu Pacific,Philippines
+Quarter 3 2009,12758,International,Air Asia,Malaysia
+Quarter 4 2010,12805,International,Air Asia,Malaysia
+Quarter 3 2006,12809,International,Air Asia,Malaysia
+Quarter 3 2009,12815,International,Cebu Pacific,Philippines
+Quarter 1 2013,12876,Domestic,Air Asia Philippines,Philippines
+Quarter 3 2010,12934,International,Air Asia,Malaysia
+Quarter 1 2007,12955,International,Air Asia,Malaysia
+Quarter 1 2009,12965,International,Cebu Pacific,Philippines
+Quarter 1 2009,13000,International,Cebu Pacific,Philippines
+Quarter 2 2013,13025,Domestic,Air Asia Philippines,Philippines
+Quarter 2 2006,13056,International,Air Asia,Malaysia
+Quarter 2 2006,13109,International,Air Asia,Malaysia
+Quarter 3 2006,13112,International,Air Asia,Malaysia
+Quarter 4 2006,13216,International,Air Asia,Malaysia
+Quarter 2 2013,13248,Domestic,Air Asia Philippines,Philippines
+Quarter 3 2008,13265,International,Tiger Airways,Singapore
+Quarter 3 2010,13344,International,Air Asia,Malaysia
+Quarter 3 2009,13383,International,Air Asia,Malaysia
+Quarter 4 2011,13413,International,Air Asia,Malaysia
+Quarter 3 2012,13433,International,Air Asia,Malaysia
+Quarter 1 2012,13481,International,Air Asia,Malaysia
+Quarter 3 2007,13518,International,Air Asia,Malaysia
+Quarter 3 2012,13554,Domestic,Air Asia Philippines,Philippines
+Quarter 3 2010,13609,International,Cebu Pacific,Philippines
+Quarter 2 2011,13611,International,Air Asia,Malaysia
+Quarter 3 2007,13621,International,Air Asia,Malaysia
+Quarter 1 2006,13663,International,Tiger Airways,Singapore
+Quarter 3 2011,13664,International,Seair,Philippines
+Quarter 4 2008,13692,International,Air Asia,Malaysia
+Quarter 4 2009,13716,International,Cebu Pacific,Philippines
+Quarter 1 2009,13744,International,Tiger Airways,Singapore
+Quarter 2 2010,13786,International,Air Asia,Malaysia
+Quarter 4 2006,13899,International,Air Asia,Malaysia
+Quarter 4 2010,13925,International,Air Asia,Malaysia
+Quarter 3 2012,13931,International,Cebu Pacific,Philippines
+Quarter 3 2011,13940,International,Air Asia,Malaysia
+Quarter 3 2010,13968,International,Air Asia,Malaysia
+Quarter 3 2008,13973,International,Air Asia,Malaysia
+Quarter 4 2009,14123,International,Air Asia,Malaysia
+Quarter 1 2008,14150,International,Air Asia,Malaysia
+Quarter 3 2007,14190,International,Air Asia,Malaysia
+Quarter 3 2008,14194,International,Air Asia,Malaysia
+Quarter 4 2007,14204,International,Air Asia,Malaysia
+Quarter 1 2006,14205,International,Tiger Airways,Singapore
+Quarter 1 2011,14214,International,Seair,Philippines
+Quarter 1 2012,14271,International,Air Asia,Malaysia
+Quarter 3 2008,14278,International,Tiger Airways,Singapore
+Quarter 4 2008,14329,International,Air Asia,Malaysia
+Quarter 2 2012,14357,Domestic,PAL Express,Philippines
+Quarter 4 2011,14437,International,Air Asia,Malaysia
+Quarter 3 2012,14468,International,Cebu Pacific,Philippines
+Quarter 1 2011,14527,International,Air Asia,Malaysia
+Quarter 2 2009,14539,International,Air Asia,Malaysia
+Quarter 2 2008,14561,International,Air Asia,Malaysia
+Quarter 3 2007,14563,International,Tiger Airways,Singapore
+Quarter 2 2009,14624,International,Cebu Pacific,Philippines
+Quarter 3 2011,14635,International,Cebu Pacific,Philippines
+Quarter 4 2007,14649,International,Air Asia,Malaysia
+Quarter 4 2007,14651,International,Tiger Airways,Singapore
+Quarter 2 2007,14669,International,Air Asia,Malaysia
+Quarter 3 2012,14718,International,Cebu Pacific,Philippines
+Quarter 1 2010,14760,International,Air Asia,Malaysia
+Quarter 4 2010,14788,International,Air Asia,Malaysia
+Quarter 4 2012,14852,International,Air Asia Philippines,Philippines
+Quarter 2 2009,14931,International,Tiger Airways,Singapore
+Quarter 1 2011,14956,International,Air Asia,Malaysia
+Quarter 4 2007,15013,International,Tiger Airways,Singapore
+Quarter 1 2009,15035,International,Air Asia,Malaysia
+Quarter 1 2007,15039,International,Air Asia,Malaysia
+Quarter 3 2008,15050,International,Tiger Airways,Singapore
+Quarter 2 2010,15079,International,Air Asia,Malaysia
+Quarter 1 2010,15099,International,Air Asia,Malaysia
+Quarter 2 2012,15122,International,Air Asia,Malaysia
+Quarter 2 2011,15153,International,Air Asia,Malaysia
+Quarter 2 2009,15273,International,Tiger Airways,Singapore
+Quarter 2 2011,15408,International,Air Asia,Malaysia
+Quarter 3 2011,15434,International,Seair,Philippines
+Quarter 4 2010,15441,International,Cebu Pacific,Philippines
+Quarter 2 2007,15466,International,Air Asia,Malaysia
+Quarter 1 2007,15522,International,Air Asia,Malaysia
+Quarter 1 2008,15547,International,Air Asia,Malaysia
+Quarter 4 2009,15579,International,Air Asia,Malaysia
+Quarter 2 2009,15584,International,Air Asia,Malaysia
+Quarter 2 2007,15596,International,Air Asia,Malaysia
+Quarter 3 2011,15601,International,Cebu Pacific,Philippines
+Quarter 2 2009,15606,International,Cebu Pacific,Philippines
+Quarter 1 2012,15677,International,Air Asia,Malaysia
+Quarter 3 2011,15678,International,Cebu Pacific,Philippines
+Quarter 2 2009,15721,International,Air Asia,Malaysia
+Quarter 1 2006,15760,International,Tiger Airways,Singapore
+Quarter 2 2010,15787,International,Air Asia,Malaysia
+Quarter 4 2006,15803,International,Air Asia,Malaysia
+Quarter 4 2005,15945,International,Tiger Airways,Singapore
+Quarter 1 2008,16003,International,Tiger Airways,Singapore
+Quarter 2 2008,16140,International,Air Asia,Malaysia
+Quarter 4 2012,16181,Domestic,Air Asia Philippines,Philippines
+Quarter 2 2008,16260,International,Tiger Airways,Singapore
+Quarter 3 2010,16329,International,Cebu Pacific,Philippines
+Quarter 1 2011,16350,International,Cebu Pacific,Philippines
+Quarter 2 2008,16356,International,Air Asia,Malaysia
+Quarter 1 2009,16359,International,Air Asia,Malaysia
+Quarter 4 2007,16381,International,Air Asia,Malaysia
+Quarter 4 2011,16413,International,Air Asia,Malaysia
+Quarter 2 2011,16441,International,Cebu Pacific,Philippines
+Quarter 4 2012,16443,International,Air Asia,Malaysia
+Quarter 1 2008,16449,International,Air Asia,Malaysia
+Quarter 3 2010,16512,International,Cebu Pacific,Philippines
+Quarter 2 2012,16556,Domestic,PAL Express,Philippines
+Quarter 2 2009,16593,International,Tiger Airways,Singapore
+Quarter 1 2008,16619,International,Tiger Airways,Singapore
+Quarter 2 2012,16627,International,Air Asia,Malaysia
+Quarter 3 2012,16705,International,Air Asia Philippines,Philippines
+Quarter 2 2007,16738,International,Tiger Airways,Singapore
+Quarter 1 2008,16861,International,Tiger Airways,Singapore
+Quarter 3 2012,17120,Domestic,Air Asia Philippines,Philippines
+Quarter 4 2011,17121,International,Cebu Pacific,Philippines
+Quarter 2 2013,17146,Domestic,Cebu Pacific,Philippines
+Quarter 4 2012,17256,International,Cebu Pacific,Philippines
+Quarter 2 2006,17309,International,Tiger Airways,Singapore
+Quarter 4 2008,17459,International,Tiger Airways,Singapore
+Quarter 4 2008,17511,International,Air Asia,Malaysia
+Quarter 3 2007,17605,International,Tiger Airways,Singapore
+Quarter 2 2008,17724,International,Tiger Airways,Singapore
+Quarter 3 2011,17806,International,Seair,Philippines
+Quarter 2 2008,17807,International,Tiger Airways,Singapore
+Quarter 4 2011,17841,International,Cebu Pacific,Philippines
+Quarter 2 2010,17968,International,Cebu Pacific,Philippines
+Quarter 1 2010,17977,International,Cebu Pacific,Philippines
+Quarter 4 2007,18024,International,Tiger Airways,Singapore
+Quarter 3 2007,18075,International,Tiger Airways,Singapore
+Quarter 4 2012,18131,International,Cebu Pacific,Philippines
+Quarter 1 2012,18226,International,Seair,Philippines
+Quarter 1 2013,18228,International,Cebu Pacific,Philippines
+Quarter 2 2007,18316,International,Tiger Airways,Singapore
+Quarter 4 2006,18358,International,Tiger Airways,Singapore
+Quarter 1 2009,18556,International,Cebu Pacific,Philippines
+Quarter 4 2010,18587,International,Cebu Pacific,Philippines
+Quarter 1 2011,18591,International,Cebu Pacific,Philippines
+Quarter 2 2012,18741,International,Seair,Philippines
+Quarter 2 2011,18811,International,Seair,Philippines
+Quarter 3 2006,18876,International,Tiger Airways,Singapore
+Quarter 2 2013,18937,International,Zest Air,Philippines
+Quarter 2 2013,19106,International,Jin-Air,South Korea
+Quarter 3 2012,19188,International,Air Asia Philippines,Philippines
+Quarter 4 2009,19361,International,Cebu Pacific,Philippines
+Quarter 1 2011,19394,International,Cebu Pacific,Philippines
+Quarter 2 2012,19426,Domestic,Air Asia Philippines,Philippines
+Quarter 2 2011,19572,International,Seair,Philippines
+Quarter 2 2006,19589,International,Tiger Airways,Singapore
+Quarter 2 2011,19659,International,Cebu Pacific,Philippines
+Quarter 1 2010,19748,International,Cebu Pacific,Philippines
+Quarter 3 2012,19848,International,Seair,Philippines
+Quarter 4 2012,19981,Domestic,Air Asia Philippines,Philippines
+Quarter 1 2012,19988,International,Cebu Pacific,Philippines
+Quarter 1 2010,19990,International,Cebu Pacific,Philippines
+Quarter 1 2007,20032,International,Tiger Airways,Singapore
+Quarter 2 2012,20083,International,Cebu Pacific,Philippines
+Quarter 1 2013,20117,International,Cebu Pacific,Philippines
+Quarter 2 2011,20123,International,Cebu Pacific,Philippines
+Quarter 2 2011,20153,International,Seair,Philippines
+Quarter 2 2013,20204,International,Dragon Air,Hong Kong
+Quarter 4 2012,20210,International,Air Asia Philippines,Philippines
+Quarter 2 2007,20248,International,Tiger Airways,Singapore
+Quarter 4 2011,20327,International,Seair,Philippines
+Quarter 4 2010,20357,International,Cebu Pacific,Philippines
+Quarter 2 2013,20600,Domestic,PAL Express,Philippines
+Quarter 1 2012,20899,International,Seair,Philippines
+Quarter 3 2012,20926,Domestic,Air Asia Philippines,Philippines
+Quarter 3 2006,20940,International,Tiger Airways,Singapore
+Quarter 1 2013,20948,International,Cebu Pacific,Philippines
+Quarter 3 2012,21309,International,Seair,Philippines
+Quarter 2 2012,21480,Domestic,Air Asia Philippines,Philippines
+Quarter 2 2013,21511,International,Cebu Pacific,Philippines
+Quarter 4 2006,21519,International,Tiger Airways,Singapore
+Quarter 1 2012,21789,International,Cebu Pacific,Philippines
+Quarter 4 2011,21870,International,Seair,Philippines
+Quarter 2 2013,22012,International,Cebu Pacific,Philippines
+Quarter 4 2012,22050,International,Cebu Pacific,Philippines
+Quarter 4 2008,22059,International,Cebu Pacific,Philippines
+Quarter 4 2011,22453,International,Cebu Pacific,Philippines
+Quarter 3 2012,22498,International,Seair,Philippines
+Quarter 2 2010,22527,International,Cebu Pacific,Philippines
+Quarter 1 2013,22895,International,Seair,Philippines
+Quarter 1 2012,22964,International,Cebu Pacific,Philippines
+Quarter 1 2007,23086,International,Tiger Airways,Singapore
+Quarter 2 2010,23102,International,Cebu Pacific,Philippines
+Quarter 3 2006,23308,International,Tiger Airways,Singapore
+Quarter 1 2007,23404,International,Tiger Airways,Singapore
+Quarter 2 2012,24825,International,Seair,Philippines
+Quarter 4 2012,24949,International,Seair,Philippines
+Quarter 4 2012,25036,International,Air Asia Philippines,Philippines
+Quarter 2 2012,25227,International,Seair,Philippines
+Quarter 2 2006,25796,International,Tiger Airways,Singapore
+Quarter 2 2013,25839,International,Air Asia,Malaysia
+Quarter 4 2006,26026,International,Tiger Airways,Singapore
+Quarter 4 2012,26099,International,Seair,Philippines
+Quarter 1 2013,26229,International,Seair,Philippines
+Quarter 2 2012,26395,International,Cebu Pacific,Philippines
+Quarter 2 2012,26458,International,Cebu Pacific,Philippines
+Quarter 2 2013,27681,International,Seair,Philippines
+Quarter 1 2013,27832,International,Air Asia Philippines,Philippines
+Quarter 1 2012,28284,International,Seair,Philippines
+Quarter 4 2012,28673,International,Seair,Philippines
+Quarter 2 2013,28813,Domestic,Seair,Philippines
+Quarter 4 2011,28981,International,Seair,Philippines
+Quarter 1 2013,29050,International,Air Asia Philippines,Philippines
+Quarter 1 2013,30159,International,Seair,Philippines
+Quarter 2 2013,30375,International,Seair,Philippines
+Quarter 2 2013,31825,International,Air Asia Philippines,Philippines
+Quarter 1 2013,33387,International,Air Asia Philippines,Philippines
+Quarter 2 2013,34981,International,Air Asia Philippines,Philippines
+Quarter 2 2013,48171,International,Asiana Airlines,South Korea
+Quarter 2 2013,63240,Domestic,Air Asia Philippines,Philippines
+Quarter 2 2013,102816,International,Cebu Pacific,Philippines
+Quarter 2 2013,137339,International,Seair,Philippines
+Quarter 2 2013,157075,International,Air Asia Philippines,Philippines

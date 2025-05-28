@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"eac0564706344476a11fb9c4d25ba858","collectionName":"solarSystem","type":"collection"}

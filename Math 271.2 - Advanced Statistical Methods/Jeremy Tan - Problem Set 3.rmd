@@ -1,0 +1,88 @@
+---
+title: "Jeremy Tan - Problem Set 3"
+output: html_notebook
+---
+
+
+
+```{r}
+library(TSA)
+library(tseries)
+library(forecast)
+library(fGarch)
+```
+
+
+```{r}
+data = dem2gbp
+X = ts(data)
+plot(X)
+```
+Assume that X_t is ARMA(0,0).
+
+```{r}
+Arima(X, order = c(0,0,0))
+```
+
+a. Verify that X_t is uncorrelated, but X_t^2 is serially correlated.
+
+```{r}
+Box.test(X, type = "Ljung")
+```
+Since p > 0.05, the X_t's are uncorrelated.
+
+```{r}
+Box.test(X^2, type = "Ljung")
+```
+
+Since p < 0.05, the X_t^2's are correlated.
+
+
+
+Fit GARCH(1,1) and GARCH(1,2)
+
+```{r}
+garch11 = garchFit(~garch(1,1), data = X)
+garch12 = garchFit(~garch(1,2), data = X)
+```
+
+```{r}
+summary(garch11)
+```
+
+```{r}
+summary(garch12)
+```
+For both models, mu is insignificant. Thus, we can let phi_0 be equal to zero. 
+
+c. GARCH(1,1) has a lower BIC.
+
+d. GARCH(1,2) has a higher log likelihood and a lower AIC, SIC, and HQIC.
+
+e. I choose GARCH(1,2) as the best model.
+
+Check the standardized residuals of ARMA(0,0) - GARCH(1,2)
+
+```{r}
+fit.vol = volatility(garch12)
+fit.vol.sr = residuals(garch12) / volatility(garch12)
+plot( fit.vol)
+plot(fit.vol.sr)
+```
+
+```{r}
+Box.test(fit.vol.sr, type = "Ljung")
+```
+Since p < 0.05, the standardized residuals are correlated. 
+```{r}
+acf(fit.vol.sr)
+pacf(fit.vol.sr)
+```
+
+
+```{r}
+Box.test(fit.vol.sr^2, type = "Ljung")
+
+```
+
+The squares of the standardized residuals are not correlated.

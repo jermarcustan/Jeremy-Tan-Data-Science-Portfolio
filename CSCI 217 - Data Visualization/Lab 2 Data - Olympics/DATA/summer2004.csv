@@ -1,0 +1,1999 @@
+﻿Sport,Discipline,Event,Event_gender,Athlete_Name,Gender,Country_ID,Bronze,Silver,Gold
+Volleyball,Volleyball,volleyball,M,"SANTANA, Rodrigo",Men,BRA,0,0,1
+Volleyball,Volleyball,volleyball,W,"SANCHEZ SALFRAN, Martha",Women,CUB,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,M,"FOERSTER, Paul",Men,USA,0,0,1
+Badminton,Badminton,doubles,M,"LIMPELE, Flandy",Men,INA,1,0,0
+Football,Football,football,W,"HAMM, Mia",Women,USA,0,0,1
+Fencing,Fencing,épée individual,M,"KOLOBKOV, Pavel",Men,RUS,1,0,0
+Equestrian,Jumping,team,X,"BECKER, Otto",Men,GER,1,0,0
+Athletics,Athletics,4x400m relay,W,"FIROVA, Tatyana",Women,RUS,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"MARINOVA, Zornitsa",Women,BUL,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"COUGHLIN, Natalie",Women,USA,0,1,0
+Modern Pentathlon,Modern Pentath.,Individual competition,M,"CAPALINI, Libor",Men,CZE,1,0,0
+Judo,Judo,63 - 70kg (middleweight),W,"BOSCH, Edith",Women,NED,0,1,0
+Wrestling,Wrestling Gre-R,74 - 84kg,M,"MAKARANKA, Viachaslau",Men,BLR,1,0,0
+Gymnastics,Artistic G.,team competition,M,"HAMM, Paul",Men,USA,0,1,0
+Rowing,Rowing,lightweight coxless four (4-),M,"KRISTENSEN, Thor",Men,DEN,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"SUSANU, Viorica",Women,ROU,0,0,1
+Wrestling,Wrestling Free.,55 - 63kg,W,"ICHO, Kaori",Women,JPN,0,0,1
+Judo,Judo,- 48 kg,W,"TANI, Ryoko",Women,JPN,0,0,1
+Volleyball,Volleyball,volleyball,W,"MARTINEZ ADLUN, Maybelis",Women,CUB,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"RESIDE, Stuart",Men,AUS,1,0,0
+Volleyball,Beach volley.,beach volleyball,M,"HERRERA, Pablo",Men,ESP,0,1,0
+Hockey,Hockey,hockey,M,"MCCANN, Michael",Men,AUS,0,0,1
+Handball,Handball,handball,W,"ZASPA, Larysa",Women,UKR,1,0,0
+Weightlifting,Weightlifting,63kg,W,"BATSIUSHKA, Hanna",Women,BLR,0,1,0
+Handball,Handball,handball,W,"ANDERSEN, Kristine",Women,DEN,0,0,1
+Sailing,Sailing,Yngling - Keelboat,W,"JENSEN, Dorte O.",Women,DEN,1,0,0
+Sailing,Sailing,49er - Skiff,X,"MARTINEZ, Iker",Men,ESP,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"DERKSEN, Geert Jan",Men,NED,0,1,0
+Sailing,Sailing,single-handed dinghy open (Laser),X,"SCHEIDT, Robert",Men,BRA,0,0,1
+Judo,Judo,90 - 100kg (half-heavyweight),M,"ZEEVI, Ariel",Men,ISR,1,0,0
+Football,Football,football,M,"MESTO, Giandomenico",Men,ITA,1,0,0
+Aquatics,Swimming,400m individual medley,W,"SANDENO, Kaitlin",Women,USA,0,1,0
+Tennis,Tennis,singles,M,"FISH, Mardy",Men,USA,0,1,0
+Baseball,Baseball,baseball,M,"WIGMORE, Ben",Men,AUS,0,1,0
+Cycling,Cycling Road,individual road race,M,"BETTINI, Paolo",Men,ITA,0,0,1
+Football,Football,football,W,GRAZIELLE,Women,BRA,0,1,0
+Football,Football,football,M,"TORRES, Aureliano",Men,PAR,0,1,0
+Volleyball,Volleyball,volleyball,W,"ZHANG, Na",Women,CHN,0,0,1
+Judo,Judo,- 48 kg,W,"JOSSINET, Frederique",Women,FRA,0,1,0
+Aquatics,Swimming,100m backstroke,W,"COUGHLIN, Natalie",Women,USA,0,0,1
+Baseball,Baseball,baseball,M,"MURAMATSU, Arihito",Men,JPN,1,0,0
+Judo,Judo,57 - 63kg (half-middleweight),W,"TANIMOTO, Ayumi",Women,JPN,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),W,"VAN DER KOLK, Kirsten",Women,NED,1,0,0
+Gymnastics,Artistic G.,balance beam,W,"EREMIA, Alexandra Georgiana",Women,ROU,1,0,0
+Athletics,Athletics,4x400m relay,M,"WILLIAMSON, Darold",Men,USA,0,0,1
+Football,Football,football,W,"O REILLY, Heather",Women,USA,0,0,1
+Athletics,Athletics,pole vault,M,"MACK, Timothy",Men,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"OSCARSSON, Markus",Men,SWE,0,0,1
+Volleyball,Volleyball,volleyball,M,"TETYUKHIN, Sergey",Men,RUS,1,0,0
+Athletics,Athletics,4x100m relay,M,"CAMPBELL, Darren",Men,GBR,0,0,1
+Aquatics,Water polo,water polo,W,"FRANK, Jacqueline",Women,USA,1,0,0
+Volleyball,Volleyball,volleyball,W,"ZHOU, Suhong",Women,CHN,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,W,"GOETZ, Janina Kristin",Women,GER,1,0,0
+Wrestling,Wrestling Gre-R,96 - 120kg,M,"TSURTSUMIA, Georgiy",Men,KAZ,0,1,0
+Fencing,Fencing,sabre individual,M,"MONTANO, Aldo",Men,ITA,0,0,1
+Shooting,Shooting,25m rapid fire pistol (60 shots),M,"SCHUMANN, Ralf",Men,GER,0,0,1
+Badminton,Badminton,doubles,W,"HUANG, Sui",Women,CHN,0,1,0
+Hockey,Hockey,hockey,M,"EIKELBOOM, Marten",Men,NED,0,1,0
+Football,Football,football,M,"DE ROSSI, Daniele",Men,ITA,1,0,0
+Taekwondo,Taekwondo,68 - 80 kg,M,"KARAMI, Yossef",Men,IRI,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"SMULDERS, Marlies",Women,NED,1,0,0
+Taekwondo,Taekwondo,+ 67 kg,W,"CHEN, Zhong",Women,CHN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,C-1 1000m (canoe single),M,"CAL, David",Men,ESP,0,0,1
+Cycling,Cycling Road,individual time trial,W,"DEMET-BARRY, Deirdre",Women,USA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,W,"BENKO, Lindsay",Women,USA,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,W,"COUGHLIN, Natalie",Women,USA,0,0,1
+Wrestling,Wrestling Gre-R,60 - 66kg,M,"MANSUROV, Farid",Men,AZE,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"KEZHOVA, Eleonora",Women,BUL,1,0,0
+Gymnastics,Artistic G.,pommel horse,M,"KASHIMA, Takehiro",Men,JPN,1,0,0
+Aquatics,Water polo,water polo,W,"LORENZ, Ericka",Women,USA,1,0,0
+Aquatics,Swimming,200m freestyle,W,"FIGUES, Solenne",Women,FRA,1,0,0
+Aquatics,Diving,3m springboard,M,"PENG, Bo",Men,CHN,0,0,1
+Boxing,Boxing,75 - 81kg (light-heavyweight),M,"ARIPGADJIEV, Magomed",Men,BLR,0,1,0
+Fencing,Fencing,sabre team,M,"CHARIKOV, Serguei",Men,RUS,1,0,0
+Gymnastics,Rhythmic G.,group competition,W,"GLATSKIKH, Olga",Women,RUS,0,0,1
+Shooting,Shooting,skeet (125 targets),M,"RODRIGUEZ, Juan Miguel",Men,CUB,1,0,0
+Athletics,Athletics,hammer throw,W,"CRAWFORD, Yunaika",Women,CUB,1,0,0
+Hockey,Hockey,hockey,M,"KNOWLES, Mark",Men,AUS,0,0,1
+Aquatics,Swimming,200m breaststroke,W,"JONES, Leisel",Women,AUS,0,1,0
+Handball,Handball,handball,W,"KIM, Cha Youn",Women,KOR,0,1,0
+Judo,Judo,52 - 57kg (lightweight),W,"GRAVENSTIJN, Deborah",Women,NED,1,0,0
+Aquatics,Swimming,100m breaststroke,W,"LUO, Xuejuan",Women,CHN,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"HAYLES, Rob",Men,GBR,0,1,0
+Equestrian,Jumping,individual,X,"PESSOA, Rodrigo",Men,BRA,0,0,1
+Fencing,Fencing,foil team,M,"YE, Chong",Men,CHN,0,1,0
+Football,Football,football,W,"RAMPONE, Christie",Women,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"NOLLEN, Maike",Women,GER,0,0,1
+Aquatics,Water polo,water polo,M,"MOLNAR, Tamas",Men,HUN,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"RYAN, Sarah",Women,AUS,0,0,1
+Gymnastics,Artistic G.,team competition,M,"DRAGULESCU, Marian",Men,ROU,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"IGNAT, Doina",Women,ROU,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"JONES, Leisel",Women,AUS,0,0,1
+Volleyball,Volleyball,volleyball,M,"COZZI, Paolo",Men,ITA,0,1,0
+Volleyball,Volleyball,volleyball,M,"VERMIGLIO, Valerio",Men,ITA,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"BENKO, Lindsay",Women,USA,0,1,0
+Basketball,Basketball,basketball,W,"VODOPYANOVA, Natalia",Women,RUS,1,0,0
+Football,Football,football,W,CRISTIANE,Women,BRA,0,1,0
+Athletics,Athletics,javelin throw,M,"VASILEVSKIS, Vadims",Men,LAT,0,1,0
+Football,Football,football,W,"FAWCETT, Joy",Women,USA,0,0,1
+Weightlifting,Weightlifting,63kg,W,"STUKALAVA, Tatsiana",Women,BLR,1,0,0
+Taekwondo,Taekwondo,57 - 67 kg,W,"LUO, Wei",Women,CHN,0,0,1
+Judo,Judo,52 - 57kg (lightweight),W,"LUPETEY, Yurisleidy",Women,CUB,1,0,0
+Fencing,Fencing,épée team,W,"ERMAKOVA, Oxana",Women,RUS,0,0,1
+Handball,Handball,handball,M,"PETERSEN, Klaus-Dieter",Men,GER,0,1,0
+Baseball,Baseball,baseball,M,"VERA, Norge Luis",Men,CUB,0,0,1
+Wrestling,Wrestling Free.,- 48kg,W,"MERLENI, Irini",Women,UKR,0,0,1
+Baseball,Baseball,baseball,M,"VEGA TAMAYO, Manuel Alberto",Men,CUB,0,0,1
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),W,"KALISKA, Elena",Women,SVK,0,0,1
+Taekwondo,Taekwondo,58 - 68 kg,M,"SONG, Myeong Seob",Men,KOR,1,0,0
+Fencing,Fencing,épée team,W,"AZNAVOURIAN, Karina",Women,RUS,0,0,1
+Softball,Softball,softball,W,"UTSUGI, Reika",Women,JPN,1,0,0
+Shooting,Shooting,10m running target (30+30 shots),M,"BLINOV, Alexander",Men,RUS,0,1,0
+Hockey,Hockey,hockey,W,"DI GIACOMO, Marina Emilce",Women,ARG,1,0,0
+Aquatics,Diving,3m springboard,M,"SAUTIN, Dmitry",Men,RUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"KOVACS, Katalin",Women,HUN,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"ROMERO, Rebecca",Women,GBR,0,1,0
+Baseball,Baseball,baseball,M,"LLOYD, Graeme",Men,AUS,0,1,0
+Rowing,Rowing,double sculls (2x),M,"GALTAROSSA, Rossano",Men,ITA,1,0,0
+Handball,Handball,handball,W,"JANG, So Hee",Women,KOR,0,1,0
+Football,Football,football,M,"BARRETO, Edgar",Men,PAR,0,1,0
+Judo,Judo,48 - 52kg (half-lightweight),W,"SAVON, Amarilys",Women,CUB,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,M,"HACKETT, Grant",Men,AUS,0,1,0
+Cycling,Mountain Bike,cross-country,W,"DAHLE, Gunn-Rita",Women,NOR,0,0,1
+Handball,Handball,handball,W,"CHOI, Im Jeong",Women,KOR,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"TANCHEVA, Vladislava",Women,BUL,1,0,0
+Archery,Archery,individual (FITA Olympic round - 70m),M,"GALIAZZO, Marco",Men,ITA,0,0,1
+Gymnastics,Artistic G.,team competition,M,"MIZUTORI, Hisashi",Men,JPN,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"BARASCU, Aurica",Women,ROU,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"VAN DEN HOOGENBAND, Pieter",Men,NED,0,1,0
+Baseball,Baseball,baseball,M,"IWAKUMA, Hisashi",Men,JPN,1,0,0
+Football,Football,football,M,"PINZI, Giampiero",Men,ITA,1,0,0
+Athletics,Athletics,discus throw,M,"KOVAGO, Zoltan",Men,HUN,0,1,0
+Basketball,Basketball,basketball,M,"STOUDEMIRE, Amare",Men,USA,1,0,0
+Basketball,Basketball,basketball,W,"GUSTILINA, Diana",Women,RUS,1,0,0
+Handball,Handball,handball,M,"GORBATIKOV, Alexander",Men,RUS,1,0,0
+Basketball,Basketball,basketball,M,"DELFINO, Carlos Francisco",Men,ARG,0,0,1
+Hockey,Hockey,hockey,M,"REINELT, Sascha",Men,GER,1,0,0
+Sailing,Sailing,single-handed dinghy (Finn),M,"TRUJILLO, Rafael",Men,ESP,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"WEGMAN, Froukje",Women,NED,1,0,0
+Softball,Softball,softball,W,"YAMAJI, Noriko",Women,JPN,1,0,0
+Equestrian,Eventing,team,X,"TOUZAINT, Nicolas",Men,FRA,0,0,1
+Aquatics,Swimming,800m freestyle,W,"MANAUDOU, Laure",Women,FRA,0,1,0
+Aquatics,Swimming,100m backstroke,M,"MORITA, Tomomi",Men,JPN,1,0,0
+Gymnastics,Rhythmic G.,group competition,W,"LAVROVA, Natalia",Women,RUS,0,0,1
+Aquatics,Swimming,100m butterfly,M,"SERDINOV, Andriy",Men,UKR,1,0,0
+Cycling,Cycling Track,Points Race,M,"IGNATYEV, Mikhail",Men,RUS,0,0,1
+Softball,Softball,softball,W,"ROCHE, Melanie",Women,AUS,0,1,0
+Hockey,Hockey,hockey,M,"HAMMOND, Robert",Men,AUS,0,0,1
+Triathlon,Triathlon,Individual,M,"CARTER, Hamish",Men,NZL,0,0,1
+Cycling,Cycling Track,points race,W,"GUERRERO MENDEZ, Belem",Women,MEX,0,1,0
+Wrestling,Wrestling Free.,48 - 55kg,W,"YOSHIDA, Saori",Women,JPN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"VERECKEI, Akos",Men,HUN,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"RANGUELOVA, Kristina",Women,BUL,1,0,0
+Athletics,Athletics,4x400m relay,W,"WILLIAMS, Novelene",Women,JAM,1,0,0
+Athletics,Athletics,pole vault,M,"STEVENSON, Toby",Men,USA,0,1,0
+Aquatics,Swimming,200m breaststroke,W,"POLESKA, Anne",Women,GER,1,0,0
+Shooting,Shooting,25m pistol (30+30 shots),W,"HYKOVA, Lenka",Women,CZE,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,M,"WELS, Andreas",Men,GER,0,1,0
+Cycling,Cycling Track,1km time trial,M,"HOY, Chris",Men,GBR,0,0,1
+Aquatics,Swimming,400m individual medley,M,"VENDT, Erik",Men,USA,0,1,0
+Weightlifting,Weightlifting,62kg,M,"LE, Maosheng",Men,CHN,0,1,0
+Shooting,Shooting,skeet (125 targets),M,"KEMPPAINEN, Marko",Men,FIN,0,1,0
+Aquatics,Swimming,1500m freestyle,M,"DAVIES, David",Men,GBR,1,0,0
+Softball,Softball,softball,W,"OSTERMAN, Catherine",Women,USA,0,0,1
+Wrestling,Wrestling Gre-R,66 - 74kg,M,"DOKTURISHIVILI, Alexandr",Men,UZB,0,0,1
+Football,Football,football,W,ROSELI,Women,BRA,0,1,0
+Athletics,Athletics,400m,M,"WARINER, Jeremy",Men,USA,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"TANCHEVA, Galina",Women,BUL,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"LEE, Sung Jin",Women,KOR,0,0,1
+Volleyball,Volleyball,volleyball,W,"FERNANDEZ, Ana Ibis",Women,CUB,1,0,0
+Gymnastics,Artistic G.,horizontal bar,M,"YONEDA, Isao",Men,JPN,1,0,0
+Handball,Handball,handball,W,"OH, Seongok",Women,KOR,0,1,0
+Gymnastics,Artistic G.,team competition,W,"EZHOVA, Liudmila",Women,RUS,1,0,0
+Aquatics,Water polo,water polo,M,"BIROS, Peter",Men,HUN,0,0,1
+Judo,Judo,81 - 90kg (middleweight),M,"HUIZINGA, Mark",Men,NED,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"KALININA, Ganna",Women,UKR,0,1,0
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),M,"PESCHIER, Benoit",Men,FRA,0,0,1
+Fencing,Fencing,épée team,M,"BOISSE, Eric",Men,FRA,0,0,1
+Taekwondo,Taekwondo,68 - 80 kg,M,"LOPEZ, Steven",Men,USA,0,0,1
+Shooting,Shooting,50m pistol (60 shots),M,"JIN, Jongoh",Men,KOR,0,1,0
+Judo,Judo,73 - 81kg (half-middleweight),M,"CANTO, Flavio",Men,BRA,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"HE, Ying",Women,CHN,0,1,0
+Gymnastics,Artistic G.,floor exercises,M,"SHEWFELT, Kyle",Men,CAN,0,0,1
+Aquatics,Synchronized S.,duet,W,"TACHIBANA, Miya",Women,JPN,0,1,0
+Fencing,Fencing,épée team,M,"STRIGEL, Daniel",Men,GER,1,0,0
+Weightlifting,Weightlifting,+ 75kg,W,"TANG, Gonghong",Women,CHN,0,0,1
+Aquatics,Swimming,400m individual medley,W,"KLOCHKOVA, Yana",Women,UKR,0,0,1
+Boxing,Boxing,+ 91kg (super heavyweight),M,"POVETKIN, Alexander",Men,RUS,0,0,1
+Volleyball,Volleyball,volleyball,M,"ENDRES, Gustavo",Men,BRA,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"SZCZUROWSKI, Stefan",Men,AUS,1,0,0
+Softball,Softball,softball,W,"WILKINS, Brooke",Women,AUS,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"KOVALEV, Alexander",Men,RUS,1,0,0
+Baseball,Baseball,baseball,M,"ANDERSON, Craig",Men,AUS,0,1,0
+Softball,Softball,softball,W,"FLOWERS, Tairia",Women,USA,0,0,1
+Judo,Judo,70 - 78kg (half-heavyweight),W,"ANNO, Noriko",Women,JPN,0,0,1
+Shooting,Shooting,trap (75 targets),W,"BALOGH, Suzanne",Women,AUS,0,0,1
+Aquatics,Swimming,200m breaststroke,M,"KITAJIMA, Kosuke",Men,JPN,0,0,1
+Equestrian,Jumping,team,X,"WYLDE, Peter",Men,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),W,"IDEM, Josefa",Women,ITA,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"KOPRIVA, David",Men,CZE,0,1,0
+Handball,Handball,handball,M,"KOKCHAROV, Eduard",Men,RUS,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"HANSON, Brooke",Women,AUS,0,0,1
+Athletics,Athletics,20km race walk,W,"SAVILLE, Jane",Women,AUS,1,0,0
+Athletics,Athletics,high jump,W,"CLOETE, Hestrie",Women,RSA,0,1,0
+Athletics,Athletics,100m hurdles,W,"KRASOVSKA, Olena",Women,UKR,0,1,0
+Athletics,Athletics,triple jump,M,"OLSSON, Christian",Men,SWE,0,0,1
+Athletics,Athletics,4x100m relay,W,"KHABAROVA, Irina",Women,RUS,0,1,0
+Aquatics,Diving,synchronized diving 10m platform,W,"HEYMANS, Emilie",Women,CAN,1,0,0
+Aquatics,Water polo,water polo,W,"MALATO, Giusy",Women,ITA,0,0,1
+Wrestling,Wrestling Gre-R,55 - 60kg,M,"JUNG, Ji-Hyun",Men,KOR,0,0,1
+Wrestling,Wrestling Free.,84 - 96kg,M,"GATSALOV, Khadjimourat",Men,RUS,0,0,1
+Athletics,Athletics,20km walk,M,"BRUGNETTI, Ivano",Men,ITA,0,0,1
+Sailing,Sailing,Yngling - Keelboat,W,"MATEVUSHEVA, Svitlana",Women,UKR,0,1,0
+Equestrian,Jumping,team,X,"MADDEN, Beezie",Women,USA,0,0,1
+Athletics,Athletics,pole vault,W,"ISINBAEVA, Elena",Women,RUS,0,0,1
+Aquatics,Swimming,200m individual medley,M,"PHELPS, Michael",Men,USA,0,0,1
+Athletics,Athletics,50km walk,M,"VOYEVODIN, Aleksey",Men,RUS,1,0,0
+Aquatics,Water polo,water polo,W,"TOTH, Noemi",Women,ITA,0,0,1
+Gymnastics,Artistic G.,balance beam,W,"PATTERSON, Carly",Women,USA,0,1,0
+Handball,Handball,handball,M,"VORI, Igor",Men,CRO,0,0,1
+Aquatics,Swimming,400m freestyle,W,"SANDENO, Kaitlin",Women,USA,1,0,0
+Softball,Softball,softball,W,"MISHINA, Masumi",Women,JPN,1,0,0
+Fencing,Fencing,épée individual,W,"NAGY, Timea",Women,HUN,0,0,1
+Hockey,Hockey,hockey,W,"MUELLER, Silke",Women,GER,0,0,1
+Aquatics,Synchronized S.,duet,W,"BARTOSIK, Alison",Women,USA,1,0,0
+Weightlifting,Weightlifting,94kg,M,"TJUKIN, Eduard",Men,RUS,1,0,0
+Athletics,Athletics,4x400m relay,M,"DWYER, Patrick",Men,AUS,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,W,"PIPER, Carly",Women,USA,0,0,1
+Handball,Handball,handball,W,"TSYGITSA, Olena",Women,UKR,1,0,0
+Volleyball,Volleyball,volleyball,M,"NASCIMENTO, Andre",Men,BRA,0,0,1
+Gymnastics,Artistic G.,team competition,W,"KRIOUTCHKOVA, Maria",Women,RUS,1,0,0
+Athletics,Athletics,heptathlon,W,"SKUJYTE, Austra",Women,LTU,0,1,0
+Aquatics,Swimming,1500m freestyle,M,"HACKETT, Grant",Men,AUS,0,0,1
+Gymnastics,Artistic G.,horizontal bar,M,"CASSINA, Igor",Men,ITA,0,0,1
+Wrestling,Wrestling Free.,96 - 120kg,M,"POLATCI, Aydin",Men,TUR,1,0,0
+Athletics,Athletics,triple jump,W,"MBANGO ETONE, Francoise",Women,CMR,0,0,1
+Aquatics,Water polo,water polo,W,"DI MARIO, Tania",Women,ITA,0,0,1
+Athletics,Athletics,4x100m relay,W,"FELIX, Sylviane",Women,FRA,1,0,0
+Aquatics,Diving,synchronized diving 10m platform,M,"TAYLOR, Leon",Men,GBR,0,1,0
+Sailing,Sailing,49er - Skiff,X,"LEONCHUK, Georgii",Men,UKR,0,1,0
+Wrestling,Wrestling Free.,74 - 84kg,M,"SAZHIDOV, Sazhid",Men,RUS,1,0,0
+Aquatics,Swimming,200m freestyle,W,"POTEC, Camelia",Women,ROU,0,0,1
+Gymnastics,Artistic G.,team competition,M,"MCCLURE, Brett",Men,USA,0,1,0
+Athletics,Athletics,200m,W,"FELIX, Allyson",Women,USA,0,1,0
+Athletics,Athletics,1500m,M,"SILVA, Rui",Men,POR,1,0,0
+Aquatics,Synchronized S.,duet,W,"DAVYDOVA, Anastasia",Women,RUS,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"PAPUC, Ioana",Women,ROU,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"CHEREVATOVA, Olena",Women,UKR,1,0,0
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"BECKER, Marcus",Men,GER,0,1,0
+Volleyball,Volleyball,volleyball,M,"SARTORETTI, Andrea",Men,ITA,0,1,0
+Softball,Softball,softball,W,"SATO, Rie",Women,JPN,1,0,0
+Rowing,Rowing,lightweight double sculls (2x),M,"SKIATHITIS, Nikolaos",Men,GRE,1,0,0
+Weightlifting,Weightlifting,58kg,W,"RI, Song Hui",Women,PRK,0,1,0
+Football,Football,football,M,"ENCISO, Julio Cesar",Men,PAR,0,1,0
+Weightlifting,Weightlifting,+ 75kg,W,"WROBEL, Agata",Women,POL,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"NAGATSUKA, Tomohiro",Men,JPN,0,1,0
+Aquatics,Swimming,100m backstroke,W,"COVENTRY, Kirsty",Women,ZIM,0,1,0
+Football,Football,football,W,"MINNERT, Sandra",Women,GER,1,0,0
+Hockey,Hockey,hockey,M,"ARNOLD, Clemens",Men,GER,1,0,0
+Sailing,Sailing,Tornado - Multihull,X,"LANGE, Santiago",Men,ARG,1,0,0
+Athletics,Athletics,4x100m relay,M,"GREENE, Maurice",Men,USA,0,1,0
+Archery,Archery,individual (FITA Olympic round - 70m),M,"CUDDIHY, Tim",Men,AUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"KOSTOGLOD, Alexander",Men,RUS,1,0,0
+Athletics,Athletics,4x100m relay,W,"KRUGLOVA, Larisa",Women,RUS,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-1 1000m (canoe single),M,"VAJDA, Attila",Men,HUN,1,0,0
+Football,Football,football,M,"PALOMBO, Angelo",Men,ITA,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"JEFFREY, Rhi",Women,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-1 1000m (kayak single),M,"VAN KOEVERDEN, Adam",Men,CAN,1,0,0
+Gymnastics,Rhythmic G.,group competition,W,"MURZINA, Elena",Women,RUS,0,0,1
+Basketball,Basketball,basketball,M,"IVERSON, Allen",Men,USA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"KOVALEV, Alexander",Men,RUS,0,1,0
+Football,Football,football,W,"WUNDERLICH, Pia",Women,GER,1,0,0
+Rowing,Rowing,lightweight coxless four (4-),M,"EBBESEN, Eskild Balschmidt",Men,DEN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"ROBINSON, Clint",Men,AUS,0,1,0
+Boxing,Boxing,81 - 91kg (heavyweight),M,"ELSAYED, Mohamed",Men,EGY,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"GANE, Laurent",Men,FRA,1,0,0
+Wrestling,Wrestling Free.,- 55kg,M,"TANABE, Chikara",Men,JPN,1,0,0
+Baseball,Baseball,baseball,M,"FINGLESON, Gavin",Men,AUS,0,1,0
+Football,Football,football,M,"PELIZZOLI, Ivan",Men,ITA,1,0,0
+Volleyball,Volleyball,volleyball,M,"GARCIA, Ricardo",Men,BRA,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"DEAKIN, Matt",Men,USA,0,0,1
+Hockey,Hockey,hockey,M,"BECHMANN, Christoph",Men,GER,1,0,0
+Judo,Judo,+ 100kg (heavyweight),M,"VAN DER GEEST, Dennis",Men,NED,1,0,0
+Gymnastics,Artistic G.,team competition,W,"KHORKINA, Svetlana",Women,RUS,1,0,0
+Judo,Judo,60 - 66kg (half-lightweight),M,"UCHISHIBA, Masato",Men,JPN,0,0,1
+Softball,Softball,softball,W,"DOMAN, Amanda",Women,AUS,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,M,"SIRANIDIS, Nikolaos",Men,GRE,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,M,"PEARSON, Todd",Men,AUS,0,1,0
+Athletics,Athletics,200m,M,"CRAWFORD, Shawn",Men,USA,0,0,1
+Athletics,Athletics,decathlon,M,"KARPOV, Dmitriy",Men,KAZ,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"LIN, Sang",Women,CHN,0,1,0
+Aquatics,Water polo,water polo,W,"MOODY, Heather",Women,USA,1,0,0
+Football,Football,football,M,"GIMENEZ, Pablo",Men,PAR,0,1,0
+Aquatics,Synchronized S.,team,W,"KISSELEVA, Maria",Women,RUS,0,0,1
+Equestrian,Eventing,team,X,"TRYON, Amy",Women,USA,1,0,0
+Triathlon,Triathlon,Individual,W,"HARROP, Loretta",Women,AUS,0,1,0
+Hockey,Hockey,hockey,W,"GONZALEZ OLIVA, Mariana",Women,ARG,1,0,0
+Judo,Judo,63 - 70kg (middleweight),W,"QIN, Dongya",Women,CHN,1,0,0
+Fencing,Fencing,sabre individual,M,"NEMCSIK, Zsolt",Men,HUN,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"KRAVTSOV, Igor",Men,RUS,0,0,1
+Volleyball,Volleyball,volleyball,M,"CERNIC, Matej",Men,ITA,0,1,0
+Aquatics,Water polo,water polo,M,"GORSHKOV, Dmitry",Men,RUS,1,0,0
+Aquatics,Water polo,water polo,W,"KOZOMPOLI, Stavroula",Women,GRE,0,1,0
+Shooting,Shooting,50m pistol (60 shots),M,"KIM, Jong Su",Men,PRK,1,0,0
+Handball,Handball,handball,W,"VERGELYUK, Maryna",Women,UKR,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"ZHANG, Juan Juan",Women,CHN,0,1,0
+Wrestling,Wrestling Free.,74 - 84kg,M,"SANDERSON, Cael",Men,USA,0,0,1
+Cycling,Cycling Track,points race,W,"SLYUSAREVA, Olga",Women,RUS,0,0,1
+Hockey,Hockey,hockey,M,"CRONE, Philipp",Men,GER,1,0,0
+Hockey,Hockey,hockey,M,"DUCKWITZ, Eike",Men,GER,1,0,0
+Football,Football,football,W,"HINGST, Ariane",Women,GER,1,0,0
+Boxing,Boxing,64 - 69 kg,M,"ARTAYEV, Bakhtiyar",Men,KAZ,0,0,1
+Boxing,Boxing,57 - 60kg (lightweight),M,"YELEUOV, Serik",Men,KAZ,1,0,0
+Equestrian,Eventing,team,X,"TEULERE, Jean",Men,FRA,0,0,1
+Gymnastics,Artistic G.,team competition,W,"ROSU, Monica",Women,ROU,0,0,1
+Handball,Handball,handball,M,"DRAGUNSKI, Mark",Men,GER,0,1,0
+Gymnastics,Artistic G.,vault,M,"DEFERR, Gervasio",Men,ESP,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"VELDHUIS, Marleen",Women,NED,1,0,0
+Weightlifting,Weightlifting,77kg,M,"FILIMONOV, Sergey",Men,KAZ,0,1,0
+Wrestling,Wrestling Gre-R,84 - 96kg,M,"GABER IBRAHIM, Karam",Men,EGY,0,0,1
+Volleyball,Volleyball,volleyball,M,"KOSAREV, Alexander",Men,RUS,1,0,0
+Softball,Softball,softball,W,"INUI, Emi",Women,JPN,1,0,0
+Aquatics,Swimming,200m backstroke,W,"COVENTRY, Kirsty",Women,ZIM,0,0,1
+Handball,Handball,handball,M,"HENS, Pascal",Men,GER,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"SANTONI, Elisa",Women,ITA,0,1,0
+Athletics,Athletics,hammer throw,M,"TIKHON, Ivan",Men,BLR,0,1,0
+Athletics,Athletics,heptathlon,W,"SOTHERTON, Kelly",Women,GBR,1,0,0
+Weightlifting,Weightlifting,69kg,M,"LEE, Bae Young",Men,KOR,0,1,0
+Sailing,Sailing,single-handed dinghy (Europe),W,"SUNDBY, Siren",Women,NOR,0,0,1
+Wrestling,Wrestling Gre-R,74 - 84kg,M,"MICHINE, Alexei",Men,RUS,0,0,1
+Table Tennis,Table Tennis,doubles,M,"KO, Lai Chak",Men,HKG,0,1,0
+Athletics,Athletics,4x100m relay,W,"FYODOROVA, Olga",Women,RUS,0,1,0
+Aquatics,Water polo,water polo,W,"PAYNE, Nicolle",Women,USA,1,0,0
+Hockey,Hockey,hockey,M,"VOGELS, Guus",Men,NED,0,1,0
+Gymnastics,Artistic G.,vault,M,"SAPRONENKO, Evgeni",Men,LAT,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"BREMBILLA, Emiliano",Men,ITA,1,0,0
+Handball,Handball,handball,M,"LAVROV, Andrey",Men,RUS,1,0,0
+Aquatics,Diving,3m springboard,W,"GUO, Jingjing",Women,CHN,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"FLOOD, Debbie",Women,GBR,0,1,0
+Taekwondo,Taekwondo,+ 80 kg,M,"GENTIL, Pascal",Men,FRA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"TOON, Michael",Men,AUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"JANIC, Natasa",Women,HUN,0,0,1
+Aquatics,Swimming,400m freestyle,W,"JEDRZEJCZAK, Otylia",Women,POL,0,1,0
+Softball,Softball,softball,W,"MORROW, Simmone",Women,AUS,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"VANDERKAAY, Peter",Men,USA,0,0,1
+Boxing,Boxing,51 - 54kg (bantamweight),M,"RIGONDEAUX ORTIZ, Guillermo",Men,CUB,0,0,1
+Archery,Archery,team (FITA Olympic round - 70m),M,"IM, Dong Hyun",Men,KOR,0,0,1
+Shooting,Shooting,50m rifle prone (60 shots),M,"MARTYNOV, Sergei",Men,BLR,1,0,0
+Athletics,Athletics,hammer throw,W,"MORENO, Yipsi",Women,CUB,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,W,"NEWBERY, Chantelle",Women,AUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"LEONHARDT, Carolin",Women,GER,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"GEORGESCU, Elena",Women,ROU,0,0,1
+Handball,Handball,handball,W,"BORYSENKO, Nataliya",Women,UKR,1,0,0
+Equestrian,Dressage,team,X,"SALZGEBER, Ulla",Women,GER,0,0,1
+Handball,Handball,handball,M,"ZEITZ, Christian",Men,GER,0,1,0
+Football,Football,football,W,"GUENTHER, Sarah",Women,GER,1,0,0
+Boxing,Boxing,57 - 60kg (lightweight),M,"KHRACHEV, Murat",Men,RUS,1,0,0
+Tennis,Tennis,singles,W,"MOLIK, Alicia",Women,AUS,1,0,0
+Handball,Handball,handball,M,"DZOMBA, Mirza",Men,CRO,0,0,1
+Aquatics,Swimming,50m freestyle,W,"TRICKETT, Lisbeth",Women,AUS,1,0,0
+Rowing,Rowing,coxless pair (2-),M,"TOMKINS, James",Men,AUS,0,0,1
+Football,Football,football,W,"JONES, Steffi",Women,GER,1,0,0
+Hockey,Hockey,hockey,W,"GULLA, Alejandra",Women,ARG,1,0,0
+Football,Football,football,W,"RENATA COSTA, Costa",Women,BRA,0,1,0
+Rowing,Rowing,pair without coxswain (2-),W,"GRAINGER, Katherine",Women,GBR,0,1,0
+Shooting,Shooting,10m air rifle (60 shots),M,"LI, Jie",Men,CHN,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"FALCA, Marinella",Women,ITA,0,1,0
+Gymnastics,Artistic G.,team competition,W,"PATTERSON, Carly",Women,USA,0,1,0
+Aquatics,Synchronized S.,team,W,"BARTOSIK, Alison",Women,USA,1,0,0
+Aquatics,Water polo,water polo,W,"OIKONOMOPOULOU, Aikaterini",Women,GRE,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"MASSERONI, Daniela",Women,ITA,0,1,0
+Aquatics,Water polo,water polo,M,"GERGELY, Istvan",Men,HUN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"NILSSON, Henrik",Men,SWE,0,0,1
+Aquatics,Water polo,water polo,W,"ZANCHI, Manuela",Women,ITA,0,0,1
+Aquatics,Water polo,water polo,M,"STRATAN, Dmitry",Men,RUS,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"ALLEN, Wyatt",Men,USA,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"STEEL, Bryan",Men,GBR,0,1,0
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"VOLF, Jaroslav",Men,CZE,1,0,0
+Aquatics,Water polo,water polo,W,"BOSURGI, Silvia",Women,ITA,0,0,1
+Hockey,Hockey,hockey,W,"ZWEHL, Julia",Women,GER,0,0,1
+Aquatics,Diving,synchronized diving 10m platform,M,"TIAN, Liang",Men,CHN,0,0,1
+Weightlifting,Weightlifting,53kg,W,"RUMBEWAS, Raema Lisa",Women,INA,0,1,0
+Gymnastics,Artistic G.,team competition,M,"TSUKAHARA, Naoya",Men,JPN,0,0,1
+Basketball,Basketball,basketball,M,"SANCHEZ, Juan Ignacio",Men,ARG,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"DIRKMAAT, Megan",Women,USA,0,1,0
+Athletics,Athletics,100m,W,"CAMPBELL-BROWN, Veronica",Women,JAM,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"HOOPMAN, Beau",Men,USA,0,0,1
+Volleyball,Volleyball,volleyball,M,"AMARAL, Dante",Men,BRA,0,0,1
+Basketball,Basketball,basketball,W,"JOHNSON, Shannon",Women,USA,0,0,1
+Hockey,Hockey,hockey,W,"HERNANDEZ, Maria de la Paz",Women,ARG,1,0,0
+Volleyball,Volleyball,volleyball,W,"FENG, Kun",Women,CHN,0,0,1
+Taekwondo,Taekwondo,- 49 kg,W,"BOORAPOLCHAI, Yaowapa",Women,THA,1,0,0
+Gymnastics,Artistic G.,team competition,W,"PONOR, Catalina",Women,ROU,0,0,1
+Fencing,Fencing,épée team,M,"JEANNET, Fabrice",Men,FRA,0,0,1
+Shooting,Shooting,trap (125 targets),M,"ALIPOV, Alexei",Men,RUS,0,0,1
+Archery,Archery,team (FITA Olympic round - 70m),M,"LIU, Ming Huang",Men,TPE,0,1,0
+Athletics,Athletics,4x400m relay,W,"HENDERSON, Monique",Women,USA,0,0,1
+Rowing,Rowing,coxless pair (2-),M,"DI CLEMENTE, Ramon",Men,RSA,1,0,0
+Wrestling,Wrestling Free.,60 - 66kg,M,"KELLY, Jamill",Men,USA,0,1,0
+Weightlifting,Weightlifting,53kg,W,"POLSAK, Udomporn",Women,THA,0,0,1
+Aquatics,Water polo,water polo,W,"CONTI, Francesca",Women,ITA,0,0,1
+Equestrian,Jumping,individual,X,"KUTSCHER, Marco",Men,GER,1,0,0
+Baseball,Baseball,baseball,M,"KIMURA, Takuya",Men,JPN,1,0,0
+Weightlifting,Weightlifting,105kg,M,"PISAREVSKIY, Gleb",Men,RUS,1,0,0
+Volleyball,Volleyball,volleyball,W,"TELLEZ PALACIO, Dulce M.",Women,CUB,1,0,0
+Taekwondo,Taekwondo,57 - 67 kg,W,"HWANG, Kyung Sun",Women,KOR,1,0,0
+Aquatics,Swimming,100m breaststroke,M,"DUBOSCQ, Hugues",Men,FRA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"GILLE, Christian",Men,GER,0,0,1
+Aquatics,Water polo,water polo,W,"ELLINAKI, Georgia",Women,GRE,0,1,0
+Gymnastics,Artistic G.,rings,M,"IOVTCHEV, Iordan",Men,BUL,0,1,0
+Football,Football,football,M,"MORETTI, Emiliano",Men,ITA,1,0,0
+Aquatics,Diving,10m platform,M,"HU, Jia",Men,CHN,0,0,1
+Hockey,Hockey,hockey,W,"BACHMANN, Tina",Women,GER,0,0,1
+Softball,Softball,softball,W,"NAITO, Emi",Women,JPN,1,0,0
+Football,Football,football,W,"MARKGRAF, Kate",Women,USA,0,0,1
+Baseball,Baseball,baseball,M,"LAZO, Pedro Luis",Men,CUB,0,0,1
+Hockey,Hockey,hockey,W,"ONETO, Vanina Paula",Women,ARG,1,0,0
+Equestrian,Dressage,team,X,"SEIDEL, Guenter",Men,USA,1,0,0
+Fencing,Fencing,sabre team,M,"MONTANO, Aldo",Men,ITA,0,1,0
+Softball,Softball,softball,W,"FINCH, Jennie",Women,USA,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"FALETIC, Dana",Women,AUS,1,0,0
+Boxing,Boxing,60 - 64 kg,M,"JOHNSON CEDENO, Yudel",Men,CUB,0,1,0
+Gymnastics,Artistic G.,parallel bars,M,"GONCHAROV, Valeri",Men,UKR,0,0,1
+Football,Football,football,W,JULIANA,Women,BRA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"CERCATO, Simone",Men,ITA,1,0,0
+Boxing,Boxing,48kg (light flywieght),M,"ZOU, Shiming",Men,CHN,1,0,0
+Shooting,Shooting,double trap (150 targets),M,"RATHORE, Rajyavardhan S.",Men,IND,0,1,0
+Rowing,Rowing,four without coxswain (4-),M,"PINSENT, Matthew",Men,GBR,0,0,1
+Gymnastics,Artistic G.,team competition,W,"ZIGANCHINA, Natalia",Women,RUS,1,0,0
+Baseball,Baseball,baseball,M,"ANDO, Yuya",Men,JPN,1,0,0
+Shooting,Shooting,10m air pistol (40 shots),W,"GROZDEVA, Maria",Women,BUL,1,0,0
+Rowing,Rowing,pair without coxswain (2-),W,"HELAKH, Natallia",Women,BLR,1,0,0
+Judo,Judo,57 - 63kg (half-middleweight),W,"HEILL, Claudia",Women,AUT,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"KETCHUM, Dan",Men,USA,0,0,1
+Aquatics,Swimming,200m butterfly,W,"JEDRZEJCZAK, Otylia",Women,POL,0,0,1
+Gymnastics,Artistic G.,team competition,W,"PAVLOVA, Anna",Women,RUS,1,0,0
+Aquatics,Swimming,400m individual medley,M,"CSEH, Laszlo",Men,HUN,1,0,0
+Equestrian,Dressage,team,X,"RAMBLA, Ignacio",Men,ESP,0,1,0
+Hockey,Hockey,hockey,W,"MARGALOT, Maria Mercedes",Women,ARG,1,0,0
+Athletics,Athletics,50km walk,M,"NIZHEGORODOV, Denis",Men,RUS,0,1,0
+Athletics,Athletics,20km race walk,W,"TSOUMELEKA, Athanasia",Women,GRE,0,0,1
+Football,Football,football,W,"REDDICK, Cat",Women,USA,0,0,1
+Athletics,Athletics,marathon,W,"KASTOR, Deena",Women,USA,1,0,0
+Cycling,Cycling Track,Sprint indivual,M,"BOS, Theo",Men,NED,0,1,0
+Athletics,Athletics,400m hurdles,W,"TIRLEA-MANOLACHE, Ionela",Women,ROU,0,1,0
+Shooting,Shooting,50m rifle 3 positions (3x40 shots),M,"ANTI, Michael",Men,USA,0,1,0
+Softball,Softball,softball,W,"JUNG, Lovieanne",Women,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"KOZMANN, Gyorgy",Men,HUN,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"HOMMES, Nienke",Women,NED,1,0,0
+Athletics,Athletics,400m,W,"WILLIAMS-DARLING, Tonique",Women,BAH,0,0,1
+Shooting,Shooting,25m pistol (30+30 shots),W,"GROZDEVA, Maria",Women,BUL,0,0,1
+Athletics,Athletics,4x400m relay,M,"WARINER, Jeremy",Men,USA,0,0,1
+Fencing,Fencing,sabre team,M,"TOUYA, Gael",Men,FRA,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"SHAPOSHNIKOV, Leonid",Men,UKR,1,0,0
+Aquatics,Synchronized S.,team,W,"BRUSNIKINA, Olga",Women,RUS,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"ULM, Stefan",Men,GER,0,1,0
+Cycling,Mountain Bike,cross-country,W,"SPITZ, Sabine",Women,GER,1,0,0
+Athletics,Athletics,4x400m relay,M,"HILL, Clinton",Men,AUS,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"STEVENS, Craig",Men,AUS,0,1,0
+Fencing,Fencing,sabre team,M,"PILLET, Julien",Men,FRA,0,0,1
+Athletics,Athletics,shot put,W,"KLEINERT, Nadine",Women,GER,0,1,0
+Football,Football,football,W,MARTA,Women,BRA,0,1,0
+Canoe / Kayak,Canoe / Kayak S,C-1 (canoe single),M,"PFANNMOELLER, Stefan",Men,GER,1,0,0
+Athletics,Athletics,4x100m relay,W,"LAWRENCE, Tanya",Women,JAM,0,0,1
+Handball,Handball,handball,M,"IMMEL, Jan Olaf",Men,GER,0,1,0
+Athletics,Athletics,1500m,M,"LAGAT, Bernard",Men,KEN,0,1,0
+Judo,Judo,+ 100kg (heavyweight),M,"TMENOV, Tamerlan",Men,RUS,0,1,0
+Aquatics,Diving,3m springboard,W,"WU, Minxia",Women,CHN,0,1,0
+Basketball,Basketball,basketball,W,"KORSTIN, Ilona",Women,RUS,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"INOUE, Masaki",Men,JPN,0,1,0
+Athletics,Athletics,800m,M,"BORZAKOVSKIY, Yuriy",Men,RUS,0,0,1
+Basketball,Basketball,basketball,W,"FALLON, Trish",Women,AUS,0,1,0
+Athletics,Athletics,100m hurdles,W,"HAYES, Joanna",Women,USA,0,0,1
+Archery,Archery,individual (FITA Olympic round - 70m),W,"WILLIAMSON, Alison",Women,GBR,1,0,0
+Volleyball,Volleyball,volleyball,W,"CHACHKOVA, Lioubov",Women,RUS,0,1,0
+Athletics,Athletics,400m hurdles,W,"CHALKIA, Fani",Women,GRE,0,0,1
+Baseball,Baseball,baseball,M,"STOCKMAN, Phil",Men,AUS,0,1,0
+Handball,Handball,handball,M,"METLICIC, Petar",Men,CRO,0,0,1
+Athletics,Athletics,javelin throw,W,"NERIUS, Steffi",Women,GER,0,1,0
+Basketball,Basketball,basketball,W,"TAURASI, Diana",Women,USA,0,0,1
+Athletics,Athletics,10000m,W,"XING, Huina",Women,CHN,0,0,1
+Gymnastics,Artistic G.,vault,M,"DRAGULESCU, Marian",Men,ROU,1,0,0
+Football,Football,football,M,"MANZUR, Julio",Men,PAR,0,1,0
+Athletics,Athletics,20km race walk,W,"IVANOVA, Olimpiada",Women,RUS,0,1,0
+Rowing,Rowing,lightweight double sculls (2x),W,"REIMER, Daniela",Women,GER,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),M,"BAGGALEY, Nathan",Men,AUS,0,1,0
+Shooting,Shooting,50m pistol (60 shots),M,"NESTRUEV, Mikhail",Men,RUS,0,0,1
+Boxing,Boxing,69 - 75 kg,M,"GOLOVKIN, Gennadiy",Men,KAZ,0,1,0
+Athletics,Athletics,110m hurdles,M,"GARCIA, Anier",Men,CUB,1,0,0
+Rowing,Rowing,lightweight coxless four (4-),M,"EDWARDS, Anthony",Men,AUS,0,1,0
+Baseball,Baseball,baseball,M,"FUJIMOTO, Atsushi",Men,JPN,1,0,0
+Football,Football,football,W,DANIELA,Women,BRA,0,1,0
+Volleyball,Volleyball,volleyball,M,"DINEYKIN, Stanislav",Men,RUS,1,0,0
+Aquatics,Swimming,200m butterfly,M,"PHELPS, Michael",Men,USA,0,0,1
+Volleyball,Volleyball,volleyball,M,"USHAKOV, Konstantin",Men,RUS,1,0,0
+Weightlifting,Weightlifting,85kg,M,"RYBAKOU, Andrei",Men,BLR,0,1,0
+Athletics,Athletics,20km walk,M,"FERNANDEZ, Francisco Javier",Men,ESP,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,W,"GUO, Jingjing",Women,CHN,0,0,1
+Taekwondo,Taekwondo,57 - 67 kg,W,"MYSTAKIDOU, Elisavet",Women,GRE,0,1,0
+Aquatics,Water polo,water polo,M,"KASAS, Tamas",Men,HUN,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"TANGER, Helen",Women,NED,1,0,0
+Athletics,Athletics,long jump,M,"PHILLIPS, Dwight",Men,USA,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),M,"POLYMEROS, Vasileios",Men,GRE,1,0,0
+Athletics,Athletics,long jump,W,"LEBEDEVA, Tatyana",Women,RUS,0,0,1
+Volleyball,Volleyball,volleyball,M,"ABRAMOV, Pavel",Men,RUS,1,0,0
+Gymnastics,Artistic G.,parallel bars,M,"TOMITA, Hiroyuki",Men,JPN,0,1,0
+Volleyball,Beach volley.,beach volleyball,M,"SANTOS, Ricardo",Men,BRA,0,0,1
+Athletics,Athletics,4x400m relay,M,"WEIGOPWA, Saul",Men,NGR,1,0,0
+Cycling,Cycling Road,individual time trial,W,"ZIJLAARD-VAN MOORSEL, Leontien",Women,NED,0,0,1
+Judo,Judo,81 - 90kg (middleweight),M,"ZVIADAURI, Zurab",Men,GEO,0,0,1
+Badminton,Badminton,doubles,M,"LEE, Dong Soo",Men,KOR,0,1,0
+Rowing,Rowing,four without coxswain (4-),M,"WILLIAMS, Barney",Men,CAN,0,1,0
+Basketball,Basketball,basketball,M,"BOOZER, Carlos",Men,USA,1,0,0
+Boxing,Boxing,81 - 91kg (heavyweight),M,"AL SHAMI, Naser",Men,SYR,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"KOSTOGLOD, Alexander",Men,RUS,0,1,0
+Aquatics,Water polo,water polo,W,"MORAITIDOU, Evangelia",Women,GRE,0,1,0
+Shooting,Shooting,10m air rifle (60 shots),M,"GONCI, Jozef",Men,SVK,1,0,0
+Hockey,Hockey,hockey,W,"SMABERS, Minke",Women,NED,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"EGGENKAMP, Gerritjan",Men,NED,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"WEIR, Amanda",Women,USA,0,1,0
+Athletics,Athletics,3000m steeplechase,M,"KIPRUTO, Brimin Kiprop",Men,KEN,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"KORHOLZ, Laurel",Women,USA,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"DEKKER, Inge",Women,NED,1,0,0
+Tennis,Tennis,doubles,M,"MASSU, Nicolas",Men,CHI,0,0,1
+Athletics,Athletics,100m,M,"GATLIN, Justin",Men,USA,0,0,1
+Cycling,Cycling Track,Points Race,M,"LLANERAS, Joan",Men,ESP,0,1,0
+Weightlifting,Weightlifting,"- 56kg, total (bantamweight)",M,"WU, Meijin",Men,CHN,0,1,0
+Aquatics,Diving,synchronized diving 10m platform,W,"LI, Ting",Women,CHN,0,0,1
+Basketball,Basketball,basketball,M,"SCOLA, Luis Alberto",Men,ARG,0,0,1
+Cycling,Cycling Road,individual road race,W,"SLYUSAREVA, Olga",Women,RUS,1,0,0
+Basketball,Basketball,basketball,M,"MARCONATO, Denis",Men,ITA,0,1,0
+Fencing,Fencing,épée team,M,"FIEDLER, Joerg",Men,GER,1,0,0
+Taekwondo,Taekwondo,- 58 kg,M,"SALAZAR BLANCO, Oscar Francisco",Men,MEX,0,1,0
+Aquatics,Swimming,200m butterfly,M,"PARRY, Stephen",Men,GBR,1,0,0
+Aquatics,Water polo,water polo,W,"MUSUMECI, Maddalena",Women,ITA,0,0,1
+Tennis,Tennis,doubles,M,"SCHUETTLER, Rainer",Men,GER,0,1,0
+Judo,Judo,+ 78kg (heavyweight),W,"SUN, Fuming",Women,CHN,1,0,0
+Judo,Judo,+ 78kg (heavyweight),W,"BELTRAN, Daima Mayelis",Women,CUB,0,1,0
+Athletics,Athletics,800m,M,"MULAUDZI, Mbulaeni",Men,RSA,0,1,0
+Handball,Handball,handball,W,"LYAPINA, Nataliya",Women,UKR,1,0,0
+Athletics,Athletics,4x100m relay,M,"GATLIN, Justin",Men,USA,0,1,0
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),M,"WALSH, Campbell",Men,GBR,0,1,0
+Judo,Judo,63 - 70kg (middleweight),W,"BOEHM, Annett",Women,GER,1,0,0
+Wrestling,Wrestling Free.,63 - 72kg,W,"HAMAGUCHI, Kyoko",Women,JPN,1,0,0
+Taekwondo,Taekwondo,+ 67 kg,W,"CARMONA, Adriana",Women,VEN,1,0,0
+Athletics,Athletics,decathlon,M,"SEBRLE, Roman",Men,CZE,0,0,1
+Athletics,Athletics,hammer throw,W,"KUZENKOVA, Olga",Women,RUS,0,0,1
+Handball,Handball,handball,M,"LOSERT, Venio",Men,CRO,0,0,1
+Baseball,Baseball,baseball,M,"NAKAMURA, Norihiro",Men,JPN,1,0,0
+Handball,Handball,handball,M,"ZERBE, Volker",Men,GER,0,1,0
+Athletics,Athletics,triple jump,M,"BURKENYA, Danila",Men,RUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"PIATRUSHENKA, Raman",Men,BLR,1,0,0
+Fencing,Fencing,foil team,M,"NASSIBOULLINE, Rouslan",Men,RUS,1,0,0
+Equestrian,Eventing,team,X,"SEVERSON, Kimberly",Women,USA,1,0,0
+Hockey,Hockey,hockey,W,"RINNE, Fanny",Women,GER,0,0,1
+Volleyball,Beach volley.,beach volleyball,W,"WALSH, Kerri",Women,USA,0,0,1
+Hockey,Hockey,hockey,M,"EIMER, Christoph",Men,GER,1,0,0
+Aquatics,Swimming,200m breaststroke,M,"HANSEN, Brendan",Men,USA,1,0,0
+Softball,Softball,softball,W,"CARPADIOS, Marissa",Women,AUS,0,1,0
+Weightlifting,Weightlifting,69kg,W,"LIU, Chunhong",Women,CHN,0,0,1
+Basketball,Basketball,basketball,W,"SUMMERTON, Laura",Women,AUS,0,1,0
+Hockey,Hockey,hockey,M,"BROUWER, Matthijs",Men,NED,0,1,0
+Football,Football,football,M,"GILARDINO, Alberto",Men,ITA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"BALCEIRO PAJON, Ledis Frank",Men,CUB,0,1,0
+Sailing,Sailing,470 - Two Person Dinghy,M,"ROGERS, Nick",Men,GBR,0,1,0
+Boxing,Boxing,48kg (light flywieght),M,"BHARTELEMY VARELA, Yan",Men,CUB,0,0,1
+Aquatics,Synchronized S.,team,W,"KITAO, Kanako",Women,JPN,0,1,0
+Handball,Handball,handball,M,"MATOSEVIC, Valter",Men,CRO,0,0,1
+Aquatics,Water polo,water polo,M,"SEFIK, Denis",Men,SCG,0,1,0
+Equestrian,Dressage,team,X,"FERRER-SALAT, Beatriz",Women,ESP,0,1,0
+Judo,Judo,52 - 57kg (lightweight),W,"BOENISCH, Yvonne",Women,GER,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"MILLS, Alice",Women,AUS,0,0,1
+Rowing,Rowing,double sculls (2x),W,"LAVERICK, Elise",Women,GBR,1,0,0
+Hockey,Hockey,hockey,W,"KLECKER, Denise",Women,GER,0,0,1
+Football,Football,football,M,"COLOCCINI, Fabricio",Men,ARG,0,0,1
+Cycling,Cycling Track,Madison,M,"HAYLES, Rob",Men,GBR,1,0,0
+Volleyball,Volleyball,volleyball,M,"CISOLLA, Alberto",Men,ITA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"LOCHTE, Ryan",Men,USA,0,0,1
+Volleyball,Volleyball,volleyball,M,"HELLER, Andre",Men,BRA,0,0,1
+Gymnastics,Artistic G.,uneven bars,W,"HUMPHREY, Terin",Women,USA,0,1,0
+Cycling,Cycling Track,Madison,M,"RISI, Bruno",Men,SUI,0,1,0
+Fencing,Fencing,épée individual,W,"FLESSEL-COLOVIC, Laura",Women,FRA,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"HOUGHTON, Frances",Women,GBR,0,1,0
+Boxing,Boxing,48 - 51kg (flyweight),M,"RAHIMOV, Rustamhodza",Men,GER,1,0,0
+Basketball,Basketball,basketball,W,"SWOOPES, Sheryl",Women,USA,0,0,1
+Aquatics,Water polo,water polo,W,"PETRI, Heather",Women,USA,1,0,0
+Rowing,Rowing,pair without coxswain (2-),W,"BICHYK, Yuliya",Women,BLR,1,0,0
+Judo,Judo,48 - 52kg (half-lightweight),W,"XIAN, Dongmei",Women,CHN,0,0,1
+Handball,Handball,handball,W,"MIKKELSEN, Henriette Roende",Women,DEN,0,0,1
+Cycling,Cycling Track,Keirin,M,"KELLY, Shane",Men,AUS,1,0,0
+Boxing,Boxing,+ 91kg (super heavyweight),M,"ALY, Mohamed",Men,EGY,0,1,0
+Gymnastics,Artistic G.,floor exercises,M,"DRAGULESCU, Marian",Men,ROU,0,1,0
+Baseball,Baseball,baseball,M,"RAMIREZ RODRIGUEZ, Alexei",Men,CUB,0,0,1
+Aquatics,Swimming,50m freestyle,W,"METELLA, Malia",Women,FRA,0,1,0
+Basketball,Basketball,basketball,W,"STEPANOVA, Maria",Women,RUS,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),M,"PARK, Kyung Mo",Men,KOR,0,0,1
+Aquatics,Synchronized S.,team,W,"AZAROVA, Elena",Women,RUS,0,0,1
+Aquatics,Water polo,water polo,M,"JOKIC, Predrag",Men,SCG,0,1,0
+Baseball,Baseball,baseball,M,"WILLIAMS, Glenn",Men,AUS,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"STORCZ, Botond",Men,HUN,0,0,1
+Equestrian,Eventing,individual,X,"LAW, Leslie",Men,GBR,0,0,1
+Weightlifting,Weightlifting,58kg,W,"KAMEAIM, Wandee",Women,THA,1,0,0
+Handball,Handball,handball,M,"TORGOVANOV, Dmitri",Men,RUS,1,0,0
+Aquatics,Swimming,4x100m freestyle relay,W,"THOMAS, Petria",Women,AUS,0,0,1
+Aquatics,Swimming,4x100m medley relay,M,"KRUPPA, Jens",Men,GER,0,1,0
+Athletics,Athletics,long jump,M,"MARTINEZ, Joan Lino",Men,ESP,1,0,0
+Judo,Judo,+ 78kg (heavyweight),W,"TSUKADA, Maki",Women,JPN,0,0,1
+Gymnastics,Artistic G.,team competition,M,"POTRA, Dan Nicolae",Men,ROU,1,0,0
+Cycling,Cycling Track,500m time trial,W,"JIANG, Yonghua",Women,CHN,0,1,0
+Equestrian,Jumping,team,X,"FREDERICSON, Peder",Men,SWE,0,1,0
+Aquatics,Water polo,water polo,M,"BALASHOV, Roman",Men,RUS,1,0,0
+Volleyball,Volleyball,volleyball,W,"RAMIREZ ECHEVARRIA, Daimi",Women,CUB,1,0,0
+Aquatics,Synchronized S.,team,W,"TAKEDA, Miho",Women,JPN,0,1,0
+Equestrian,Jumping,team,X,"KUTSCHER, Marco",Men,GER,1,0,0
+Volleyball,Volleyball,volleyball,M,"RODRIGUES, Anderson",Men,BRA,0,0,1
+Softball,Softball,softball,W,"WATLEY, Natasha",Women,USA,0,0,1
+Athletics,Athletics,1500m,W,"HOLMES, Kelly",Women,GBR,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"BEERY, Dan",Men,USA,0,0,1
+Athletics,Athletics,100m,W,"NESTERENKO, Yuliya",Women,BLR,0,0,1
+Cycling,Cycling Track,Keirin,M,"ESCUREDO, Jose",Men,ESP,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-1 500m (canoe single),M,"CAL, David",Men,ESP,0,1,0
+Aquatics,Water polo,water polo,M,"ZAKIROV, Marat",Men,RUS,1,0,0
+Rowing,Rowing,double sculls (2x),M,"HARDY, Adrien",Men,FRA,0,0,1
+Aquatics,Water polo,water polo,W,"ALLUCCI, Carmela",Women,ITA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"NEETHLING, Ryk",Men,RSA,0,0,1
+Handball,Handball,handball,M,"BAUR, Markus",Men,GER,0,1,0
+Cycling,Cycling Track,sprint,W,"ABASSOVA, Tamilla",Women,RUS,0,1,0
+Aquatics,Swimming,800m freestyle,W,"SHIBATA, Ai",Women,JPN,0,0,1
+Basketball,Basketball,basketball,W,"SMITH, Katie",Women,USA,0,0,1
+Equestrian,Dressage,team,X,"DOVER, Robert",Men,USA,1,0,0
+Athletics,Athletics,javelin throw,M,"MAKAROV, Sergey",Men,RUS,1,0,0
+Table Tennis,Table Tennis,doubles,W,"GUO, Yue",Women,CHN,1,0,0
+Athletics,Athletics,50km walk,M,"KORZENIOWSKI, Robert",Men,POL,0,0,1
+Aquatics,Swimming,4x100m medley relay,M,"PEIRSOL, Aaron",Men,USA,0,0,1
+Equestrian,Jumping,team,X,"WARD, Mclain",Men,USA,0,0,1
+Volleyball,Volleyball,volleyball,M,"PIPPI, Damiano",Men,ITA,0,1,0
+Cycling,Cycling Road,individual road race,M,"PAULINHO, Sergio",Men,POR,0,1,0
+Boxing,Boxing,60 - 64 kg,M,"GEORGIEV, Boris",Men,BUL,1,0,0
+Aquatics,Diving,3m springboard,W,"PAKHALINA, Ioulia",Women,RUS,1,0,0
+Wrestling,Wrestling Gre-R,66 - 74kg,M,"SAMURGASHEV, Varteres",Men,RUS,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"ZACHRISSON, Vendela",Women,SWE,1,0,0
+Gymnastics,Trampoline,individual,W,"COCKBURN, Karen",Women,CAN,0,1,0
+Cycling,Cycling Track,Individual Pursuit,M,"MCGEE, Bradley",Men,AUS,0,1,0
+Aquatics,Water polo,water polo,M,"YURCHIK, Vitaly",Men,RUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"ROJAS BLANCO, Ibrahim",Men,CUB,0,1,0
+Cycling,Cycling Track,Individual Pursuit,M,"WIGGINS, Bradley",Men,GBR,0,0,1
+Cycling,Cycling Track,individual pursuit,W,"ULMER, Sarah",Women,NZL,0,0,1
+Wrestling,Wrestling Gre-R,96 - 120kg,M,"GARDNER, Rulon",Men,USA,1,0,0
+Fencing,Fencing,sabre individual,M,"TRETIAK, Vladislav",Men,UKR,1,0,0
+Weightlifting,Weightlifting,+ 105kg,M,"SCERBATIHS, Viktors",Men,LAT,0,1,0
+Handball,Handball,handball,W,"THOMSEN, Camilla Ingemann",Women,DEN,0,0,1
+Boxing,Boxing,64 - 69 kg,M,"KIM, Jung Joo",Men,KOR,1,0,0
+Athletics,Athletics,4x100m relay,M,"CRAWFORD, Shawn",Men,USA,0,1,0
+Hockey,Hockey,hockey,M,"ZELLER, Christopher",Men,GER,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"XU, Yanwei",Women,CHN,0,1,0
+Handball,Handball,handball,M,"SOLA, Vlado",Men,CRO,0,0,1
+Athletics,Athletics,4x100m relay,M,"MILLER, Coby",Men,USA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"KELLER, Klete",Men,USA,0,0,1
+Hockey,Hockey,hockey,M,"WESS, Timo",Men,GER,1,0,0
+Volleyball,Beach volley.,beach volleyball,M,"BOSMA, Javier",Men,ESP,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"KARAS, Tomas",Men,CZE,0,1,0
+Athletics,Athletics,shot put,W,"KRIVELYOVA, Svetlana",Women,RUS,1,0,0
+Judo,Judo,60 - 66kg (half-lightweight),M,"KRNAC, Jozef",Men,SVK,0,1,0
+Taekwondo,Taekwondo,+ 67 kg,W,"BAVEREL, Myriam",Women,FRA,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"BACH, Bjoern",Men,GER,0,1,0
+Table Tennis,Table Tennis,singles,W,"KIM, Hyang Mi",Women,PRK,0,1,0
+Taekwondo,Taekwondo,- 49 kg,W,"CHEN, Shih Hsin",Women,TPE,0,0,1
+Athletics,Athletics,400m hurdles,M,"KEITA, Naman",Men,FRA,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"ROONEY, Giaan",Women,AUS,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"BOTA, Kinga",Women,HUN,0,1,0
+Rowing,Rowing,double sculls (2x),W,"EVERS-SWINDELL, Caroline",Women,NZL,0,0,1
+Fencing,Fencing,sabre team,M,"TOUYA, Damien",Men,FRA,0,0,1
+Athletics,Athletics,hammer throw,M,"APAK, Esref",Men,TUR,1,0,0
+Volleyball,Volleyball,volleyball,W,"LIU, Yanan",Women,CHN,0,0,1
+Judo,Judo,90 - 100kg (half-heavyweight),M,"JURACK, Michael",Men,GER,1,0,0
+Aquatics,Swimming,200m individual medley,M,"LOCHTE, Ryan",Men,USA,0,1,0
+Baseball,Baseball,baseball,M,"PALMA, Adiel",Men,CUB,0,0,1
+Aquatics,Diving,synchronized diving 10m platform,W,"KOLTUNOVA, Yulia",Women,RUS,0,1,0
+Gymnastics,Artistic G.,team competition,W,"HUMPHREY, Terin",Women,USA,0,1,0
+Gymnastics,Artistic G.,pommel horse,M,"TENG, Haibin",Men,CHN,0,0,1
+Judo,Judo,81 - 90kg (middleweight),M,"TAOV, Khasanbi",Men,RUS,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"DALLMANN, Petra",Women,GER,1,0,0
+Athletics,Athletics,4x400m relay,W,"DAVY, Nadia",Women,JAM,1,0,0
+Taekwondo,Taekwondo,+ 80 kg,M,"NIKOLAIDIS, Alexandros",Men,GRE,0,1,0
+Wrestling,Wrestling Free.,74 - 84kg,M,"MOON, Eui Jae",Men,KOR,0,1,0
+Handball,Handball,handball,W,"MORTENSEN, Karin Oernhoej",Women,DEN,0,0,1
+Gymnastics,Artistic G.,team competition,M,"POPESCU, Daniel",Men,ROU,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"TSOULFA, Aimilia",Women,GRE,0,0,1
+Fencing,Fencing,épée team,W,"SIVKOVA, Anna",Women,RUS,0,0,1
+Boxing,Boxing,51 - 54kg (bantamweight),M,"MAMMADOV, Aghasi",Men,AZE,1,0,0
+Handball,Handball,handball,W,"DAUGAARD, Line",Women,DEN,0,0,1
+Football,Football,football,M,"DIAZ, Osvaldo",Men,PAR,0,1,0
+Cycling,Cycling Track,Madison,M,"O'GRADY, Stuart",Men,AUS,0,0,1
+Judo,Judo,73 - 81kg (half-middleweight),M,"GONTIUK, Roman",Men,UKR,0,1,0
+Handball,Handball,handball,W,"HONCHAROVA, Iryna",Women,UKR,1,0,0
+Basketball,Basketball,basketball,W,"TAYLOR, Penny",Women,AUS,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"THORPE, Ian",Men,AUS,0,1,0
+Football,Football,football,W,"BACHOR, Isabell",Women,GER,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,M,"BURNHAM, Kevin",Men,USA,0,0,1
+Athletics,Athletics,4x100m relay,W,"MANG, Veronique",Women,FRA,1,0,0
+Rowing,Rowing,single sculls (1x),W,"NEYKOVA, Rumyana",Women,BUL,1,0,0
+Badminton,Badminton,singles,W,"AUDINA, Mia",Women,NED,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"SPINEV, Nikolay",Men,RUS,0,0,1
+Hockey,Hockey,hockey,W,"BURKART, Claudia",Women,ARG,1,0,0
+Volleyball,Volleyball,volleyball,W,"YANG, Hao",Women,CHN,0,0,1
+Shooting,Shooting,skeet (125 targets),M,"BENELLI, Andrea",Men,ITA,0,0,1
+Handball,Handball,handball,M,"SPOLJARIC, Denis",Men,CRO,0,0,1
+Aquatics,Water polo,water polo,M,"BENEDEK, Tibor",Men,HUN,0,0,1
+Shooting,Shooting,double trap (120 targets),W,"GAO, E",Women,CHN,1,0,0
+Judo,Judo,57 - 63kg (half-middleweight),W,"ZOLNIR, Urska",Women,SLO,1,0,0
+Athletics,Athletics,decathlon,M,"CLAY, Bryan",Men,USA,0,1,0
+Equestrian,Eventing,team,X,"RICHARDS, Julie",Women,USA,1,0,0
+Volleyball,Volleyball,volleyball,M,"BARANOV, Sergey",Men,RUS,1,0,0
+Football,Football,football,W,ALINE,Women,BRA,0,1,0
+Baseball,Baseball,baseball,M,"THOMPSON, Richard",Men,AUS,0,1,0
+Athletics,Athletics,200m,W,"FERGUSON-MCKENZIE, Debbie",Women,BAH,1,0,0
+Aquatics,Swimming,4x100m freestyle relay,M,"KENKHUIS, Johan",Men,NED,0,1,0
+Gymnastics,Artistic G.,vault,W,"HATCH, Annia",Women,USA,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"GROOT, Chantal",Women,NED,1,0,0
+Volleyball,Volleyball,volleyball,W,"TISHCHENKO, Elizaveta",Women,RUS,0,1,0
+Basketball,Basketball,basketball,M,"OKAFOR, Emeka",Men,USA,1,0,0
+Taekwondo,Taekwondo,+ 80 kg,M,"MOON, Dae Sung",Men,KOR,0,0,1
+Boxing,Boxing,64 - 69 kg,M,"SAITOV, Oleg",Men,RUS,1,0,0
+Hockey,Hockey,hockey,W,"MULDER, Eefke",Women,NED,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"GOTZ, Daniela",Women,GER,1,0,0
+Boxing,Boxing,51 - 54kg (bantamweight),M,"SOOLTONOV, Bahodirjon",Men,UZB,1,0,0
+Volleyball,Volleyball,volleyball,M,"BITENCOURT, Nalbert",Men,BRA,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"VAN RUMPT, Annemarieke",Women,NED,1,0,0
+Hockey,Hockey,hockey,M,"ELDER, Troy",Men,AUS,0,0,1
+Athletics,Athletics,4x400m relay,W,"IVANOVA, Natalya",Women,RUS,0,1,0
+Hockey,Hockey,hockey,W,"LEHMANN, Sonja",Women,GER,0,0,1
+Aquatics,Water polo,water polo,M,"CHOMAKHIDZE, Revaz",Men,RUS,1,0,0
+Basketball,Basketball,basketball,W,"STALEY, Dawn",Women,USA,0,0,1
+Hockey,Hockey,hockey,M,"DERIKX, Geert-Jan",Men,NED,0,1,0
+Fencing,Fencing,épée team,M,"BOCZKO, Gabor",Men,HUN,0,1,0
+Modern Pentathlon,Modern Pentath.,Individual competition,W,"RUBLEVSKA, Elena",Women,LAT,0,1,0
+Softball,Softball,softball,W,"IWABUCHI, Yumi",Women,JPN,1,0,0
+Baseball,Baseball,baseball,M,"MIURA, Daisuke",Men,JPN,1,0,0
+Basketball,Basketball,basketball,M,"RADULOVIC, Nikola",Men,ITA,0,1,0
+Football,Football,football,W,TANIA,Women,BRA,0,1,0
+Equestrian,Jumping,team,X,"BENGTSSON, Rolf-Goran",Men,SWE,0,1,0
+Shooting,Shooting,10m air rifle (40 shots),W,"GALKINA, Lioubov",Women,RUS,0,1,0
+Badminton,Badminton,doubles,W,"LEE, Kyungwon",Women,KOR,1,0,0
+Gymnastics,Artistic G.,team competition,M,"SELARIU, Razvan Dorin",Men,ROU,1,0,0
+Gymnastics,Artistic G.,individual all-round,W,"ZHANG, Nan",Women,CHN,1,0,0
+Gymnastics,Artistic G.,floor exercises,W,"MORENO, Patricia",Women,ESP,1,0,0
+Aquatics,Swimming,4x100m medley relay,M,"LEZAK, Jason",Men,USA,0,0,1
+Gymnastics,Artistic G.,team competition,M,"URZICA, Marius Daniel",Men,ROU,1,0,0
+Weightlifting,Weightlifting,69kg,W,"KASAEVA, Zarema",Women,RUS,1,0,0
+Handball,Handball,handball,W,"SKOV, Rikke",Women,DEN,0,0,1
+Aquatics,Swimming,200m freestyle,M,"VAN DEN HOOGENBAND, Pieter",Men,NED,0,1,0
+Wrestling,Wrestling Free.,66 - 74kg,M,"LALIYEV, Gennadiy",Men,KAZ,0,1,0
+Wrestling,Wrestling Free.,55 - 63kg,W,"LEGRAND, Lise",Women,FRA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"SIMON, Diederik",Men,NED,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"WYLENZEK, Tomasz",Men,GER,0,0,1
+Baseball,Baseball,baseball,M,"OXSPRING, Chris",Men,AUS,0,1,0
+Volleyball,Volleyball,volleyball,M,"KHTEY, Taras",Men,RUS,1,0,0
+Handball,Handball,handball,W,"YATSENKO, Olena",Women,UKR,1,0,0
+Aquatics,Synchronized S.,team,W,"DAVYDOVA, Anastasia",Women,RUS,0,0,1
+Aquatics,Water polo,water polo,M,"UDOVICIC, Vanja",Men,SCG,0,1,0
+Judo,Judo,73 - 81kg (half-middleweight),M,"ILIADIS, Ilias",Men,GRE,0,0,1
+Athletics,Athletics,800m,W,"BENHASSI, Hasna",Women,MAR,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"FISCHER, Birgit",Women,GER,0,0,1
+Wrestling,Wrestling Free.,55 - 60kg,M,"QUINTANA, Yandro Miguel",Men,CUB,0,0,1
+Athletics,Athletics,3000m steeplechase,M,"KEMBOI, Ezekiel",Men,KEN,0,0,1
+Aquatics,Diving,synchronized diving 3m springboard,W,"PAKHALINA, Ioulia",Women,RUS,0,1,0
+Fencing,Fencing,foil individual,W,"TRILLINI, Giovanna",Women,ITA,0,1,0
+Hockey,Hockey,hockey,M,"JAZET, Erik",Men,NED,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"PELLICIARI, Matteo",Men,ITA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"MENSCH, Daniel",Men,NED,0,1,0
+Aquatics,Water polo,water polo,M,"GOJKOVIC, Vladimir",Men,SCG,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,W,"ILYINA, Vera",Women,RUS,0,1,0
+Baseball,Baseball,baseball,M,"RONEBERG, Brett",Men,AUS,0,1,0
+Basketball,Basketball,basketball,M,"SCONOCHINI, Hugo Ariel",Men,ARG,0,0,1
+Cycling,Cycling Track,Keirin,M,"BAYLEY, Ryan",Men,AUS,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"LANNE, Colleen",Women,USA,0,1,0
+Handball,Handball,handball,W,"JENSEN, Trine",Women,DEN,0,0,1
+Volleyball,Volleyball,volleyball,W,"CHEN, Jing",Women,CHN,0,0,1
+Judo,Judo,70 - 78kg (half-heavyweight),W,"MORICO, Lucia",Women,ITA,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"YANG, Yu",Women,CHN,0,1,0
+Football,Football,football,W,"PARLOW, Cindy",Women,USA,0,0,1
+Athletics,Athletics,4x400m relay,M,"BREW, Derrick",Men,USA,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"POSEVINA, Elena",Women,RUS,0,0,1
+Cycling,Cycling Track,500m time trial,W,"MEARES, Anna",Women,AUS,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"LEONARDO, Raffaello",Men,ITA,1,0,0
+Football,Football,football,M,"BARZAGLI, Andrea",Men,ITA,1,0,0
+Athletics,Athletics,200m,W,"CAMPBELL-BROWN, Veronica",Women,JAM,0,0,1
+Baseball,Baseball,baseball,M,"KINGMAN, Brendan",Men,AUS,0,1,0
+Athletics,Athletics,4x100m relay,W,"CAMPBELL-BROWN, Veronica",Women,JAM,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"MAKHNEU, Vadzim",Men,BLR,1,0,0
+Volleyball,Volleyball,volleyball,M,"VERBOV, Alexey",Men,RUS,1,0,0
+Aquatics,Synchronized S.,team,W,"ERMAKOVA, Anastasia",Women,RUS,0,0,1
+Baseball,Baseball,baseball,M,"PESTANO, Ariel",Men,CUB,0,0,1
+Athletics,Athletics,4x400m relay,M,"ORMROD, Mark",Men,AUS,0,1,0
+Archery,Archery,individual (FITA Olympic round - 70m),M,"YAMAMOTO, Hiroshi",Men,JPN,0,1,0
+Basketball,Basketball,basketball,W,"RAKHMATULINA, Oxana",Women,RUS,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"OTZEN, Christina",Women,DEN,1,0,0
+Gymnastics,Trampoline,individual,M,"STEHLIK, Henrik",Men,GER,1,0,0
+Fencing,Fencing,foil team,M,"WU, Hanxiong",Men,CHN,0,1,0
+Athletics,Athletics,800m,W,"CEPLAK, Jolanda",Women,SLO,1,0,0
+Archery,Archery,individual (FITA Olympic round - 70m),W,"LEE, Sung Jin",Women,KOR,0,1,0
+Equestrian,Jumping,team,X,"BARYARD, Malin",Women,SWE,0,1,0
+Hockey,Hockey,hockey,M,"SCHUBERT, Grant",Men,AUS,0,0,1
+Shooting,Shooting,50m rifle 3 positions (3x20 shots),W,"TURISINI, Valentina",Women,ITA,0,1,0
+Handball,Handball,handball,W,"BURMYSTROVA, Ganna",Women,UKR,1,0,0
+Taekwondo,Taekwondo,- 49 kg,W,"LABRADA DIAZ, Yanelis Yuliet",Women,CUB,0,1,0
+Basketball,Basketball,basketball,W,"SNELL, Belinda",Women,AUS,0,1,0
+Fencing,Fencing,foil individual,M,"SANZO, Salvatore",Men,ITA,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"YANG, Wenjun",Men,CHN,0,0,1
+Badminton,Badminton,doubles,M,"YOO, Yong-Sung",Men,KOR,0,1,0
+Fencing,Fencing,sabre team,M,"PASTORE, Gianpiero",Men,ITA,0,1,0
+Volleyball,Volleyball,volleyball,W,"SONG, Nina",Women,CHN,0,0,1
+Athletics,Athletics,200m,M,"GATLIN, Justin",Men,USA,1,0,0
+Baseball,Baseball,baseball,M,"GONZALEZ, Paul",Men,AUS,0,1,0
+Athletics,Athletics,4x400m relay,W,"ROBINSON, Moushaumi",Women,USA,0,0,1
+Hockey,Hockey,hockey,W,"ARRONDO, Ines",Women,ARG,1,0,0
+Aquatics,Water polo,water polo,W,"MELIDONI, Aniopi",Women,GRE,0,1,0
+Aquatics,Water polo,water polo,M,"SZECSI, Zoltan",Men,HUN,0,0,1
+Hockey,Hockey,hockey,W,"DE BRUIJN, Chantal",Women,NED,0,1,0
+Fencing,Fencing,sabre individual,W,"JACOBSON, Sada",Women,USA,1,0,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"EVERS, Meike",Women,GER,0,0,1
+Aquatics,Diving,synchronized diving 3m springboard,M,"NEWBERY, Robert",Men,AUS,1,0,0
+Rowing,Rowing,double sculls (2x),W,"WINCKLESS, Sarah",Women,GBR,1,0,0
+Athletics,Athletics,triple jump,W,"LEBEDEVA, Tatyana",Women,RUS,1,0,0
+Gymnastics,Artistic G.,floor exercises,M,"IOVTCHEV, Iordan",Men,BUL,1,0,0
+Baseball,Baseball,baseball,M,"OGASAWARA, Michihiro",Men,JPN,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"BOURGAIN, Mickael",Men,FRA,1,0,0
+Aquatics,Diving,synchronized diving 10m platform,W,"HARTLEY, Blythe",Women,CAN,1,0,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"HORE, Kerry",Women,AUS,1,0,0
+Football,Football,football,W,"ODEBRECHT, Viola",Women,GER,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"TARAN, Ruslana",Women,UKR,0,1,0
+Rowing,Rowing,lightweight double sculls (2x),M,"TOURON, Pascal",Men,FRA,0,1,0
+Judo,Judo,90 - 100kg (half-heavyweight),M,"JANG, Sung Ho",Men,KOR,0,1,0
+Rowing,Rowing,coxless pair (2-),M,"SKELIN, Sinisa",Men,CRO,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"DUSING, Nate",Men,USA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"WIESKOETTER, Tim",Men,GER,0,0,1
+Aquatics,Synchronized S.,team,W,"TACHIBANA, Miya",Women,JPN,0,1,0
+Aquatics,Water polo,water polo,M,"FODOR, Rajmund",Men,HUN,0,0,1
+Rowing,Rowing,lightweight coxless four (4-),M,"CURETON, Ben",Men,AUS,0,1,0
+Football,Football,football,M,"FIGUEREDO, Diego",Men,PAR,0,1,0
+Aquatics,Swimming,100m backstroke,W,"MANAUDOU, Laure",Women,FRA,1,0,0
+Shooting,Shooting,10m air rifle (40 shots),W,"EMMONS, Katerina",Women,CZE,1,0,0
+Aquatics,Water polo,water polo,W,"KARAGIANNI, Eftychia",Women,GRE,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"DE BRUIJN, Inge",Women,NED,1,0,0
+Athletics,Athletics,4x100m relay,M,"PATTON, Darvis",Men,USA,0,1,0
+Football,Football,football,M,"BONERA, Daniele",Men,ITA,1,0,0
+Aquatics,Swimming,4x100m freestyle relay,M,"CROCKER, Ian",Men,USA,1,0,0
+Fencing,Fencing,épée team,W,"HEIDEMANN, Britta",Women,GER,0,1,0
+Rowing,Rowing,double sculls (2x),W,"WALESKA, Peggy",Women,GER,0,1,0
+Softball,Softball,softball,W,"UENO, Yukiko",Women,JPN,1,0,0
+Aquatics,Water polo,water polo,M,"SAPIC, Aleksandar",Men,SCG,0,1,0
+Archery,Archery,team (FITA Olympic round - 70m),M,"HRACHOV, Dmytro",Men,UKR,1,0,0
+Taekwondo,Taekwondo,58 - 68 kg,M,"HUANG, Chih Hsiung",Men,TPE,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"COX, Alison",Women,USA,0,1,0
+Cycling,Cycling Road,individual time trial,M,"HAMILTON, Tyler",Men,USA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"WOODWARD, Gabe",Men,USA,1,0,0
+Hockey,Hockey,hockey,M,"MICHEL, Bjoern",Men,GER,1,0,0
+Athletics,Athletics,5000m,W,"DIBABA, Tirunesh",Women,ETH,1,0,0
+Gymnastics,Artistic G.,floor exercises,W,"SOFRONIE, Nicoleta Daniela",Women,ROU,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"BARTMAN, Michiel",Men,NED,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"THOMPSON, Jenny",Women,USA,0,1,0
+Judo,Judo,66 - 73kg (lightweight),M,"LEE, Won Hee",Men,KOR,0,0,1
+Boxing,Boxing,+ 91kg (super heavyweight),M,"CAMMARELLE, Roberto",Men,ITA,1,0,0
+Equestrian,Eventing,team,X,"FOX-PITT, William",Men,GBR,0,1,0
+Athletics,Athletics,4x400m relay,M,"STEFFENSEN, John",Men,AUS,0,1,0
+Triathlon,Triathlon,Individual,W,"ALLEN, Kate",Women,AUT,0,0,1
+Softball,Softball,softball,W,"TAKAYAMA, Juri",Women,JPN,1,0,0
+Hockey,Hockey,hockey,W,"STEPNIK, Ayelen Iara",Women,ARG,1,0,0
+Gymnastics,Rhythmic G.,group competition,W,"BELUGUINA, Olesia",Women,RUS,0,0,1
+Wrestling,Wrestling Free.,48 - 55kg,W,"GOMIS, Anna",Women,FRA,1,0,0
+Football,Football,football,M,"MEDINA, Nicolas",Men,ARG,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"BONOMI, Beniamino",Men,ITA,0,1,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"TORGERSSON, Therese",Women,SWE,1,0,0
+Equestrian,Jumping,individual,X,"KAPPLER, Chris",Men,USA,0,1,0
+Judo,Judo,73 - 81kg (half-middleweight),M,"NOSSOV, Dmitri",Men,RUS,1,0,0
+Athletics,Athletics,triple jump,M,"OPREA, Marian",Men,ROU,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"RAUHE, Ronald",Men,GER,0,0,1
+Rowing,Rowing,lightweight coxless four (4-),M,"BERTINI, Lorenzo",Men,ITA,1,0,0
+Aquatics,Water polo,water polo,M,"STEINMETZ, Adam",Men,HUN,0,0,1
+Aquatics,Synchronized S.,team,W,"NESBITT, Stephanie",Women,USA,1,0,0
+Softball,Softball,softball,W,"WARD, Natalie",Women,AUS,0,1,0
+Hockey,Hockey,hockey,M,"VAN DER WEIDE, Sander",Men,NED,0,1,0
+Athletics,Athletics,4x400m relay,M,"GODDAY, James",Men,NGR,1,0,0
+Handball,Handball,handball,W,"SHEVCHENKO, Lyudmyla",Women,UKR,1,0,0
+Softball,Softball,softball,W,"BUSTOS, Crystl",Women,USA,0,0,1
+Aquatics,Water polo,water polo,W,"ARAUJO, Alexandra",Women,ITA,0,0,1
+Baseball,Baseball,baseball,M,"ODELIN SANAME, Vicyohandri",Men,CUB,0,0,1
+Shooting,Shooting,skeet (75 targets),W,"IGALY, Diana",Women,HUN,0,0,1
+Fencing,Fencing,épée team,M,"KULCSAR, Krisztian",Men,HUN,0,1,0
+Basketball,Basketball,basketball,W,"GRIFFITH, Yolanda",Women,USA,0,0,1
+Table Tennis,Table Tennis,singles,M,"WANG, Hao",Men,CHN,0,1,0
+Athletics,Athletics,1500m,M,"EL GUERROUJ, Hicham",Men,MAR,0,0,1
+Aquatics,Water polo,water polo,W,"MORAITI, Antonia",Women,GRE,0,1,0
+Gymnastics,Artistic G.,team competition,M,"WILSON, Blaine",Men,USA,0,1,0
+Cycling,Cycling Track,500m time trial,W,"TSYLINSKAYA, Natallia",Women,BLR,1,0,0
+Cycling,Cycling Track,individual pursuit,W,"MACTIER, Katie",Women,AUS,0,1,0
+Gymnastics,Artistic G.,individual all-round,W,"PATTERSON, Carly",Women,USA,0,0,1
+Shooting,Shooting,50m rifle 3 positions (3x40 shots),M,"JIA, Zhanbo",Men,CHN,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"BAERG, Cameron",Men,CAN,0,1,0
+Hockey,Hockey,hockey,M,"WITTHAUS, Matthias",Men,GER,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"AZON, Sandra",Women,ESP,0,1,0
+Basketball,Basketball,basketball,M,"HERRMANN, Walter",Men,ARG,0,0,1
+Weightlifting,Weightlifting,69kg,M,"PECHALOV, Nikolay",Men,CRO,1,0,0
+Shooting,Shooting,trap (125 targets),M,"VELLA, Adam",Men,AUS,1,0,0
+Aquatics,Swimming,4x100m medley relay,M,"CROCKER, Ian",Men,USA,0,0,1
+Hockey,Hockey,hockey,M,"SCHULTE, Christian",Men,GER,1,0,0
+Volleyball,Volleyball,volleyball,W,"BARROS FERNANDEZ, Zoila",Women,CUB,1,0,0
+Hockey,Hockey,hockey,M,"WEISSENBORN, Tibor",Men,GER,1,0,0
+Softball,Softball,softball,W,"HODGSKIN, Natalie",Women,AUS,0,1,0
+Cycling,Mountain Bike,cross-country,M,"ABSALON, Julien",Men,FRA,0,0,1
+Boxing,Boxing,51 - 54kg (bantamweight),M,"PETCHKOOM, Worapoj",Men,THA,0,1,0
+Hockey,Hockey,hockey,M,"LIVERMORE, Brent",Men,AUS,0,0,1
+Gymnastics,Artistic G.,team competition,M,"SUCIU, Ioan Silviu",Men,ROU,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"VAN ALMSICK, Franziska",Women,GER,1,0,0
+Athletics,Athletics,marathon,W,"NOGUCHI, Mizuki",Women,JPN,0,0,1
+Aquatics,Synchronized S.,duet,W,"KOZLOVA, Anna",Women,USA,1,0,0
+Gymnastics,Artistic G.,team competition,W,"MCCOOL, Courtney",Women,USA,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-1 1000m (kayak single),M,"LARSEN, Eirik Veraas",Men,NOR,0,0,1
+Handball,Handball,handball,W,"MOON, Pil Hee",Women,KOR,0,1,0
+Hockey,Hockey,hockey,W,"AICEGA, Magdalena",Women,ARG,1,0,0
+Athletics,Athletics,marathon,M,"KEFLEZIGHI, Mebrahtom",Men,USA,0,1,0
+Gymnastics,Artistic G.,vault,W,"ROSU, Monica",Women,ROU,0,0,1
+Basketball,Basketball,basketball,W,"BARANOVA, Elena",Women,RUS,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"HARSTICK, Sara",Women,GER,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"VAN ALMSICK, Franziska",Women,GER,1,0,0
+Volleyball,Volleyball,volleyball,M,"LIMA, Mauricio",Men,BRA,0,0,1
+Aquatics,Swimming,4x100m medley relay,M,"KRAYZELBURG, Lenny",Men,USA,0,0,1
+Taekwondo,Taekwondo,- 58 kg,M,"CHU, Mu Yen",Men,TPE,0,0,1
+Football,Football,football,W,"WIMBERSKY, Petra",Women,GER,1,0,0
+Basketball,Basketball,basketball,M,"MONTECCHIA, Alejandro Ariel",Men,ARG,0,0,1
+Tennis,Tennis,doubles,W,"LI, Ting",Women,CHN,0,0,1
+Hockey,Hockey,hockey,M,"BROOKS, Travis",Men,AUS,0,0,1
+Rowing,Rowing,double sculls (2x),M,"SARTORI, Alessio",Men,ITA,1,0,0
+Hockey,Hockey,hockey,W,"ANTONISKA, Mariela",Women,ARG,1,0,0
+Football,Football,football,W,"HUCLES, Angela",Women,USA,0,0,1
+Shooting,Shooting,25m pistol (30+30 shots),W,"ASHUMOVA, Irada",Women,AZE,1,0,0
+Hockey,Hockey,hockey,W,"SNOEKS, Jiske",Women,NED,0,1,0
+Judo,Judo,- 60 kg,M,"CHOI, Min Ho",Men,KOR,1,0,0
+Football,Football,football,M,"GAMARRA, Carlos",Men,PAR,0,1,0
+Softball,Softball,softball,W,"NUVEMAN, Stacey",Women,USA,0,0,1
+Sailing,Sailing,Star - Keelboat,M,"ROHART, Xavier",Men,FRA,1,0,0
+Softball,Softball,softball,W,"SATO, Yuki",Women,JPN,1,0,0
+Basketball,Basketball,basketball,W,"JACKSON, Lauren",Women,AUS,0,1,0
+Volleyball,Volleyball,volleyball,W,"RUIZ LUACES, Yumilka",Women,CUB,1,0,0
+Aquatics,Synchronized S.,team,W,"KOZLOVA, Anna",Women,USA,1,0,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"SATTIN, Rebecca",Women,AUS,1,0,0
+Hockey,Hockey,hockey,M,"DELMEE, Jeroen",Men,NED,0,1,0
+Handball,Handball,handball,M,"GORPICHIN, Viatcheslav",Men,RUS,1,0,0
+Weightlifting,Weightlifting,48kg,W,"TAYLAN, Nurcan",Women,TUR,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"HANAK, Jakub",Men,CZE,0,1,0
+Gymnastics,Artistic G.,balance beam,W,"PONOR, Catalina",Women,ROU,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"BALABANOVA, Hanna",Women,UKR,1,0,0
+Shooting,Shooting,10m air pistol (40 shots),W,"KOSTEVYCH, Olena",Women,UKR,0,0,1
+Boxing,Boxing,69 - 75 kg,M,"GAYDARBEKOV, Gaydarbek",Men,RUS,0,0,1
+Handball,Handball,handball,M,"FRITZ, Henning",Men,GER,0,1,0
+Aquatics,Swimming,200m freestyle,M,"THORPE, Ian",Men,AUS,0,0,1
+Fencing,Fencing,sabre team,M,"POZDNYAKOV, Stanislav",Men,RUS,1,0,0
+Hockey,Hockey,hockey,W,"ROGNONI, Maria Cecilia",Women,ARG,1,0,0
+Aquatics,Synchronized S.,team,W,"KAWASHIMA, Naoko",Women,JPN,0,1,0
+Hockey,Hockey,hockey,W,"KUEHN, Anke",Women,GER,0,0,1
+Athletics,Athletics,4x400m relay,W,"SMITH, Ronetta",Women,JAM,1,0,0
+Basketball,Basketball,basketball,W,"TRANQUILLI, Allison",Women,AUS,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"GRIN, Sergij",Men,UKR,1,0,0
+Table Tennis,Table Tennis,doubles,M,"MA, Lin",Men,CHN,0,0,1
+Hockey,Hockey,hockey,W,"GUDE, Franziska",Women,GER,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"VLCEK, Erik",Men,SVK,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"MANNING, Paul",Men,GBR,0,1,0
+Rowing,Rowing,lightweight coxless four (4-),M,"LOFTUS, Glen",Men,AUS,0,1,0
+Basketball,Basketball,basketball,M,"JAMES, Lebron",Men,USA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"PASTUSZKA, Aneta",Women,POL,1,0,0
+Football,Football,football,M,"GONZALEZ, Luis",Men,ARG,0,0,1
+Weightlifting,Weightlifting,94kg,M,"DOBREV, Milen",Men,BUL,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),M,"KUCHARSKI, Tomasz",Men,POL,0,0,1
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"HENZE, Stefan",Men,GER,0,1,0
+Athletics,Athletics,800m,W,"HOLMES, Kelly",Women,GBR,0,0,1
+Hockey,Hockey,hockey,M,"BIEDERLACK, Sebastian",Men,GER,1,0,0
+Wrestling,Wrestling Gre-R,- 55kg,M,"KIOUREGKIAN, Artiom",Men,GRE,1,0,0
+Softball,Softball,softball,W,"SAITO, Haruka",Women,JPN,1,0,0
+Taekwondo,Taekwondo,49 - 57 kg,W,"JANG, Ji Won",Women,KOR,0,0,1
+Weightlifting,Weightlifting,48kg,W,"WIRATTHAWORN, Aree",Women,THA,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"WU, Hui Ju",Women,TPE,1,0,0
+Baseball,Baseball,baseball,M,"TANI, Yoshitomo",Men,JPN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 1000m (canoe double),M,"KOLONICS, Gyorgy",Men,HUN,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"JESPERSEN, Helle",Women,DEN,1,0,0
+Volleyball,Volleyball,volleyball,M,"GIANI, Andrea",Men,ITA,0,1,0
+Equestrian,Eventing,team,X,"KING, Mary",Women,GBR,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"PHELPS, Michael",Men,USA,1,0,0
+Modern Pentathlon,Modern Pentath.,Individual competition,M,"ZADNEPROVSKIS, Andrejus",Men,LTU,0,1,0
+Basketball,Basketball,basketball,W,"PORTER, Natalie",Women,AUS,0,1,0
+Badminton,Badminton,doubles,W,"RA, Kyung-Min",Women,KOR,1,0,0
+Aquatics,Water polo,water polo,M,"VUJASINOVIC, Vladimir",Men,SCG,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"GOLDBLATT, Scott",Men,USA,0,0,1
+Hockey,Hockey,hockey,W,"RODEWALD, Marion",Women,GER,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"LIPA, Elisabeta",Women,ROU,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"BROWN, Graeme",Men,AUS,0,0,1
+Aquatics,Swimming,200m backstroke,M,"ROGAN, Markus",Men,AUT,0,1,0
+Rowing,Rowing,four without coxswain (4-),M,"HERSCHMILLER, Thomas",Men,CAN,0,1,0
+Basketball,Basketball,basketball,M,"BULLERI, Massimo",Men,ITA,0,1,0
+Aquatics,Water polo,water polo,M,"FEDOROV, Alexander",Men,RUS,1,0,0
+Cycling,Cycling Track,sprint,W,"MEARES, Anna",Women,AUS,1,0,0
+Basketball,Basketball,basketball,W,"CATCHINGS, Tamika",Women,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"FJELDHEIM, Nils Olav",Men,NOR,1,0,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"FEDOROVTSEV, Sergey",Men,RUS,0,0,1
+Volleyball,Volleyball,volleyball,W,"TYURINA, Elena",Women,RUS,0,1,0
+Badminton,Badminton,singles,M,"KUNCORO, Soni Dwi",Men,INA,1,0,0
+Volleyball,Volleyball,volleyball,W,"NIKOLAEVA, Olga",Women,RUS,0,1,0
+Football,Football,football,M,"D ALESSANDRO, Andres",Men,ARG,0,0,1
+Cycling,Cycling Track,Madison,M,"MARVULLI, Franco",Men,SUI,0,1,0
+Fencing,Fencing,épée individual,M,"WANG, Lei",Men,CHN,0,1,0
+Fencing,Fencing,épée team,W,"LOGOUNOVA, Tatiana",Women,RUS,0,0,1
+Aquatics,Synchronized S.,duet,W,"TAKEDA, Miho",Women,JPN,0,1,0
+Football,Football,football,W,MAYCON,Women,BRA,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,M,"BARNETT, Steven",Men,AUS,1,0,0
+Baseball,Baseball,baseball,M,"ISHII, Hirotoshi",Men,JPN,1,0,0
+Aquatics,Swimming,100m backstroke,M,"ROGAN, Markus",Men,AUT,0,1,0
+Fencing,Fencing,foil individual,M,"GUYART, Brice",Men,FRA,0,0,1
+Wrestling,Wrestling Free.,84 - 96kg,M,"HEIDARI, Alireza",Men,IRI,1,0,0
+Fencing,Fencing,foil individual,W,"VEZZALI, Valentina",Women,ITA,0,0,1
+Aquatics,Swimming,100m backstroke,M,"PEIRSOL, Aaron",Men,USA,0,0,1
+Wrestling,Wrestling Gre-R,74 - 84kg,M,"ABRAHAMIAN, Ara",Men,SWE,0,1,0
+Judo,Judo,- 60 kg,M,"TSAGAANBAATAR, Khashbaatar",Men,MGL,1,0,0
+Equestrian,Jumping,team,X,"KAPPLER, Chris",Men,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,C-1 500m (canoe single),M,"DITTMER, Andreas",Men,GER,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"LUTZE, Manuela",Women,GER,0,0,1
+Rowing,Rowing,eight with coxswain (8+),W,"JOHNSON, Kate",Women,USA,0,1,0
+Handball,Handball,handball,W,"RAYHEL, Oxana",Women,UKR,1,0,0
+Basketball,Basketball,basketball,W,"HARROWER, Kristi",Women,AUS,0,1,0
+Judo,Judo,- 60 kg,M,"NOMURA, Tadahiro",Men,JPN,0,0,1
+Football,Football,football,W,"WAMBACH, Abby",Women,USA,0,0,1
+Rowing,Rowing,lightweight coxless four (4-),M,"EBERT, Thomas",Men,DEN,0,0,1
+Athletics,Athletics,10000m,W,"DIBABA, Ejegayehu",Women,ETH,0,1,0
+Judo,Judo,81 - 90kg (middleweight),M,"IZUMI, Hiroshi",Men,JPN,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-1 1000m (canoe single),M,"DITTMER, Andreas",Men,GER,0,1,0
+Gymnastics,Trampoline,individual,W,"HUANG, Shanshan",Women,CHN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"SEMYKINA, Tetyana",Women,UKR,1,0,0
+Rowing,Rowing,lightweight coxless four (4-),M,"MOELVIG, Stephan",Men,DEN,0,0,1
+Handball,Handball,handball,M,"KULESHOV, Oleg",Men,RUS,1,0,0
+Fencing,Fencing,épée team,M,"JEANNET, Jerome",Men,FRA,0,0,1
+Aquatics,Diving,10m platform,M,"TIAN, Liang",Men,CHN,1,0,0
+Football,Football,football,M,"FERRARI, Matteo",Men,ITA,1,0,0
+Hockey,Hockey,hockey,M,"GEORGE, Bevan",Men,AUS,0,0,1
+Boxing,Boxing,75 - 81kg (light-heavyweight),M,"HAYDAROV, Utkirbek",Men,UZB,1,0,0
+Equestrian,Eventing,team,X,"LYARD, Cedric",Men,FRA,0,0,1
+Handball,Handball,handball,W,"NOERGAARD, Louise Bager",Women,DEN,0,0,1
+Football,Football,football,W,"POHLERS, Conny",Women,GER,1,0,0
+Football,Football,football,W,"TARPLEY, Lindsay",Women,USA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"HALL, Gary Jr.",Men,USA,1,0,0
+Aquatics,Swimming,4x100m medley relay,M,"CONRAD, Lars",Men,GER,0,1,0
+Volleyball,Volleyball,volleyball,M,"KULESHOV, Alexey",Men,RUS,1,0,0
+Volleyball,Volleyball,volleyball,W,"MUNOZ CARRAZANA, Aniara",Women,CUB,1,0,0
+Rowing,Rowing,single sculls (1x),W,"KARSTEN, Ekaterina",Women,BLR,0,1,0
+Boxing,Boxing,75 - 81kg (light-heavyweight),M,"WARD, Andre",Men,USA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"FERNS, Lyndon",Men,RSA,0,0,1
+Aquatics,Swimming,1500m freestyle,M,"JENSEN, Larsen",Men,USA,0,1,0
+Boxing,Boxing,48 - 51kg (flyweight),M,"GAMBOA TOLEDANO, Yuriorkis",Men,CUB,0,0,1
+Aquatics,Diving,synchronized diving 3m springboard,M,"SCHELLENBERG, Tobias",Men,GER,0,1,0
+Sailing,Sailing,Tornado - Multihull,X,"LOVELL, John",Men,USA,0,1,0
+Handball,Handball,handball,W,"JOERGENSEN, Rikke Hoerlykke",Women,DEN,0,0,1
+Handball,Handball,handball,M,"DOMINIKOVIC, Davor",Men,CRO,0,0,1
+Archery,Archery,team (FITA Olympic round - 70m),W,"CHEN, Li Ju",Women,TPE,1,0,0
+Fencing,Fencing,foil team,M,"GANEEV, Renal",Men,RUS,1,0,0
+Wrestling,Wrestling Gre-R,60 - 66kg,M,"EROGLU, Seref",Men,TUR,0,1,0
+Cycling,Cycling Track,individual pursuit,W,"ZIJLAARD-VAN MOORSEL, Leontien",Women,NED,1,0,0
+Volleyball,Beach volley.,beach volleyball,M,"REGO, Emanuel",Men,BRA,0,0,1
+Aquatics,Swimming,200m butterfly,W,"NAKANISHI, Yuko",Women,JPN,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"MAGEE, Samantha",Women,USA,0,1,0
+Canoe / Kayak,Canoe / Kayak F,C-1 500m (canoe single),M,"OPALEV, Maxim",Men,RUS,1,0,0
+Handball,Handball,handball,M,"GOLUZA, Slavko",Men,CRO,0,0,1
+Archery,Archery,team (FITA Olympic round - 70m),M,"JANG, Yong-Ho",Men,KOR,0,0,1
+Athletics,Athletics,4x100m relay,M,"FASUBA, Olusoji",Men,NGR,1,0,0
+Volleyball,Volleyball,volleyball,W,"ZHANG, Ping",Women,CHN,0,0,1
+Aquatics,Synchronized S.,team,W,"NOVOKSHCHENOVA, Olga",Women,RUS,0,0,1
+Football,Football,football,M,"GONZALEZ, Julio",Men,PAR,0,1,0
+Wrestling,Wrestling Gre-R,66 - 74kg,M,"YLI-HANNUKSELA, Marko",Men,FIN,0,1,0
+Volleyball,Volleyball,volleyball,M,"TOFOLI, Paolo",Men,ITA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"READ, Jason",Men,USA,0,0,1
+Wrestling,Wrestling Free.,60 - 66kg,M,"MURTAZALIEV, Makhach",Men,RUS,1,0,0
+Sailing,Sailing,single-handed dinghy (Finn),M,"AINSLIE, Ben",Men,GBR,0,0,1
+Hockey,Hockey,hockey,M,"DERIKX, Rob",Men,NED,0,1,0
+Aquatics,Diving,synchronized diving 10m platform,M,"WATERFIELD, Peter",Men,GBR,0,1,0
+Athletics,Athletics,long jump,W,"SIMAGINA, Irina",Women,RUS,0,1,0
+Aquatics,Water polo,water polo,W,"ASILIAN, Dimitra",Women,GRE,0,1,0
+Fencing,Fencing,sabre individual,W,"ZAGUNIS, Mariel",Women,USA,0,0,1
+Equestrian,Dressage,team,X,"SCHMIDT, Hubertus",Men,GER,0,0,1
+Fencing,Fencing,foil team,M,"CASSARA, Andrea",Men,ITA,0,0,1
+Hockey,Hockey,hockey,W,"SINNIGE, Clarinda",Women,NED,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"WALKER, Neil",Men,USA,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"THOMAS, Petria",Women,AUS,0,0,1
+Wrestling,Wrestling Gre-R,55 - 60kg,M,"NAZARIAN, Armen",Men,BUL,1,0,0
+Handball,Handball,handball,W,"BORODINA, Anastasiya",Women,UKR,1,0,0
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"HOCHSCHORNER, Peter",Men,SVK,0,0,1
+Weightlifting,Weightlifting,85kg,M,"DIMAS, Pyrros",Men,GRE,1,0,0
+Handball,Handball,handball,W,"MYOUNG, Bok Hee",Women,KOR,0,1,0
+Gymnastics,Artistic G.,team competition,M,"NAKANO, Daisuke",Men,JPN,0,0,1
+Weightlifting,Weightlifting,75kg,W,"THONGSUK, Pawina",Women,THA,0,0,1
+Football,Football,football,M,"AYALA, Roberto",Men,ARG,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"ILIEVA, Zhaneta",Women,BUL,1,0,0
+Athletics,Athletics,10000m,M,"SIHINE, Sileshi",Men,ETH,0,1,0
+Aquatics,Water polo,water polo,M,"IKODINOVIC, Danilo",Men,SCG,0,1,0
+Athletics,Athletics,4x100m relay,W,"ARRON, Christine",Women,FRA,1,0,0
+Hockey,Hockey,hockey,M,"TAEKEMA, Teake",Men,NED,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"YAMAMOTO, Takashi",Men,JPN,1,0,0
+Softball,Softball,softball,W,"MOSLEY, Tracey",Women,AUS,0,1,0
+Baseball,Baseball,baseball,M,"URGELLES, Yoandry",Men,CUB,0,0,1
+Athletics,Athletics,400m,W,"GUEVARA, Ana",Women,MEX,0,1,0
+Aquatics,Synchronized S.,team,W,"KHASYANOVA, Elvira",Women,RUS,0,0,1
+Basketball,Basketball,basketball,M,"MARBURY, Stephon",Men,USA,1,0,0
+Hockey,Hockey,hockey,W,"BOOIJ, Minke",Women,NED,0,1,0
+Aquatics,Water polo,water polo,W,"LIOSI, Kyriaki",Women,GRE,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"DE HAAN, Annemiek",Women,NED,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"CASTANO, Carlos",Men,ESP,1,0,0
+Aquatics,Water polo,water polo,M,"NIKIC, Slobodan",Men,SCG,0,1,0
+Judo,Judo,66 - 73kg (lightweight),M,"PEDRO, James",Men,USA,1,0,0
+Handball,Handball,handball,W,"KIAERSKOU, Lotte",Women,DEN,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"POEWE, Sarah",Women,GER,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"ESCOBAR, Sergi",Men,ESP,1,0,0
+Baseball,Baseball,baseball,M,"WADA, Kazuhiro",Men,JPN,1,0,0
+Athletics,Athletics,4x100m relay,W,"SIMPSON, Sherone",Women,JAM,0,0,1
+Weightlifting,Weightlifting,62kg,M,"SHI, Zhiyong",Men,CHN,0,0,1
+Softball,Softball,softball,W,"SAKAMOTO, Naoko",Women,JPN,1,0,0
+Shooting,Shooting,25m rapid fire pistol (60 shots),M,"POLIAKOV, Sergei",Men,RUS,0,1,0
+Aquatics,Water polo,water polo,M,"VARGA, Tamas",Men,HUN,0,0,1
+Hockey,Hockey,hockey,W,"RUSSO, Marine",Women,ARG,1,0,0
+Judo,Judo,48 - 52kg (half-lightweight),W,"YOKOSAWA, Yuki",Women,JPN,0,1,0
+Aquatics,Synchronized S.,team,W,"JASONTEK, Rebecca",Women,USA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"GABRIELS, Jan-Willem",Men,NED,0,1,0
+Judo,Judo,- 48 kg,W,"GAO, Feng",Women,CHN,1,0,0
+Weightlifting,Weightlifting,48kg,W,"LI, Zhuo",Women,CHN,0,1,0
+Shooting,Shooting,10m air pistol (60 shots),M,"ISAKOV, Vladimir",Men,RUS,1,0,0
+Wrestling,Wrestling Gre-R,96 - 120kg,M,"BAROEV, Khasan",Men,RUS,0,0,1
+Athletics,Athletics,5000m,M,"EL GUERROUJ, Hicham",Men,MAR,0,0,1
+Athletics,Athletics,100m,M,"GREENE, Maurice",Men,USA,1,0,0
+Baseball,Baseball,baseball,M,"UTTING, Andrew",Men,AUS,0,1,0
+Shooting,Shooting,double trap (150 targets),M,"WANG, Zheng",Men,CHN,1,0,0
+Handball,Handball,handball,W,"LEE, Sang-Eun",Women,KOR,0,1,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"VIA DUFRESNE, Natalia",Women,ESP,0,1,0
+Aquatics,Swimming,100m butterfly,W,"THOMAS, Petria",Women,AUS,0,0,1
+Aquatics,Synchronized S.,team,W,"MCFALL, Lauren",Women,USA,1,0,0
+Aquatics,Swimming,200m breaststroke,W,"BEARD, Amanda",Women,USA,0,0,1
+Aquatics,Diving,10m platform,W,"LAO, Lishi",Women,CHN,0,1,0
+Table Tennis,Table Tennis,doubles,W,"LEE, Eun Sil",Women,KOR,0,1,0
+Handball,Handball,handball,W,"MARKUSHEVSKA, Galyna",Women,UKR,1,0,0
+Athletics,Athletics,discus throw,W,"SADOVA, Natalya",Women,RUS,0,0,1
+Equestrian,Dressage,team,X,"SCHAUDT, Martin",Men,GER,0,0,1
+Sailing,Sailing,470 - Two Person Dinghy,M,"SEKI, Kazuto",Men,JPN,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"BUSCHSCHULTE, Antje",Women,GER,1,0,0
+Badminton,Badminton,singles,M,"HIDAYAT, Taufik",Men,INA,0,0,1
+Baseball,Baseball,baseball,M,"BRICE, Thomas",Men,AUS,0,1,0
+Equestrian,Dressage,individual,X,"VAN GRUNSVEN, Anky",Women,NED,0,0,1
+Gymnastics,Artistic G.,individual all-round,M,"HAMM, Paul",Men,USA,0,0,1
+Cycling,Cycling Track,Madison,M,"WIGGINS, Bradley",Men,GBR,1,0,0
+Athletics,Athletics,shot put,M,"BILONOG, Yuriy",Men,UKR,0,0,1
+Athletics,Athletics,4x400m relay,W,"HENNAGAN, Monique",Women,USA,0,0,1
+Volleyball,Volleyball,volleyball,M,"KAZAKOV, Alexei",Men,RUS,1,0,0
+Shooting,Shooting,double trap (120 targets),W,"LEE, Bo Na",Women,KOR,0,1,0
+Gymnastics,Artistic G.,team competition,W,"EREMIA, Alexandra Georgiana",Women,ROU,0,0,1
+Gymnastics,Artistic G.,rings,M,"TAMPAKOS, Dimosthenis",Men,GRE,0,0,1
+Softball,Softball,softball,W,"YAMADA, Eri",Women,JPN,1,0,0
+Football,Football,football,M,"DONADEL, Marco",Men,ITA,1,0,0
+Aquatics,Swimming,4x100m medley relay,M,"MEEUW, Helge",Men,GER,0,1,0
+Hockey,Hockey,hockey,W,"VAN KESSEL, Lieve",Women,NED,0,1,0
+Aquatics,Swimming,400m individual medley,M,"PHELPS, Michael",Men,USA,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"BACA, Juraj",Men,SVK,1,0,0
+Equestrian,Eventing,team,X,"COURREGES, Didier",Men,FRA,0,0,1
+Athletics,Athletics,400m hurdles,W,"TERESHCHUK-ANTIPOVA, Tetiana",Women,UKR,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"STEWART, James",Men,AUS,1,0,0
+Shooting,Shooting,10m running target (30+30 shots),M,"KURZER, Manfred",Men,GER,0,0,1
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),W,"GIDDENS, Rebecca",Women,USA,0,1,0
+Sailing,Sailing,board (Mistral),M,"KAKLAMANAKIS, Nikolaos",Men,GRE,0,1,0
+Basketball,Basketball,basketball,M,"FERNANDEZ, Gabriel Diego",Men,ARG,0,0,1
+Basketball,Basketball,basketball,M,"ANTHONY, Carmelo",Men,USA,1,0,0
+Aquatics,Swimming,100m butterfly,W,"JEDRZEJCZAK, Otylia",Women,POL,0,1,0
+Wrestling,Wrestling Free.,66 - 74kg,M,"FUNDORA, Ivan",Men,CUB,1,0,0
+Aquatics,Synchronized S.,team,W,"ZANOTTO, Kendra",Women,USA,1,0,0
+Athletics,Athletics,110m hurdles,M,"LIU, Xiang",Men,CHN,0,0,1
+Aquatics,Swimming,400m freestyle,M,"KELLER, Klete",Men,USA,1,0,0
+Baseball,Baseball,baseball,M,"GOURRIEL CASTILLO, Yulieski",Men,CUB,0,0,1
+Athletics,Athletics,4x100m relay,M,"DEVONISH, Marlon",Men,GBR,0,0,1
+Handball,Handball,handball,M,"SCHWARZER, Christian",Men,GER,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"STEWART, Steve",Men,AUS,1,0,0
+Softball,Softball,softball,W,"HARRIGAN, Lori",Women,USA,0,0,1
+Aquatics,Water polo,water polo,W,"BEAUREGARD, Robin",Women,USA,1,0,0
+Athletics,Athletics,long jump,M,"MOFFITT, John",Men,USA,0,1,0
+Basketball,Basketball,basketball,M,"MIAN, Michele",Men,ITA,0,1,0
+Archery,Archery,individual (FITA Olympic round - 70m),W,"PARK, Sung-Hyun",Women,KOR,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"KOSTEN, Annabel",Women,NED,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"AYTON, Sarah",Women,GBR,0,0,1
+Baseball,Baseball,baseball,M,"KIMPTON, Nick",Men,AUS,0,1,0
+Aquatics,Swimming,50m freestyle,M,"SCHOEMAN, Roland",Men,RSA,1,0,0
+Aquatics,Diving,10m platform,W,"TOURKY, Loudy",Women,AUS,1,0,0
+Tennis,Tennis,doubles,M,"KIEFER, Nicolas",Men,GER,0,1,0
+Shooting,Shooting,10m air pistol (40 shots),W,"SEKARIC, Jasna",Women,SCG,0,1,0
+Aquatics,Synchronized S.,team,W,"DOBRATZ, Erin",Women,USA,1,0,0
+Football,Football,football,M,"CHIELLINI, Giorgio",Men,ITA,1,0,0
+Basketball,Basketball,basketball,W,"SPORN, Rachael",Women,AUS,0,1,0
+Volleyball,Volleyball,volleyball,W,"ZHANG, Yuehong",Women,CHN,0,0,1
+Sailing,Sailing,Tornado - Multihull,X,"ESPINOLA, Carlos",Men,ARG,1,0,0
+Aquatics,Swimming,100m butterfly,M,"PHELPS, Michael",Men,USA,0,0,1
+Fencing,Fencing,épée team,W,"NISIMA, Maureen",Women,FRA,1,0,0
+Basketball,Basketball,basketball,M,"BASILE, Gianluca",Men,ITA,0,1,0
+Football,Football,football,M,"DEVACA, Jose",Men,PAR,0,1,0
+Basketball,Basketball,basketball,W,"POTO, Alicia",Women,AUS,0,1,0
+Volleyball,Volleyball,volleyball,M,"MASTRANGELO, Luigi",Men,ITA,0,1,0
+Baseball,Baseball,baseball,M,"IWASE, Hitoki",Men,JPN,1,0,0
+Judo,Judo,66 - 73kg (lightweight),M,"MAKAROV, Vitaliy",Men,RUS,0,1,0
+Athletics,Athletics,10000m,M,"BEKELE, Kenenisa",Men,ETH,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"LEONHARDT, Carolin",Women,GER,0,1,0
+Athletics,Athletics,4x400m relay,M,"UDO OBONG, Enefiok",Men,NGR,1,0,0
+Gymnastics,Artistic G.,team competition,M,"TOMITA, Hiroyuki",Men,JPN,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"D'OTTAVIO, Fabrizia",Women,ITA,0,1,0
+Aquatics,Water polo,water polo,M,"ZINNUROV, Irek",Men,RUS,1,0,0
+Basketball,Basketball,basketball,M,"ODOM, Lamar",Men,USA,1,0,0
+Rowing,Rowing,coxless pair (2-),M,"CECH, Donovan",Men,RSA,1,0,0
+Volleyball,Volleyball,volleyball,M,"SANTOS, Sergio Dutra",Men,BRA,0,0,1
+Football,Football,football,W,FORMIGA,Women,BRA,0,1,0
+Cycling,Cycling Track,Sprint indivual,M,"BAYLEY, Ryan",Men,AUS,0,0,1
+Wrestling,Wrestling Gre-R,- 55kg,M,"MAMEDALIEV, Gueidar",Men,RUS,0,1,0
+Badminton,Badminton,doubles,M,"HA, Tae-Kwon",Men,KOR,0,0,1
+Athletics,Athletics,javelin throw,M,"THORKILDSEN, Andreas",Men,NOR,0,0,1
+Shooting,Shooting,double trap (150 targets),M,"ALMAKTOUM, Shaikh Ahmed",Men,UAE,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),M,"BAGGALEY, Nathan",Men,AUS,0,1,0
+Aquatics,Water polo,water polo,W,"MICELI, Martina",Women,ITA,0,0,1
+Athletics,Athletics,100m,M,"OBIKWELU, Francis",Men,POR,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-1 1000m (kayak single),M,"FOUHY, Ben",Men,NZL,0,1,0
+Equestrian,Dressage,team,X,"KEMMER, Heike",Women,GER,0,0,1
+Wrestling,Wrestling Free.,63 - 72kg,W,"MANIOUROVA, Gouzel",Women,RUS,0,1,0
+Gymnastics,Artistic G.,team competition,W,"BAN, Oana",Women,ROU,0,0,1
+Baseball,Baseball,baseball,M,"KANEKO, Makoto",Men,JPN,1,0,0
+Basketball,Basketball,basketball,W,"OSIPOVA, Irina",Women,RUS,1,0,0
+Wrestling,Wrestling Free.,96 - 120kg,M,"TAYMAZOV, Artur",Men,UZB,0,0,1
+Athletics,Athletics,4x100m relay,M,"EGBELE, Aaron",Men,NGR,1,0,0
+Boxing,Boxing,81 - 91kg (heavyweight),M,"ZUYEV, Viktar",Men,BLR,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"HANSON, Boden Joseph",Men,AUS,1,0,0
+Equestrian,Jumping,team,X,"ERIKSSON, Peter",Men,SWE,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"BILUSHCHENKO, Sergij",Men,UKR,1,0,0
+Athletics,Athletics,4x400m relay,M,"AUDU, Musa",Men,NGR,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"KOMISARZ, Rachel",Women,USA,0,0,1
+Fencing,Fencing,épée team,M,"IMRE, Geza",Men,HUN,0,1,0
+Basketball,Basketball,basketball,W,"BRONDELLO, Sandra",Women,AUS,0,1,0
+Baseball,Baseball,baseball,M,"MIYAMOTO, Shinya",Men,JPN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"SZABO, Szilvia",Women,HUN,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"JOYCE, Kara Lynn",Women,USA,0,1,0
+Boxing,Boxing,54 - 57kg (featherweight),M,"JO, Seok Hwan",Men,KOR,1,0,0
+Equestrian,Dressage,team,X,"SOTO, Rafael",Men,ESP,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"JIRKA, David",Men,CZE,0,1,0
+Tennis,Tennis,singles,W,"MAURESMO, Amelie",Women,FRA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"SPRENGER, Nicholas",Men,AUS,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"ROSSI, Antonio",Men,ITA,0,1,0
+Basketball,Basketball,basketball,M,"CHIACIG, Roberto",Men,ITA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"WHIPPLE, Mary",Women,USA,0,1,0
+Triathlon,Triathlon,Individual,M,"DOCHERTY, Bevan",Men,NZL,0,1,0
+Judo,Judo,52 - 57kg (lightweight),W,"KYE, Sun Hui",Women,PRK,0,1,0
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),M,"LEFEVRE, Fabien",Men,FRA,1,0,0
+Softball,Softball,softball,W,"EDEBONE, Peta",Women,AUS,0,1,0
+Archery,Archery,team (FITA Olympic round - 70m),M,"SERDYUK, Oleksandr",Men,UKR,1,0,0
+Rowing,Rowing,single sculls (1x),M,"JAANSON, Jueri",Men,EST,0,1,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"YUAN, Shu Chi",Women,TPE,1,0,0
+Sailing,Sailing,board (Mistral),W,"YIN, Jian",Women,CHN,0,1,0
+Gymnastics,Artistic G.,team competition,W,"BHARDWAJ, Mohini",Women,USA,0,1,0
+Fencing,Fencing,épée team,W,"FLESSEL-COLOVIC, Laura",Women,FRA,1,0,0
+Aquatics,Swimming,200m individual medley,M,"BOVELL, George",Men,TRI,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"HANSEN, Joseph",Men,USA,0,0,1
+Boxing,Boxing,69 - 75 kg,M,"PRASATHINPHIMAI, Suriya",Men,THA,1,0,0
+Football,Football,football,W,"BOXX, Shannon",Women,USA,0,0,1
+Aquatics,Swimming,100m breaststroke,M,"HANSEN, Brendan",Men,USA,0,1,0
+Weightlifting,Weightlifting,75kg,W,"POPOVA, Valentina",Women,RUS,1,0,0
+Football,Football,football,M,"DELGADO, Cesar",Men,ARG,0,0,1
+Shooting,Shooting,trap (75 targets),W,"LEE, Bo Na",Women,KOR,1,0,0
+Shooting,Shooting,50m rifle 3 positions (3x20 shots),W,"WANG, Chengyi",Women,CHN,1,0,0
+Judo,Judo,90 - 100kg (half-heavyweight),M,"MAKARAU, Ihar",Men,BLR,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,W,"BUSCHSCHULTE, Antje",Women,GER,1,0,0
+Equestrian,Eventing,individual,X,"FUNNELL, Philippa",Women,GBR,1,0,0
+Rowing,Rowing,coxless pair (2-),M,"SKELIN, Niksa",Men,CRO,0,1,0
+Cycling,Cycling Track,1km time trial,M,"NIMKE, Stefan",Men,GER,1,0,0
+Basketball,Basketball,basketball,M,"MARION, Shawn",Men,USA,1,0,0
+Basketball,Basketball,basketball,W,"ARKHIPOVA, Anna",Women,RUS,1,0,0
+Weightlifting,Weightlifting,53kg,W,"MOSQUERA, Mabel",Women,COL,1,0,0
+Handball,Handball,handball,W,"TOURAY, Josephine",Women,DEN,0,0,1
+Athletics,Athletics,200m,M,"WILLIAMS, Bernard",Men,USA,0,1,0
+Boxing,Boxing,57 - 60kg (lightweight),M,"KINDELAN MESA, Mario Cesar",Men,CUB,0,0,1
+Baseball,Baseball,baseball,M,"SANCHEZ, Eriel",Men,CUB,0,0,1
+Athletics,Athletics,1500m,W,"TOMASHEVA, Tatyana",Women,RUS,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"BEARD, Amanda",Women,USA,0,1,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"TORRENT, Carlos",Men,ESP,1,0,0
+Boxing,Boxing,48 - 51kg (flyweight),M,"THOMAS, Jerome",Men,FRA,0,1,0
+Hockey,Hockey,hockey,W,"LAETZSCH, Heike",Women,GER,0,0,1
+Athletics,Athletics,4x100m relay,M,"EMEDOLU, Uchenna",Men,NGR,1,0,0
+Athletics,Athletics,marathon,W,"NDEREBA, Catherine",Women,KEN,0,1,0
+Hockey,Hockey,hockey,M,"KLAVER, Karel",Men,NED,0,1,0
+Aquatics,Swimming,200m backstroke,M,"FLOREA, Razvan Ionut",Men,ROU,1,0,0
+Athletics,Athletics,pole vault,M,"GIBILISCO, Giuseppe",Men,ITA,1,0,0
+Rowing,Rowing,pair without coxswain (2-),W,"SUSANU, Viorica",Women,ROU,0,0,1
+Baseball,Baseball,baseball,M,"JOJIMA, Kenji",Men,JPN,1,0,0
+Athletics,Athletics,4x100m relay,W,"TABAKOVA, Yuliya",Women,RUS,0,1,0
+Athletics,Athletics,3000m steeplechase,M,"KOECH, Paul Kipsiele",Men,KEN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"ZABEL, Mark",Men,GER,0,1,0
+Handball,Handball,handball,M,"SPREM, Goran",Men,CRO,0,0,1
+Gymnastics,Artistic G.,team competition,M,"YONEDA, Isao",Men,JPN,0,0,1
+Aquatics,Water polo,water polo,M,"MADARAS, Norbert",Men,HUN,0,0,1
+Badminton,Badminton,doubles,X,"ZHANG, Jun",Men,CHN,0,0,1
+Basketball,Basketball,basketball,M,"NOCIONI, Andres Marcelo",Men,ARG,0,0,1
+Aquatics,Swimming,200m individual medley,W,"BEARD, Amanda",Women,USA,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"KLIM, Michael",Men,AUS,0,1,0
+Tennis,Tennis,doubles,W,"SUN, Tian Tian",Women,CHN,0,0,1
+Judo,Judo,60 - 66kg (half-lightweight),M,"ARENCIBIA, Yordanis",Men,CUB,1,0,0
+Handball,Handball,handball,W,"OH, Yong Ran",Women,KOR,0,1,0
+Hockey,Hockey,hockey,M,"BUTLER, Dean",Men,AUS,0,0,1
+Volleyball,Volleyball,volleyball,W,"LI, Shan",Women,CHN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"HORVATH, Gabor",Men,HUN,0,0,1
+Fencing,Fencing,foil individual,W,"GRUCHALA, Sylwia",Women,POL,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"FISCHER, Birgit",Women,GER,0,1,0
+Handball,Handball,handball,W,"WOO, Sun Hee",Women,KOR,0,1,0
+Fencing,Fencing,épée team,M,"SCHMID, Sven",Men,GER,1,0,0
+Athletics,Athletics,javelin throw,W,"MANIANI-TZELILI, Mirella",Women,GRE,1,0,0
+Baseball,Baseball,baseball,M,"SCULL, Antonio",Men,CUB,0,0,1
+Volleyball,Volleyball,volleyball,W,"ORTIZ CHARRO, Yaima",Women,CUB,1,0,0
+Hockey,Hockey,hockey,M,"HICKMAN, Mark",Men,AUS,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"COPE, Haley",Women,USA,0,1,0
+Baseball,Baseball,baseball,M,"GONZALEZ, Norberto",Men,CUB,0,0,1
+Cycling,Mountain Bike,cross-country,W,"PREMONT, Marie-Helene",Women,CAN,0,1,0
+Modern Pentathlon,Modern Pentath.,Individual competition,W,"HARLAND, Georgina",Women,GBR,1,0,0
+Hockey,Hockey,hockey,M,"VEERING, Klaas",Men,NED,0,1,0
+Cycling,Cycling Road,individual road race,W,"CARRIGAN, Sara",Women,AUS,0,0,1
+Handball,Handball,handball,M,"LACKOVIC, Blazenko",Men,CRO,0,0,1
+Aquatics,Synchronized S.,team,W,"YONEDA, Yoko",Women,JPN,0,1,0
+Hockey,Hockey,hockey,M,"DE NOOIJER, Teun",Men,NED,0,1,0
+Boxing,Boxing,54 - 57kg (featherweight),M,"TAJBERT, Vitali",Men,GER,1,0,0
+Fencing,Fencing,épée individual,M,"FISCHER, Marcel",Men,SUI,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,M,"ROSOLINO, Massimiliano",Men,ITA,1,0,0
+Aquatics,Synchronized S.,team,W,"SHORINA, Anna",Women,RUS,0,0,1
+Archery,Archery,team (FITA Olympic round - 70m),M,"WANG, Cheng Pang",Men,TPE,0,1,0
+Equestrian,Eventing,team,X,"BOITEAU, Arnaud",Men,FRA,0,0,1
+Aquatics,Diving,synchronized diving 10m platform,W,"LAO, Lishi",Women,CHN,0,0,1
+Badminton,Badminton,singles,M,"SHON, Seung Mo",Men,KOR,0,1,0
+Weightlifting,Weightlifting,105kg,M,"BERESTOV, Dmitry",Men,RUS,0,0,1
+Athletics,Athletics,4x100m relay,W,"HURTIS-HOUAIRI, Muriel",Women,FRA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"NELSON, Lianne",Women,USA,0,1,0
+Gymnastics,Artistic G.,uneven bars,W,"LEPENNEC, Emilie",Women,FRA,0,0,1
+Cycling,Cycling Road,individual time trial,W,"THUERIG, Karin",Women,SUI,1,0,0
+Gymnastics,Artistic G.,team competition,W,"SOFRONIE, Nicoleta Daniela",Women,ROU,0,0,1
+Hockey,Hockey,hockey,W,"SCHEEPSTRA, Maartje",Women,NED,0,1,0
+Sailing,Sailing,Star - Keelboat,M,"MACDONALD, Ross",Men,CAN,0,1,0
+Sailing,Sailing,49er - Skiff,X,"FERNANDEZ, Xavier",Men,ESP,0,0,1
+Sailing,Sailing,board (Mistral),M,"DEMPSEY, Nick",Men,GBR,1,0,0
+Tennis,Tennis,doubles,M,"GONZALEZ, Fernando",Men,CHI,0,0,1
+Baseball,Baseball,baseball,M,"MATSUZAKA, Daisuke",Men,JPN,1,0,0
+Baseball,Baseball,baseball,M,"KURODA, Hiroki",Men,JPN,1,0,0
+Hockey,Hockey,hockey,W,"VAN GEENHUIZEN, Miek",Women,NED,0,1,0
+Athletics,Athletics,5000m,W,"DEFAR, Meseret",Women,ETH,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"RISZDORFER, Richard",Men,SVK,1,0,0
+Handball,Handball,handball,M,"RAMOTA, Christian",Men,GER,0,1,0
+Handball,Handball,handball,M,"BASHKIN, Pavel",Men,RUS,1,0,0
+Wrestling,Wrestling Free.,60 - 66kg,M,"TEDEYEV, Elbrus",Men,UKR,0,0,1
+Handball,Handball,handball,M,"RASTVORTSEV, Alexey",Men,RUS,1,0,0
+Gymnastics,Artistic G.,uneven bars,W,"KUPETS, Courtney",Women,USA,1,0,0
+Badminton,Badminton,doubles,M,"KIM, Dong Moon",Men,KOR,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),W,"BLASBERG, Claudia",Women,GER,0,1,0
+Gymnastics,Trampoline,individual,W,"DOGONADZE, Anna",Women,GER,0,0,1
+Football,Football,football,M,"TEVEZ, Carlos",Men,ARG,0,0,1
+Hockey,Hockey,hockey,M,"WELLS, Matthew",Men,AUS,0,0,1
+Athletics,Athletics,800m,M,"KIPKETER, Wilson",Men,DEN,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),M,"CHEN, Szu Yuan",Men,TPE,0,1,0
+Fencing,Fencing,épée team,W,"BOKEL, Claudia",Women,GER,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,W,"STOCKBAUER, Hannah",Women,GER,1,0,0
+Weightlifting,Weightlifting,69kg,W,"KRUTZLER, Eszter",Women,HUN,0,1,0
+Football,Football,football,M,"MASCHERANO, Javier",Men,ARG,0,0,1
+Hockey,Hockey,hockey,W,"MOREIRA DE MELO, Fatima",Women,NED,0,1,0
+Triathlon,Triathlon,Individual,M,"RIEDERER, Sven",Men,SUI,1,0,0
+Athletics,Athletics,1500m,W,"CIONCAN, Maria",Women,ROU,1,0,0
+Gymnastics,Artistic G.,team competition,W,"ZAMOLODCHIKOVA, Elena",Women,RUS,1,0,0
+Volleyball,Beach volley.,beach volleyball,M,"HEUSCHER, Patrick",Men,SUI,1,0,0
+Aquatics,Water polo,water polo,W,"LARA, Georgia",Women,GRE,0,1,0
+Softball,Softball,softball,W,"BERG, Laura",Women,USA,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,M,"PHELPS, Michael",Men,USA,0,0,1
+Athletics,Athletics,400m,M,"HARRIS, Otis",Men,USA,0,1,0
+Softball,Softball,softball,W,"TITCUME, Natalie",Women,AUS,0,1,0
+Baseball,Baseball,baseball,M,"MACHADO MORALES, Roger",Men,CUB,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"MCGEE, Bradley",Men,AUS,0,0,1
+Fencing,Fencing,foil team,M,"VANNI, Simone",Men,ITA,0,0,1
+Wrestling,Wrestling Free.,55 - 63kg,W,"MCMANN, Sara",Women,USA,0,1,0
+Softball,Softball,softball,W,"TOPPING, Jenny",Women,USA,0,0,1
+Weightlifting,Weightlifting,63kg,W,"SKAKUN, Nataliya",Women,UKR,0,0,1
+Wrestling,Wrestling Free.,- 55kg,M,"BATIROV, Mavlet",Men,RUS,0,0,1
+Aquatics,Synchronized S.,team,W,"GROMOVA, Maria",Women,RUS,0,0,1
+Judo,Judo,60 - 66kg (half-lightweight),M,"GEORGIEV, Georgi",Men,BUL,1,0,0
+Table Tennis,Table Tennis,singles,W,"KIM, Kyungah",Women,KOR,1,0,0
+Aquatics,Water polo,water polo,M,"TRBOJEVIC, Petar",Men,SCG,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"HANSEN, Brendan",Men,USA,0,0,1
+Wrestling,Wrestling Free.,55 - 60kg,M,"INOUE, Kenji",Men,JPN,1,0,0
+Basketball,Basketball,basketball,W,"KALMYKOVA, Maria",Women,RUS,1,0,0
+Volleyball,Volleyball,volleyball,W,"KORUKOVETS, Alexandra",Women,RUS,0,1,0
+Athletics,Athletics,shot put,M,"OLSEN, Joachim Broechner",Men,DEN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),W,"BRUNET, Caroline",Women,CAN,1,0,0
+Gymnastics,Artistic G.,pommel horse,M,"URZICA, Marius Daniel",Men,ROU,0,1,0
+Volleyball,Volleyball,volleyball,W,"ARTAMONOVA, Evgenya",Women,RUS,0,1,0
+Sailing,Sailing,Star - Keelboat,M,"WOLFS, Mike",Men,CAN,0,1,0
+Shooting,Shooting,double trap (120 targets),W,"RHODE, Kimberly",Women,USA,0,0,1
+Football,Football,football,W,PRETINHA,Women,BRA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"DEKKERS, Hurnet",Women,NED,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"KOVACS, Katalin",Women,HUN,0,0,1
+Aquatics,Water polo,water polo,W,"MUNRO, Thalia",Women,USA,1,0,0
+Aquatics,Swimming,4x100m freestyle relay,M,"WALKER, Neil",Men,USA,1,0,0
+Hockey,Hockey,hockey,W,"ERNSTING KRIENKE, Nadine",Women,GER,0,0,1
+Basketball,Basketball,basketball,W,"THOMPSON, Tina",Women,USA,0,0,1
+Taekwondo,Taekwondo,68 - 80 kg,M,"TANRIKULU, Bahri",Men,TUR,0,1,0
+Aquatics,Swimming,50m freestyle,M,"HALL, Gary Jr.",Men,USA,0,0,1
+Cycling,Cycling Track,Team Sprint,M,"TOURNANT, Arnaud",Men,FRA,1,0,0
+Volleyball,Volleyball,volleyball,W,"WANG, Lina",Women,CHN,0,0,1
+Rowing,Rowing,lightweight coxless four (4-),M,"AMITRANO, Salvatore",Men,ITA,1,0,0
+Hockey,Hockey,hockey,W,"KELLER, Natascha",Women,GER,0,0,1
+Athletics,Athletics,4x400m relay,W,"TROTTER, Deedee",Women,USA,0,0,1
+Sailing,Sailing,single-handed dinghy open (Laser),X,"ZBOGAR, Vasilij",Men,SLO,1,0,0
+Volleyball,Volleyball,volleyball,W,"GAMOVA, Ekaterina",Women,RUS,0,1,0
+Volleyball,Volleyball,volleyball,W,"PLOTNIKOVA, Elena",Women,RUS,0,1,0
+Fencing,Fencing,foil team,M,"SANZO, Salvatore",Men,ITA,0,0,1
+Basketball,Basketball,basketball,M,"DUNCAN, Timothy",Men,USA,1,0,0
+Handball,Handball,handball,W,"SCHMIDT, Rikke",Women,DEN,0,0,1
+Table Tennis,Table Tennis,doubles,M,"TUGWELL, Finn",Men,DEN,1,0,0
+Badminton,Badminton,doubles,X,"SCHJOLDAGER, Mette",Women,DEN,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"GAFENCU, Liliana",Women,ROU,0,0,1
+Aquatics,Water polo,water polo,M,"GARBOUZOV, Serguei",Men,RUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),W,"JANIC, Natasa",Women,HUN,0,0,1
+Fencing,Fencing,foil team,M,"WANG, Haibin",Men,CHN,0,1,0
+Athletics,Athletics,100m,W,"WILLIAMS, Lauryn",Women,USA,0,1,0
+Archery,Archery,team (FITA Olympic round - 70m),M,"RUBAN, Viktor",Men,UKR,1,0,0
+Athletics,Athletics,400m hurdles,M,"MCFARLANE, Danny",Men,JAM,0,1,0
+Equestrian,Dressage,team,X,"JIMENEZ, Juan Antonio",Men,ESP,0,1,0
+Tennis,Tennis,singles,M,"MASSU, Nicolas",Men,CHI,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),W,"VAN EUPEN, Marit",Women,NED,1,0,0
+Aquatics,Water polo,water polo,M,"CIRIC, Aleksandar",Men,SCG,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"KIRK, Tara",Women,USA,0,1,0
+Football,Football,football,W,ELAINE,Women,BRA,0,1,0
+Handball,Handball,handball,M,"KALEB, Niksa",Men,CRO,0,0,1
+Volleyball,Beach volley.,beach volleyball,W,"MCPEAK, Holly",Women,USA,1,0,0
+Athletics,Athletics,400m,W,"ANTYUKH, Natalya",Women,RUS,1,0,0
+Aquatics,Swimming,400m individual medley,W,"BARDACH, Georgina",Women,ARG,1,0,0
+Athletics,Athletics,discus throw,W,"KELESIDOU, Anastasia",Women,GRE,0,1,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"LANCASTER, Brett",Men,AUS,0,0,1
+Football,Football,football,M,"BARRETO, Diego",Men,PAR,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"GANGLOFF, Mark",Men,USA,0,0,1
+Aquatics,Swimming,100m freestyle,M,"SCHOEMAN, Roland",Men,RSA,0,1,0
+Hockey,Hockey,hockey,W,"CASARETTO, Caroline",Women,GER,0,0,1
+Boxing,Boxing,+ 91kg (super heavyweight),M,"LOPEZ NUNEZ, Michel",Men,CUB,1,0,0
+Aquatics,Water polo,water polo,W,"MYLONAKI, Anthoula",Women,GRE,0,1,0
+Aquatics,Diving,synchronized diving 10m platform,W,"GONCHAROVA, Natalia",Women,RUS,0,1,0
+Football,Football,football,M,"HEINZE, Gabriel",Men,ARG,0,0,1
+Gymnastics,Artistic G.,team competition,M,"YOUNG, Guard",Men,USA,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"RUPPRATH, Thomas",Men,GER,0,1,0
+Baseball,Baseball,baseball,M,"AIKAWA, Ryoji",Men,JPN,1,0,0
+Rowing,Rowing,pair without coxswain (2-),W,"BISHOP, Cath",Women,GBR,0,1,0
+Gymnastics,Trampoline,individual,M,"NIKITIN, Yuri",Men,UKR,0,0,1
+Aquatics,Synchronized S.,team,W,"LOWE, Sara",Women,USA,1,0,0
+Handball,Handball,handball,M,"KRETZSCHMAR, Stefan",Men,GER,0,1,0
+Equestrian,Dressage,team,X,"WILCOX, Lisa",Women,USA,1,0,0
+Hockey,Hockey,hockey,M,"EMMERLING, Bjoern",Men,GER,1,0,0
+Fencing,Fencing,épée individual,W,"NISIMA, Maureen",Women,FRA,1,0,0
+Sailing,Sailing,single-handed dinghy (Finn),M,"KUSZNIEREWICZ, Mateusz",Men,POL,1,0,0
+Table Tennis,Table Tennis,doubles,W,"SEOK, Eun Mi",Women,KOR,0,1,0
+Modern Pentathlon,Modern Pentath.,Individual competition,M,"MOISEEV, Andrey",Men,RUS,0,0,1
+Baseball,Baseball,baseball,M,"VAN BUIZEN, Rodney",Men,AUS,0,1,0
+Football,Football,football,W,"GAREFREKES, Kerstin",Women,GER,1,0,0
+Baseball,Baseball,baseball,M,"CEPEDA CRUZ, Frederich",Men,CUB,0,0,1
+Athletics,Athletics,4x400m relay,W,"KRASNOMOVETS, Olesya",Women,RUS,0,1,0
+Fencing,Fencing,épée team,W,"DUPLITZER, Imke",Women,GER,0,1,0
+Volleyball,Volleyball,volleyball,W,"CARRILLO DE LA PAZ, Nancy",Women,CUB,1,0,0
+Athletics,Athletics,hammer throw,M,"MUROFUSHI, Koji",Men,JPN,0,0,1
+Weightlifting,Weightlifting,94kg,M,"AKKAEV, Khadzhimurat",Men,RUS,0,1,0
+Softball,Softball,softball,W,"CRAWFORD, Fiona",Women,AUS,0,1,0
+Table Tennis,Table Tennis,singles,W,"ZHANG, Yining",Women,CHN,0,0,1
+Cycling,Cycling Track,Team Sprint,M,"FUSHIMI, Toshiaki",Men,JPN,0,1,0
+Sailing,Sailing,board (Mistral),W,"SENSINI, Alessandra",Women,ITA,1,0,0
+Cycling,Cycling Track,Sprint indivual,M,"WOLFF, Rene",Men,GER,1,0,0
+Athletics,Athletics,4x400m relay,W,"ANTYUKH, Natalya",Women,RUS,0,1,0
+Rowing,Rowing,double sculls (2x),M,"VIEILLEDENT, Sebastien",Men,FRA,0,0,1
+Softball,Softball,softball,W,"WYBORN, Kerry",Women,AUS,0,1,0
+Weightlifting,Weightlifting,69kg,M,"ZHANG, Guozheng",Men,CHN,0,0,1
+Football,Football,football,W,"MUELLER, Martina",Women,GER,1,0,0
+Judo,Judo,66 - 73kg (lightweight),M,"GUILHEIRO, Leandro",Men,BRA,1,0,0
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"HOCHSCHORNER, Pavol",Men,SVK,0,0,1
+Wrestling,Wrestling Gre-R,60 - 66kg,M,"MANUKYAN, Mkkhitar",Men,KAZ,1,0,0
+Aquatics,Water polo,water polo,M,"JELENIC, Viktor",Men,SCG,0,1,0
+Aquatics,Swimming,200m individual medley,W,"COVENTRY, Kirsty",Women,ZIM,1,0,0
+Volleyball,Volleyball,volleyball,W,"MESA LUACES, Liana",Women,CUB,1,0,0
+Cycling,Cycling Road,individual time trial,M,"JULICH, Bobby",Men,USA,1,0,0
+Equestrian,Dressage,individual,X,"SALZGEBER, Ulla",Women,GER,0,1,0
+Judo,Judo,- 48 kg,W,"MATIJASS, Julia",Women,GER,1,0,0
+Football,Football,football,M,"SCULLI, Giuseppe",Men,ITA,1,0,0
+Volleyball,Beach volley.,beach volleyball,W,"BEHAR, Adriana",Women,BRA,0,1,0
+Hockey,Hockey,hockey,W,"AYMAR, Luciana",Women,ARG,1,0,0
+Football,Football,football,M,"PIRLO, Andrea",Men,ITA,1,0,0
+Sailing,Sailing,49er - Skiff,X,"HISCOCKS, Simon",Men,GBR,1,0,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"MOWBRAY, Alison",Women,GBR,0,1,0
+Hockey,Hockey,hockey,M,"DE YOUNG, Liam",Men,AUS,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"VERMEULEN, Gijs",Men,NED,0,1,0
+Softball,Softball,softball,W,"FREED, Amanda",Women,USA,0,0,1
+Equestrian,Eventing,individual,X,"SEVERSON, Kimberly",Women,USA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"ANDRUNACHE, Georgeta",Women,ROU,0,0,1
+Rowing,Rowing,double sculls (2x),M,"SPIK, Luka",Men,SLO,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"TOWNSEND, Darian",Men,RSA,0,0,1
+Aquatics,Water polo,water polo,W,"ESTES, Ellen",Women,USA,1,0,0
+Cycling,Cycling Track,1km time trial,M,"TOURNANT, Arnaud",Men,FRA,0,1,0
+Gymnastics,Rhythmic G.,group competition,W,"KURBAKOVA, Tatiana",Women,RUS,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"COODE, Ed",Men,GBR,0,0,1
+Gymnastics,Rhythmic G.,individual all-round,W,"BESSONOVA, Anna",Women,UKR,1,0,0
+Fencing,Fencing,sabre team,M,"TARANTINO, Luigi",Men,ITA,0,1,0
+Fencing,Fencing,épée team,W,"DANINTHE, Sarah",Women,FRA,1,0,0
+Shooting,Shooting,skeet (75 targets),W,"WEI, Ning",Women,CHN,0,1,0
+Boxing,Boxing,48kg (light flywieght),M,"KAZAKOV, Sergey",Men,RUS,1,0,0
+Athletics,Athletics,5000m,M,"BEKELE, Kenenisa",Men,ETH,0,1,0
+Football,Football,football,M,"ESQUIVEL, Celso",Men,PAR,0,1,0
+Sailing,Sailing,Tornado - Multihull,X,"HAGARA, Roman",Men,AUT,0,0,1
+Fencing,Fencing,sabre individual,W,"TAN, Xue",Women,CHN,0,1,0
+Judo,Judo,- 60 kg,M,"KHERGIANI, Nestor",Men,GEO,0,1,0
+Football,Football,football,W,"OMILADE, Navina",Women,GER,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"CUMMINGS, Stephen",Men,GBR,0,1,0
+Rowing,Rowing,lightweight coxless four (4-),M,"AMARANTE, Catello",Men,ITA,1,0,0
+Shooting,Shooting,50m rifle 3 positions (3x20 shots),W,"GALKINA, Lioubov",Women,RUS,0,0,1
+Football,Football,football,W,ANDREIA,Women,BRA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),M,"WELCH, Stuart",Men,AUS,1,0,0
+Rowing,Rowing,eight with coxswain (8+),M,"CHEUNG, Chun Wei",Men,NED,0,1,0
+Handball,Handball,handball,M,"IVANOV, Vitali",Men,RUS,1,0,0
+Gymnastics,Artistic G.,team competition,W,"HATCH, Annia",Women,USA,0,1,0
+Aquatics,Swimming,200m butterfly,M,"YAMAMOTO, Takashi",Men,JPN,0,1,0
+Boxing,Boxing,64 - 69 kg,M,"ARAGON, Lorenzo",Men,CUB,0,1,0
+Wrestling,Wrestling Gre-R,84 - 96kg,M,"OZAL, Mehmet",Men,TUR,1,0,0
+Softball,Softball,softball,W,"PORTER, Stacey",Women,AUS,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"LEZAK, Jason",Men,USA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"DAVIES, Caryn",Women,USA,0,1,0
+Baseball,Baseball,baseball,M,"OUGH, Wayne",Men,AUS,0,1,0
+Rowing,Rowing,single sculls (1x),M,"YANAKIEV, Ivo",Men,BUL,1,0,0
+Athletics,Athletics,100m hurdles,W,"MORRISON, Melissa",Women,USA,1,0,0
+Volleyball,Volleyball,volleyball,M,"EGORCHEV, Andrey",Men,RUS,1,0,0
+Aquatics,Water polo,water polo,W,"ROUMPESI, Antigoni",Women,GRE,0,1,0
+Equestrian,Eventing,team,X,"WILLIAMS, John",Men,USA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"OSYPENKO, Inna",Women,UKR,1,0,0
+Rowing,Rowing,double sculls (2x),W,"EVERS-SWINDELL, Georgina",Women,NZL,0,0,1
+Aquatics,Swimming,200m backstroke,W,"BUSCHSCHULTE, Antje",Women,GER,1,0,0
+Aquatics,Water polo,water polo,W,"GREGO, Melania",Women,ITA,0,0,1
+Fencing,Fencing,sabre team,M,"YAKIMENKO, Alexey",Men,RUS,1,0,0
+Football,Football,football,W,KELLY,Women,BRA,0,1,0
+Athletics,Athletics,10000m,M,"TADESSE, Zersenay",Men,ERI,1,0,0
+Handball,Handball,handball,M,"POGORELOV, Serguei",Men,RUS,1,0,0
+Gymnastics,Artistic G.,horizontal bar,M,"HAMM, Paul",Men,USA,0,1,0
+Aquatics,Swimming,100m freestyle,M,"THORPE, Ian",Men,AUS,1,0,0
+Tennis,Tennis,doubles,W,"SUAREZ, Paola",Women,ARG,1,0,0
+Sailing,Sailing,Star - Keelboat,M,"FERREIRA, Marcelo",Men,BRA,0,0,1
+Equestrian,Dressage,team,X,"MCDONALD, Debbie",Women,USA,1,0,0
+Aquatics,Water polo,water polo,W,"GOLDA, Natalie",Women,USA,1,0,0
+Basketball,Basketball,basketball,M,"GINOBILI, Emanuel David",Men,ARG,0,0,1
+Hockey,Hockey,hockey,W,"WALTER, Louisa",Women,GER,0,0,1
+Gymnastics,Rhythmic G.,group competition,W,"VERNIZZI, Laura",Women,ITA,0,1,0
+Aquatics,Water polo,water polo,W,"STACHOWSKI, Amber",Women,USA,1,0,0
+Aquatics,Water polo,water polo,W,"GIGLI, Elena",Women,ITA,0,0,1
+Sailing,Sailing,Tornado - Multihull,X,"OGLETREE, Charlie",Men,USA,0,1,0
+Fencing,Fencing,épée team,W,"KIRALY PICOT, Hajnalka",Women,FRA,1,0,0
+Weightlifting,Weightlifting,77kg,M,"PEREPETCHENOV, Oleg",Men,RUS,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"FIEDLER, Jens",Men,GER,0,0,1
+Hockey,Hockey,hockey,M,"KUNZ, Florian",Men,GER,1,0,0
+Hockey,Hockey,hockey,M,"SCHAROWSKY, Justus",Men,GER,1,0,0
+Softball,Softball,softball,W,"MENDOZA, Jessica",Women,USA,0,0,1
+Aquatics,Water polo,water polo,M,"STEINMETZ, Barnabas",Men,HUN,0,0,1
+Wrestling,Wrestling Free.,84 - 96kg,M,"IBRAGIMOV, Magomed",Men,UZB,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"IHLE, Andreas",Men,GER,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"BRADLEY, Amber",Women,AUS,1,0,0
+Basketball,Basketball,basketball,M,"OBERTO, Fabricio",Men,ARG,0,0,1
+Boxing,Boxing,60 - 64 kg,M,"GHEORGHE, Ionut",Men,ROU,1,0,0
+Aquatics,Swimming,100m breaststroke,M,"KITAJIMA, Kosuke",Men,JPN,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"JOYCE, Kara Lynn",Women,USA,0,1,0
+Baseball,Baseball,baseball,M,"NILSSON, David",Men,AUS,0,1,0
+Aquatics,Swimming,200m butterfly,W,"THOMAS, Petria",Women,AUS,0,1,0
+Aquatics,Water polo,water polo,W,"RAGUSA, Cinzia",Women,ITA,0,0,1
+Athletics,Athletics,4x100m relay,W,"BAILEY, Aleen",Women,JAM,0,0,1
+Basketball,Basketball,basketball,M,"RIGHETTI, Alex",Men,ITA,0,1,0
+Cycling,Mountain Bike,cross-country,M,"BRENTJENS, Bart",Men,NED,1,0,0
+Table Tennis,Table Tennis,doubles,M,"CHEN, Qi",Men,CHN,0,0,1
+Baseball,Baseball,baseball,M,"BORROTO JIMENEZ, Luis",Men,CUB,0,0,1
+Handball,Handball,handball,M,"KOSTYGOV, Alexey",Men,RUS,1,0,0
+Canoe / Kayak,Canoe / Kayak S,C-1 (canoe single),M,"MARTIKAN, Michal",Men,SVK,0,1,0
+Hockey,Hockey,hockey,M,"DWYER, Jamie",Men,AUS,0,0,1
+Basketball,Basketball,basketball,M,"GUTIERREZ, Leonardo Martin",Men,ARG,0,0,1
+Wrestling,Wrestling Free.,63 - 72kg,W,"WANG, Xu",Women,CHN,0,0,1
+Aquatics,Swimming,200m freestyle,M,"PHELPS, Michael",Men,USA,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"FLOREA, Rodica",Women,ROU,0,0,1
+Rowing,Rowing,single sculls (1x),W,"RUTSCHOW, Katrin",Women,GER,0,0,1
+Wrestling,Wrestling Free.,96 - 120kg,M,"REZAEI, Alireza",Men,IRI,0,1,0
+Volleyball,Volleyball,volleyball,W,"CALDERON, Rosir",Women,CUB,1,0,0
+Baseball,Baseball,baseball,M,"ENRIQUEZ TAMAYO, Michel",Men,CUB,0,0,1
+Wrestling,Wrestling Free.,- 48kg,W,"MIRANDA, Patricia",Women,USA,1,0,0
+Aquatics,Water polo,water polo,M,"REKETCHINSKI, Andrei",Men,RUS,1,0,0
+Rowing,Rowing,eight with coxswain (8+),W,"SIEGELAAR, Sarah",Women,NED,1,0,0
+Handball,Handball,handball,W,"SIUKALO, Ganna",Women,UKR,1,0,0
+Baseball,Baseball,baseball,M,"TABARES PADILLA, Carlos Alberto",Men,CUB,0,0,1
+Athletics,Athletics,4x400m relay,W,"COX, Crystal",Women,USA,0,0,1
+Football,Football,football,W,MONICA,Women,BRA,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"RISZDORFER, Michal",Men,SVK,1,0,0
+Wrestling,Wrestling Free.,66 - 74kg,M,"SAYTIEV, Buvaysa",Men,RUS,0,0,1
+Football,Football,football,W,"LILLY, Kristine",Women,USA,0,0,1
+Aquatics,Swimming,4x100m medley relay,M,"DRIESEN, Steffen",Men,GER,0,1,0
+Wrestling,Wrestling Free.,48 - 55kg,W,"VERBEEK, Tonya",Women,CAN,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"ZWERING, Klaas-Erik",Men,NED,0,1,0
+Canoe / Kayak,Canoe / Kayak F,K-2 1000m (kayak double),M,"LARSEN, Eirik Veraas",Men,NOR,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"SANDENO, Kaitlin",Women,USA,0,0,1
+Aquatics,Swimming,200m backstroke,W,"KOMAROVA, Stanislava",Women,RUS,0,1,0
+Weightlifting,Weightlifting,77kg,M,"SAGIR, Taner",Men,TUR,0,0,1
+Hockey,Hockey,hockey,M,"EGLINGTON, Nathan",Men,AUS,0,0,1
+Volleyball,Volleyball,volleyball,W,"CHUKANOVA, Olga",Women,RUS,0,1,0
+Softball,Softball,softball,W,"ALLEN, Sandra",Women,AUS,0,1,0
+Shooting,Shooting,25m rapid fire pistol (60 shots),M,"ALIFIRENKO, Sergei",Men,RUS,1,0,0
+Cycling,Cycling Road,individual time trial,M,"EKIMOV, Vyacheslav",Men,RUS,0,1,0
+Gymnastics,Artistic G.,floor exercises,W,"PONOR, Catalina",Women,ROU,0,0,1
+Badminton,Badminton,doubles,W,"ZHANG, Jiewen",Women,CHN,0,0,1
+Aquatics,Diving,3m springboard,M,"DESPATIE, Alexandre",Men,CAN,0,1,0
+Boxing,Boxing,60 - 64 kg,M,"BOONJUMNONG, Manus",Men,THA,0,0,1
+Rowing,Rowing,lightweight double sculls (2x),M,"DUFOUR, Frederic",Men,FRA,0,1,0
+Aquatics,Swimming,100m freestyle,W,"COUGHLIN, Natalie",Women,USA,1,0,0
+Basketball,Basketball,basketball,M,"GALANDA, Giacomo",Men,ITA,0,1,0
+Cycling,Cycling Road,individual road race,M,"MERCKX, Axel",Men,BEL,1,0,0
+Softball,Softball,softball,W,"FERNANDEZ, Lisa",Women,USA,0,0,1
+Aquatics,Swimming,200m breaststroke,M,"GYURTA, Daniel",Men,HUN,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"VEENS, Mark Hermanus",Men,NED,0,1,0
+Judo,Judo,70 - 78kg (half-heavyweight),W,"LABORDE, Yurisel",Women,CUB,1,0,0
+Aquatics,Water polo,water polo,W,"DINGELDEIN, Margaret",Women,USA,1,0,0
+Sailing,Sailing,Yngling - Keelboat,W,"WEBB, Sarah",Women,GBR,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"MILLS, Alice",Women,AUS,0,0,1
+Sailing,Sailing,49er - Skiff,X,"DRAPER, Chris",Men,GBR,1,0,0
+Athletics,Athletics,high jump,M,"HEMINGWAY, Matt",Men,USA,0,1,0
+Athletics,Athletics,4x400m relay,W,"RICHARDS, Sanya",Women,USA,0,0,1
+Fencing,Fencing,sabre team,M,"DIATCHENKO, Alexei",Men,RUS,1,0,0
+Football,Football,football,W,"WAGNER, Aly",Women,USA,0,0,1
+Baseball,Baseball,baseball,M,"TAKAHASHI, Yoshinobu",Men,JPN,1,0,0
+Handball,Handball,handball,W,"BROEDSGAARD, Karen",Women,DEN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 1000m (kayak four),M,"KAMMERER, Zoltan",Men,HUN,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"AGAMENNONI, Luca",Men,ITA,1,0,0
+Baseball,Baseball,baseball,M,"PARET, Eduardo",Men,CUB,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"WOOLDRIDGE, Stephen",Men,AUS,0,0,1
+Baseball,Baseball,baseball,M,"LEWIS, Craig",Men,AUS,0,1,0
+Athletics,Athletics,4x100m relay,M,"GARDENER, Jason",Men,GBR,0,0,1
+Fencing,Fencing,épée team,M,"OBRY, Hughes",Men,FRA,0,0,1
+Handball,Handball,handball,W,"LEE, Gong Joo",Women,KOR,0,1,0
+Shooting,Shooting,trap (75 targets),W,"QUINTANAL, Maria",Women,ESP,0,1,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"ROBERTS, Luke",Men,AUS,0,0,1
+Boxing,Boxing,81 - 91kg (heavyweight),M,"SOLIS FONTE, Odlanier",Men,CUB,0,0,1
+Aquatics,Synchronized S.,team,W,"SUZUKI, Emiko",Women,JPN,0,1,0
+Softball,Softball,softball,W,"AMICO, Leah",Women,USA,0,0,1
+Athletics,Athletics,discus throw,M,"ALEKNA, Virgilijus",Men,LTU,0,0,1
+Table Tennis,Table Tennis,doubles,M,"LI, Ching",Men,HKG,0,1,0
+Boxing,Boxing,57 - 60kg (lightweight),M,"KHAN, Amir",Men,GBR,0,1,0
+Judo,Judo,70 - 78kg (half-heavyweight),W,"LIU, Xia",Women,CHN,0,1,0
+Football,Football,football,M,"DEL NERO, Simone",Men,ITA,1,0,0
+Aquatics,Water polo,water polo,M,"KISS, Gergely",Men,HUN,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"VISKI, Erzsebet",Women,HUN,0,1,0
+Badminton,Badminton,doubles,X,"ERIKSEN, Jens Dyrloev",Men,DEN,1,0,0
+Rowing,Rowing,four without coxswain (4-),M,"WETZEL, Jake",Men,CAN,0,1,0
+Athletics,Athletics,shot put,M,"NELSON, Adam",Men,USA,0,1,0
+Sailing,Sailing,board (Mistral),W,"MERRET, Faustine",Women,FRA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"CORREIA, Maritza",Women,USA,0,1,0
+Shooting,Shooting,10m air rifle (60 shots),M,"ZHU, Qinan",Men,CHN,0,0,1
+Hockey,Hockey,hockey,W,"LATIF, Badri",Women,GER,0,0,1
+Athletics,Athletics,5000m,M,"KIPCHOGE, Eliud",Men,KEN,1,0,0
+Table Tennis,Table Tennis,singles,M,"RYU, Seungmin",Men,KOR,0,0,1
+Football,Football,football,M,"LUX, German",Men,ARG,0,0,1
+Athletics,Athletics,pole vault,W,"FEOFANOVA, Svetlana",Women,RUS,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"KITAJIMA, Kosuke",Men,JPN,1,0,0
+Baseball,Baseball,baseball,M,"STEPHENS, John",Men,AUS,0,1,0
+Aquatics,Swimming,200m backstroke,M,"PEIRSOL, Aaron",Men,USA,0,0,1
+Aquatics,Diving,10m platform,W,"NEWBERY, Chantelle",Women,AUS,0,0,1
+Athletics,Athletics,marathon,M,"BALDINI, Stefano",Men,ITA,0,0,1
+Table Tennis,Table Tennis,doubles,W,"WANG, Nan",Women,CHN,0,0,1
+Volleyball,Beach volley.,beach volleyball,W,"MAY-TREANOR, Misty",Women,USA,0,0,1
+Basketball,Basketball,basketball,W,"SHCHEGOLEVA, Tatiana",Women,RUS,1,0,0
+Aquatics,Water polo,water polo,W,"KARAPATAKI, Angeliki",Women,GRE,0,1,0
+Aquatics,Synchronized S.,team,W,"HARADA, Saho",Women,JPN,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,M,"SCHOEMAN, Roland",Men,RSA,0,0,1
+Wrestling,Wrestling Gre-R,- 55kg,M,"MAJOROS, Istvan",Men,HUN,0,0,1
+Aquatics,Swimming,50m freestyle,M,"DRAGANJA, Duje",Men,CRO,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"BORON, Kathrin",Women,GER,0,0,1
+Baseball,Baseball,baseball,M,"UEHARA, Koji",Men,JPN,1,0,0
+Shooting,Shooting,50m rifle 3 positions (3x40 shots),M,"PLANER, Christian",Men,AUT,1,0,0
+Fencing,Fencing,foil team,M,"DONG, Zhaozhi",Men,CHN,0,1,0
+Volleyball,Volleyball,volleyball,M,"GODOY FILHO, Gilberto",Men,BRA,0,0,1
+Basketball,Basketball,basketball,W,"BATKOVIC, Suzy",Women,AUS,0,1,0
+Gymnastics,Artistic G.,team competition,M,"HAMM, Morgan",Men,USA,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"MICKELSON, Anna",Women,USA,0,1,0
+Tennis,Tennis,doubles,M,"LJUBICIC, Ivan",Men,CRO,1,0,0
+Football,Football,football,M,"BENITEZ, Pedro",Men,PAR,0,1,0
+Equestrian,Eventing,team,X,"CHIACCHIA, Darren",Men,USA,1,0,0
+Football,Football,football,W,"FUSS, Sonja",Women,GER,1,0,0
+Handball,Handball,handball,M,"CHIPURIN, Mikhail",Men,RUS,1,0,0
+Aquatics,Swimming,4x200m freestyle relay,W,"PANG, Jiaying",Women,CHN,0,1,0
+Rowing,Rowing,quadruple sculls without coxswain (4x),W,"EL QALQILI, Kerstin",Women,GER,0,0,1
+Cycling,Mountain Bike,cross-country,M,"HERMIDA RAMOS, Jose Antonio",Men,ESP,0,1,0
+Volleyball,Volleyball,volleyball,M,"KHAMUTTSKIKH, Vadim",Men,RUS,1,0,0
+Handball,Handball,handball,W,"HUH, Young Sook",Women,KOR,0,1,0
+Aquatics,Diving,synchronized diving 10m platform,M,"YANG, Jinghui",Men,CHN,0,0,1
+Table Tennis,Table Tennis,doubles,M,"MAZE, Michael John",Men,DEN,1,0,0
+Baseball,Baseball,baseball,M,"WILLIAMS, Jeff",Men,AUS,0,1,0
+Weightlifting,Weightlifting,75kg,W,"ZABOLOTNAIA, Natalia",Women,RUS,0,1,0
+Judo,Judo,48 - 52kg (half-lightweight),W,"HEYLEN, Ilse",Women,BEL,1,0,0
+Athletics,Athletics,heptathlon,W,"KLUFT, Carolina",Women,SWE,0,0,1
+Athletics,Athletics,400m,M,"BREW, Derrick",Men,USA,1,0,0
+Boxing,Boxing,54 - 57kg (featherweight),M,"KIM, Song Guk",Men,PRK,0,1,0
+Handball,Handball,handball,M,"KEHRMANN, Florian",Men,GER,0,1,0
+Aquatics,Swimming,100m breaststroke,W,"HANSON, Brooke",Women,AUS,0,1,0
+Volleyball,Beach volley.,beach volleyball,W,"YOUNGS, Elaine",Women,USA,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-4 500m (kayak four),W,"WAGNER-AUGUSTIN, Katrin",Women,GER,0,0,1
+Cycling,Cycling Track,Team Pursuit (4000m),M,"NEWTON, Chris",Men,GBR,0,1,0
+Basketball,Basketball,basketball,M,"SORAGNA, Matteo",Men,ITA,0,1,0
+Baseball,Baseball,baseball,M,"KOBAYASHI, Masahide",Men,JPN,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"PARK, Sung-Hyun",Women,KOR,0,0,1
+Football,Football,football,M,"CARDOZO, Jose",Men,PAR,0,1,0
+Gymnastics,Rhythmic G.,individual all-round,W,"KABAEVA, Alina",Women,RUS,0,0,1
+Aquatics,Water polo,water polo,M,"KULJACA, Nikola",Men,SCG,0,1,0
+Aquatics,Synchronized S.,team,W,"TATSUMI, Juri",Women,JPN,0,1,0
+Sailing,Sailing,Tornado - Multihull,X,"STEINACHER, Hans Peter",Men,AUT,0,0,1
+Handball,Handball,handball,M,"BALIC, Ivano",Men,CRO,0,0,1
+Taekwondo,Taekwondo,49 - 57 kg,W,"SALAZAR BLANCO, Iridia",Women,MEX,1,0,0
+Football,Football,football,W,"CHASTAIN, Brandi",Women,USA,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"AHRENS, Chris",Men,USA,0,0,1
+Badminton,Badminton,doubles,X,"EMMS, Gail",Women,GBR,0,1,0
+Athletics,Athletics,high jump,M,"HOLM, Stefan",Men,SWE,0,0,1
+Basketball,Basketball,basketball,M,"WOLKOWYSKI, Ruben",Men,ARG,0,0,1
+Aquatics,Swimming,800m freestyle,W,"MUNZ, Diana",Women,USA,1,0,0
+Aquatics,Swimming,4x100m freestyle relay,W,"COUGHLIN, Natalie",Women,USA,0,1,0
+Aquatics,Synchronized S.,team,W,"CROW, Tamara",Women,USA,1,0,0
+Rowing,Rowing,four without coxswain (4-),M,"PORZIO, Lorenzo",Men,ITA,1,0,0
+Hockey,Hockey,hockey,W,"VAN DER VAART, Macha",Women,NED,0,1,0
+Baseball,Baseball,baseball,M,"BETANCOURT CHACON, Danny",Men,CUB,0,0,1
+Canoe / Kayak,Canoe / Kayak S,K-1 (kayak single),W,"REEVES, Helen",Women,GBR,1,0,0
+Softball,Softball,softball,W,"HARDING, Tanya",Women,AUS,0,1,0
+Rowing,Rowing,lightweight double sculls (2x),W,"ALUPEI, Angela",Women,ROU,0,0,1
+Badminton,Badminton,doubles,W,"GAO, Ling",Women,CHN,0,1,0
+Basketball,Basketball,basketball,W,"CASH, Swintayla",Women,USA,0,0,1
+Aquatics,Swimming,100m freestyle,W,"HENRY, Jodie",Women,AUS,0,0,1
+Football,Football,football,W,"SCURRY, Briana",Women,USA,0,0,1
+Rowing,Rowing,lightweight coxless four (4-),M,"MASCARENHAS, Bruno",Men,ITA,1,0,0
+Judo,Judo,57 - 63kg (half-middleweight),W,"GONZALEZ, Driulys",Women,CUB,1,0,0
+Basketball,Basketball,basketball,M,"ROMBALDONI, Rodolfo",Men,ITA,0,1,0
+Hockey,Hockey,hockey,M,"MOWLAM, Stephen",Men,AUS,0,0,1
+Basketball,Basketball,basketball,M,"WADE JR, Dwyane",Men,USA,1,0,0
+Weightlifting,Weightlifting,+ 75kg,W,"JANG, Mi Ran",Women,KOR,0,1,0
+Football,Football,football,M,"MARTINEZ, Emilio",Men,PAR,0,1,0
+Football,Football,football,M,"SAVIOLA, Javier",Men,ARG,0,0,1
+Athletics,Athletics,4x100m relay,W,"MCDONALD, Beverly",Women,JAM,0,0,1
+Aquatics,Swimming,200m freestyle,W,"PELLEGRINI, Federica",Women,ITA,0,1,0
+Sailing,Sailing,single-handed dinghy open (Laser),X,"GERITZER, Andreas",Men,AUT,0,1,0
+Aquatics,Swimming,100m breaststroke,W,"JONES, Leisel",Women,AUS,1,0,0
+Fencing,Fencing,foil individual,M,"CASSARA, Andrea",Men,ITA,1,0,0
+Badminton,Badminton,doubles,X,"ROBERTSON, Nathan",Men,GBR,0,1,0
+Canoe / Kayak,Canoe / Kayak S,C-2 (canoe double),M,"STEPANEK, Ondrej",Men,CZE,1,0,0
+Fencing,Fencing,foil team,M,"POZDNIAKOV, Viatcheslav",Men,RUS,1,0,0
+Baseball,Baseball,baseball,M,"CHARLES MARTINEZ, Yorelvis",Men,CUB,0,0,1
+Athletics,Athletics,high jump,W,"SLESARENKO, Elena",Women,RUS,0,0,1
+Aquatics,Diving,synchronized diving 3m springboard,W,"LASHKO, Irina",Women,AUS,1,0,0
+Taekwondo,Taekwondo,58 - 68 kg,M,"SAEI, Hadi",Men,IRI,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"CIPOLLONE, Pete",Men,USA,0,0,1
+Aquatics,Swimming,100m freestyle,M,"VAN DEN HOOGENBAND, Pieter",Men,NED,0,0,1
+Aquatics,Diving,synchronized diving 3m springboard,W,"WU, Minxia",Women,CHN,0,0,1
+Basketball,Basketball,basketball,M,"GARRI, Luca",Men,ITA,0,1,0
+Football,Football,football,M,"CRISTALDO, Ernesto",Men,PAR,0,1,0
+Rowing,Rowing,eight with coxswain (8+),W,"WORKEL, Ester",Women,NED,1,0,0
+Gymnastics,Rhythmic G.,group competition,W,"BLANCHI, Elisa",Women,ITA,0,1,0
+Shooting,Shooting,50m rifle prone (60 shots),M,"LUSCH, Christian",Men,GER,0,1,0
+Aquatics,Synchronized S.,team,W,"FUJIMARU, Michiyo",Women,JPN,0,1,0
+Baseball,Baseball,baseball,M,"OELTJEN, Trent",Men,AUS,0,1,0
+Badminton,Badminton,doubles,W,"YANG, Wei",Women,CHN,0,0,1
+Rowing,Rowing,single sculls (1x),M,"TUFTE, Olaf",Men,NOR,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"HENRY, Jodie",Women,AUS,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-2 500m (kayak double),W,"SOKOLOWSKA KULESZA, Beata",Women,POL,1,0,0
+Rowing,Rowing,pair without coxswain (2-),W,"ANDRUNACHE, Georgeta",Women,ROU,0,0,1
+Aquatics,Synchronized S.,duet,W,"ERMAKOVA, Anastasia",Women,RUS,0,0,1
+Athletics,Athletics,4x400m relay,M,"WILLIE, Kelly",Men,USA,0,0,1
+Taekwondo,Taekwondo,- 58 kg,M,"BAYOUMI, Tamer",Men,EGY,1,0,0
+Athletics,Athletics,4x400m relay,W,"NAZAROVA, Natalya",Women,RUS,0,1,0
+Aquatics,Swimming,400m freestyle,W,"MANAUDOU, Laure",Women,FRA,0,0,1
+Judo,Judo,63 - 70kg (middleweight),W,"UENO, Masae",Women,JPN,0,0,1
+Aquatics,Diving,synchronized diving 10m platform,M,"NEWBERY, Robert",Men,AUS,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"WOLFF, Rene",Men,GER,0,0,1
+Athletics,Athletics,high jump,W,"STYOPINA, Viktoriya",Women,UKR,1,0,0
+Boxing,Boxing,48 - 51kg (flyweight),M,"ASLANOV, Fuad",Men,AZE,1,0,0
+Aquatics,Diving,synchronized diving 10m platform,M,"HELM, Mathew",Men,AUS,1,0,0
+Handball,Handball,handball,W,"LIM, O Kyeong",Women,KOR,0,1,0
+Athletics,Athletics,marathon,M,"DE LIMA, Vanderlei",Men,BRA,1,0,0
+Tennis,Tennis,singles,W,"HENIN-HARDENNE, Justine",Women,BEL,0,0,1
+Aquatics,Swimming,4x100m medley relay,M,"OKUMURA, Yoshihiro",Men,JPN,1,0,0
+Football,Football,football,M,"GASBARRONI, Andrea",Men,ITA,1,0,0
+Triathlon,Triathlon,Individual,W,"WILLIAMS, Susan",Women,USA,1,0,0
+Hockey,Hockey,hockey,M,"RECKERS, Rob",Men,NED,0,1,0
+Shooting,Shooting,10m air pistol (60 shots),M,"WANG, Yifu",Men,CHN,0,0,1
+Gymnastics,Artistic G.,team competition,M,"GATSON, Jason",Men,USA,0,1,0
+Table Tennis,Table Tennis,doubles,W,"ZHANG, Yining",Women,CHN,0,0,1
+Athletics,Athletics,4x100m relay,M,"LEWIS-FRANCIS, Mark",Men,GBR,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,W,"THOMPSON, Jenny",Women,USA,0,1,0
+Volleyball,Volleyball,volleyball,M,"FEI, Alessandro",Men,ITA,0,1,0
+Football,Football,football,W,"LINGOR, Renate",Women,GER,1,0,0
+Aquatics,Water polo,water polo,M,"VARI, Attila",Men,HUN,0,0,1
+Handball,Handball,handball,M,"ZRNIC, Vedran",Men,CRO,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"SVIRIN, Alekseij",Men,RUS,0,0,1
+Sailing,Sailing,single-handed dinghy (Europe),W,"SMIDOVA, Lenka",Women,CZE,0,1,0
+Hockey,Hockey,hockey,W,"KARRES, Sylvia",Women,NED,0,1,0
+Baseball,Baseball,baseball,M,"MARTINEZ MARTINEZ, Jonder",Men,CUB,0,0,1
+Hockey,Hockey,hockey,W,"SCHOPMAN, Janneke",Women,NED,0,1,0
+Sailing,Sailing,Star - Keelboat,M,"RAMBEAU, Pascal",Men,FRA,1,0,0
+Equestrian,Eventing,team,X,"LAW, Leslie",Men,GBR,0,1,0
+Handball,Handball,handball,W,"FRUELUND, Katrine",Women,DEN,0,0,1
+Handball,Handball,handball,W,"KIM, Hyun Ok",Women,KOR,0,1,0
+Equestrian,Dressage,individual,X,"FERRER-SALAT, Beatriz",Women,ESP,1,0,0
+Sailing,Sailing,470 - Two Person Dinghy,M,"GLANFIELD, Joe",Men,GBR,0,1,0
+Boxing,Boxing,54 - 57kg (featherweight),M,"TISHCHENKO, Alexey",Men,RUS,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,W,"VOLLMER, Dana",Women,USA,0,0,1
+Weightlifting,Weightlifting,+ 105kg,M,"CHOLAKOV, Velichko",Men,BUL,1,0,0
+Athletics,Athletics,4x400m relay,W,"RICHARDS, Sandie",Women,JAM,1,0,0
+Gymnastics,Artistic G.,team competition,M,"KASHIMA, Takehiro",Men,JPN,0,0,1
+Cycling,Cycling Road,individual road race,W,"ARNDT, Judith",Women,GER,0,1,0
+Sailing,Sailing,Yngling - Keelboat,W,"ROBERTSON, Shirley",Women,GBR,0,0,1
+Basketball,Basketball,basketball,W,"LESLIE, Lisa",Women,USA,0,0,1
+Aquatics,Swimming,4x100m freestyle relay,M,"ZASTROW, Mitja",Men,NED,0,1,0
+Football,Football,football,M,"BURDISSO, Nicolas",Men,ARG,0,0,1
+Athletics,Athletics,10000m,W,"TULU, Derartu",Women,ETH,1,0,0
+Cycling,Cycling Track,sprint,W,"MUENZER, Lori-Ann",Women,CAN,0,0,1
+Handball,Handball,handball,M,"VON BEHREN, Frank",Men,GER,0,1,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"MAEZTU, Asier",Men,ESP,1,0,0
+Shooting,Shooting,10m air pistol (60 shots),M,"NESTRUEV, Mikhail",Men,RUS,0,1,0
+Rowing,Rowing,lightweight double sculls (2x),M,"SYCZ, Robert",Men,POL,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"DENTALE, Dario",Men,ITA,1,0,0
+Aquatics,Swimming,100m butterfly,W,"DE BRUIJN, Inge",Women,NED,1,0,0
+Boxing,Boxing,75 - 81kg (light-heavyweight),M,"ISMAIL, Ahmed",Men,EGY,1,0,0
+Weightlifting,Weightlifting,85kg,M,"ASANIDZE, George",Men,GEO,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"STEWART, Geoff",Men,AUS,1,0,0
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),M,"VAN KOEVERDEN, Adam",Men,CAN,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,M,"CAPPELLAZZO, Federico",Men,ITA,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"WIGGINS, Bradley",Men,GBR,0,1,0
+Athletics,Athletics,long jump,W,"KOTOVA, Tatyana",Women,RUS,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"SCHIPPER, Jess",Women,AUS,0,0,1
+Hockey,Hockey,hockey,M,"MAHIEU, Jesse",Men,NED,0,1,0
+Softball,Softball,softball,W,"ITO, Kazue",Women,JPN,1,0,0
+Aquatics,Swimming,4x100m medley relay,M,"PHELPS, Michael",Men,USA,0,0,1
+Hockey,Hockey,hockey,W,"VUKOJICIC, Paola",Women,ARG,1,0,0
+Handball,Handball,handball,W,"VESTERGAARD LARSEN, Mette",Women,DEN,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,W,"ZHU, Yingwen",Women,CHN,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,M,"MAGNINI, Filippo",Men,ITA,1,0,0
+Volleyball,Volleyball,volleyball,W,"TEBENIKHINA, Irina",Women,RUS,0,1,0
+Athletics,Athletics,4x100m relay,M,"ALIU, Deji",Men,NGR,1,0,0
+Athletics,Athletics,4x400m relay,M,"ROCK, Andrew",Men,AUS,0,1,0
+Aquatics,Swimming,4x100m freestyle relay,W,"TRICKETT, Lisbeth",Women,AUS,0,0,1
+Weightlifting,Weightlifting,"- 56kg, total (bantamweight)",M,"ARTUC, Sedat",Men,TUR,1,0,0
+Handball,Handball,handball,M,"TUCHKIN, Alexandre",Men,RUS,1,0,0
+Softball,Softball,softball,W,"SAKAI, Hiroko",Women,JPN,1,0,0
+Shooting,Shooting,trap (125 targets),M,"PELLIELO, Giovanni",Men,ITA,0,1,0
+Weightlifting,Weightlifting,105kg,M,"RAZORONOV, Igor",Men,UKR,0,1,0
+Rowing,Rowing,double sculls (2x),W,"OPPELT, Britta",Women,GER,0,1,0
+Handball,Handball,handball,M,"JANSEN, Torsten",Men,GER,0,1,0
+Volleyball,Volleyball,volleyball,W,"SAFRONOVA, Natalia",Women,RUS,0,1,0
+Sailing,Sailing,Star - Keelboat,M,"GRAEL, Torben",Men,BRA,0,0,1
+Aquatics,Swimming,4x100m medley relay,W,"HENRY, Jodie",Women,AUS,0,0,1
+Athletics,Athletics,4x400m relay,W,"BURGHER, Michelle",Women,JAM,1,0,0
+Badminton,Badminton,singles,W,"ZHOU, Mi",Women,CHN,1,0,0
+Rowing,Rowing,lightweight double sculls (2x),W,"BURCICA, Constanta",Women,ROU,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"VELLENGA, Matthijs",Men,NED,0,1,0
+Gymnastics,Artistic G.,individual all-round,M,"KIM, Dae Eun",Men,KOR,0,1,0
+Aquatics,Water polo,water polo,W,"RULON, Kelly",Women,USA,1,0,0
+Gymnastics,Artistic G.,vault,W,"PAVLOVA, Anna",Women,RUS,1,0,0
+Boxing,Boxing,69 - 75 kg,M,"DIRRELL, Andre",Men,USA,1,0,0
+Volleyball,Beach volley.,beach volleyball,M,"KOBEL, Stefan",Men,SUI,1,0,0
+Handball,Handball,handball,M,"STEPHAN, Daniel",Men,GER,0,1,0
+Sailing,Sailing,single-handed dinghy (Europe),W,"LIVBJERG, Signe",Women,DEN,1,0,0
+Hockey,Hockey,hockey,M,"BRENNAN, Michael",Men,AUS,0,0,1
+Shooting,Shooting,10m running target (30+30 shots),M,"LYKIN, Dimitri",Men,RUS,1,0,0
+Gymnastics,Artistic G.,individual all-round,W,"KHORKINA, Svetlana",Women,RUS,0,1,0
+Baseball,Baseball,baseball,M,"FUKUDOME, Kosuke",Men,JPN,1,0,0
+Aquatics,Swimming,4x100m medley relay,W,"WEIR, Amanda",Women,USA,0,1,0
+Wrestling,Wrestling Gre-R,55 - 60kg,M,"MONZON, Roberto",Men,CUB,0,1,0
+Fencing,Fencing,foil team,M,"MOLTCHAN, Youri",Men,RUS,1,0,0
+Aquatics,Water polo,water polo,M,"SAVIC, Dejan",Men,SCG,0,1,0
+Wrestling,Wrestling Free.,55 - 60kg,M,"JOKAR, Masuod",Men,IRI,0,1,0
+Gymnastics,Artistic G.,rings,M,"CHECHI, Juri",Men,ITA,1,0,0
+Tennis,Tennis,singles,M,"GONZALEZ, Fernando",Men,CHI,1,0,0
+Softball,Softball,softball,W,"KRETSCHMAN, Kelly",Women,USA,0,0,1
+Judo,Judo,+ 100kg (heavyweight),M,"SUZUKI, Keiji",Men,JPN,0,0,1
+Handball,Handball,handball,W,"HUH, Soonyoung",Women,KOR,0,1,0
+Tennis,Tennis,doubles,M,"ANCIC, Mario",Men,CRO,1,0,0
+Athletics,Athletics,4x400m relay,W,"ZYKINA, Olesya",Women,RUS,0,1,0
+Baseball,Baseball,baseball,M,"TAMBURRINO, Brett",Men,AUS,0,1,0
+Aquatics,Water polo,water polo,W,"VILLA, Brenda",Women,USA,1,0,0
+Athletics,Athletics,20km walk,M,"DEAKES, Nathan",Men,AUS,1,0,0
+Hockey,Hockey,hockey,M,"EVERS, Floris",Men,NED,0,1,0
+Basketball,Basketball,basketball,W,"BIRD, Suzanne",Women,USA,0,0,1
+Equestrian,Eventing,team,X,"FUNNELL, Philippa",Women,GBR,0,1,0
+Volleyball,Volleyball,volleyball,M,"PAPI, Samuele",Men,ITA,0,1,0
+Sailing,Sailing,470 - Two Person Dinghy,W,"BEKATOROU, Sofia",Women,GRE,0,0,1
+Fencing,Fencing,épée team,M,"KOVACS, Ivan",Men,HUN,0,1,0
+Aquatics,Diving,synchronized diving 3m springboard,M,"BIMIS, Thomas",Men,GRE,0,0,1
+Football,Football,football,M,"BOVO, Cesare",Men,ITA,1,0,0
+Aquatics,Swimming,400m freestyle,M,"THORPE, Ian",Men,AUS,0,0,1
+Baseball,Baseball,baseball,M,"MONTIETH HERRERA, Frank Andy",Men,CUB,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"CRACKNELL, James",Men,GBR,0,0,1
+Aquatics,Swimming,200m backstroke,W,"NAKAMURA, Reiko",Women,JPN,1,0,0
+Judo,Judo,+ 78kg (heavyweight),W,"DONGUZASHVILI, Tea",Women,RUS,1,0,0
+Aquatics,Swimming,100m butterfly,M,"CROCKER, Ian",Men,USA,0,1,0
+Volleyball,Volleyball,volleyball,W,"ZHAO, Ruirui",Women,CHN,0,0,1
+Football,Football,football,M,"GONZALEZ, Cristian",Men,ARG,0,0,1
+Athletics,Athletics,pole vault,W,"ROGOWSKA, Anna",Women,POL,1,0,0
+Cycling,Cycling Track,Individual Pursuit,M,"ESCOBAR, Sergi",Men,ESP,1,0,0
+Football,Football,football,W,ROSANA,Women,BRA,0,1,0
+Badminton,Badminton,doubles,X,"GAO, Ling",Women,CHN,0,0,1
+Baseball,Baseball,baseball,M,"WADA, Tsuyoshi",Men,JPN,1,0,0
+Shooting,Shooting,10m air rifle (40 shots),W,"DU, Li",Women,CHN,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"VOLPENHEIN, Bryan",Men,USA,0,0,1
+Rowing,Rowing,quadruple sculls without coxswain (4x),M,"LYKOV, Oleg",Men,UKR,1,0,0
+Rowing,Rowing,coxless pair (2-),M,"GINN, Drew",Men,AUS,0,0,1
+Aquatics,Water polo,water polo,M,"ERYSHOV, Alexandre",Men,RUS,1,0,0
+Aquatics,Swimming,100m freestyle,W,"DE BRUIJN, Inge",Women,NED,0,1,0
+Athletics,Athletics,400m hurdles,M,"SANCHEZ, Felix",Men,DOM,0,0,1
+Aquatics,Water polo,water polo,M,"KOZLOV, Nikolai",Men,RUS,1,0,0
+Rowing,Rowing,lightweight coxless four (4-),M,"BURGESS, Simon",Men,AUS,0,1,0
+Hockey,Hockey,hockey,W,"DONNERS, Mijntje",Women,NED,0,1,0
+Basketball,Basketball,basketball,M,"JEFFERSON, Richard",Men,USA,1,0,0
+Handball,Handball,handball,W,"RADCHENKO, Olena",Women,UKR,1,0,0
+Cycling,Cycling Track,Team Sprint,M,"NIMKE, Stefan",Men,GER,0,0,1
+Cycling,Cycling Track,Points Race,M,"FULST, Guido",Men,GER,1,0,0
+Hockey,Hockey,hockey,W,"GARCIA, Agustina",Women,ARG,1,0,0
+Taekwondo,Taekwondo,49 - 57 kg,W,"ABDALLAH, Nia",Women,USA,0,1,0
+Volleyball,Beach volley.,beach volleyball,W,"BEDE, Shelda",Women,BRA,0,1,0
+Rowing,Rowing,double sculls (2x),M,"COP, Iztok",Men,SLO,0,1,0
+Aquatics,Swimming,400m freestyle,M,"HACKETT, Grant",Men,AUS,0,1,0
+Aquatics,Swimming,4x200m freestyle relay,W,"LI, Ji",Women,CHN,0,1,0
+Equestrian,Eventing,team,X,"BRAKEWELL, Jeanette",Women,GBR,0,1,0
+Aquatics,Swimming,200m individual medley,W,"KLOCHKOVA, Yana",Women,UKR,0,0,1
+Aquatics,Swimming,4x200m freestyle relay,M,"MATKOVICH, Antony",Men,AUS,0,1,0
+Shooting,Shooting,50m rifle prone (60 shots),M,"EMMONS, Matthew",Men,USA,0,0,1
+Weightlifting,Weightlifting,"- 56kg, total (bantamweight)",M,"MUTLU, Halil",Men,TUR,0,0,1
+Equestrian,Jumping,team,X,"AHLMANN, Christian",Men,GER,1,0,0
+Tennis,Tennis,doubles,W,"TARABINI, Patricia",Women,ARG,1,0,0
+Cycling,Cycling Track,Team Pursuit (4000m),M,"DAWSON, Peter",Men,AUS,0,0,1
+Handball,Handball,handball,W,"SHINKARENKO, Tetyana",Women,UKR,1,0,0
+Gymnastics,Artistic G.,individual all-round,M,"YANG, Tae Young",Men,KOR,1,0,0
+Badminton,Badminton,singles,W,"ZHANG, Ning",Women,CHN,0,0,1
+Athletics,Athletics,110m hurdles,M,"TRAMMELL, Terrence",Men,USA,0,1,0
+Sailing,Sailing,49er - Skiff,X,"LUKA, Rodion",Men,UKR,0,1,0
+Football,Football,football,W,"ROTTENBERG, Silke",Women,GER,1,0,0
+Athletics,Athletics,5000m,W,"OCHICHI, Isabella",Women,KEN,0,1,0
+Aquatics,Swimming,4x100m medley relay,W,"KOMISARZ, Rachel",Women,USA,0,1,0
+Volleyball,Volleyball,volleyball,M,"GAVIO, Giovane",Men,BRA,0,0,1
+Baseball,Baseball,baseball,M,"URRUTIA, Osmanis",Men,CUB,0,0,1
+Rowing,Rowing,four without coxswain (4-),M,"WILLIAMS, Steve",Men,GBR,0,0,1
+Cycling,Cycling Track,Madison,M,"BROWN, Graeme",Men,AUS,0,0,1
+Athletics,Athletics,triple jump,W,"DEVETZI, Hrysopiyi",Women,GRE,0,1,0
+Wrestling,Wrestling Gre-R,84 - 96kg,M,"NOZADZE, Ramaz",Men,GEO,0,1,0
+Football,Football,football,W,"PRINZ, Birgit",Women,GER,1,0,0
+Hockey,Hockey,hockey,W,"DE ROEVER, Lisanne",Women,NED,0,1,0
+Football,Football,football,W,"STEGEMANN, Kerstin",Women,GER,1,0,0
+Football,Football,football,M,"RODRIGUEZ, Clemente Juan",Men,ARG,0,0,1
+Judo,Judo,+ 100kg (heavyweight),M,"PERTELSON, Indrek",Men,EST,1,0,0
+Baseball,Baseball,baseball,M,"BURNSIDE, Adrian",Men,AUS,0,1,0
+Table Tennis,Table Tennis,singles,M,"WANG, Liqin",Men,CHN,1,0,0
+Hockey,Hockey,hockey,M,"BROUWER, Ronald",Men,NED,0,1,0
+Football,Football,football,W,"MITTS, Heather",Women,USA,0,0,1
+Weightlifting,Weightlifting,+ 105kg,M,"REZA ZADEH, Hossein",Men,IRI,0,0,1
+Rowing,Rowing,eight with coxswain (8+),M,"MCKAY, Mike",Men,AUS,1,0,0
+Athletics,Athletics,high jump,M,"BABA, Jaroslav",Men,CZE,1,0,0
+Gymnastics,Artistic G.,team competition,W,"KUPETS, Courtney",Women,USA,0,1,0
+Athletics,Athletics,4x400m relay,M,"HARRIS, Otis",Men,USA,0,0,1
+Athletics,Athletics,javelin throw,W,"MENENDEZ, Osleidys",Women,CUB,0,0,1
+Aquatics,Swimming,50m freestyle,W,"DE BRUIJN, Inge",Women,NED,0,0,1
+Handball,Handball,handball,W,"MOON, Kyeong Ha",Women,KOR,0,1,0
+Athletics,Athletics,discus throw,W,"YATCHENKO, Iryna",Women,BLR,1,0,0
+Archery,Archery,team (FITA Olympic round - 70m),W,"YUN, Mi-Jin",Women,KOR,0,0,1
+Sailing,Sailing,470 - Two Person Dinghy,M,"TODOROKI, Kenjiro",Men,JPN,1,0,0
+Sailing,Sailing,board (Mistral),M,"FRIDMAN, Gal",Men,ISR,0,0,1
+Aquatics,Diving,10m platform,M,"HELM, Mathew",Men,AUS,0,1,0
+Weightlifting,Weightlifting,62kg,M,"RUBIO, Israel Jose",Men,VEN,1,0,0
+Wrestling,Wrestling Free.,- 48kg,W,"ICHO, Chiharu",Women,JPN,0,1,0
+Gymnastics,Rhythmic G.,individual all-round,W,"TCHACHINA, Irina",Women,RUS,0,1,0
+Aquatics,Swimming,4x100m medley relay,M,"MORITA, Tomomi",Men,JPN,1,0,0
+Weightlifting,Weightlifting,58kg,W,"CHEN, Yanqing",Women,CHN,0,0,1
+Shooting,Shooting,skeet (75 targets),W,"MEFTAKHETDINOVA, Zemfira",Women,AZE,1,0,0
+Badminton,Badminton,doubles,M,"HIAN, Eng",Men,INA,1,0,0
+Volleyball,Volleyball,volleyball,W,"SHESHENINA, Marina",Women,RUS,0,1,0
+Wrestling,Wrestling Free.,- 55kg,M,"ABAS, Stephen",Men,USA,0,1,0
+Baseball,Baseball,baseball,M,"ROWLAND SMITH, Ryan",Men,AUS,0,1,0
+Football,Football,football,M,"BAREIRO, Fredy",Men,PAR,0,1,0
+Handball,Handball,handball,M,"KRIVOSHLYKOV, Denis",Men,RUS,1,0,0
+Athletics,Athletics,discus throw,M,"TAMMERT, Aleksander",Men,EST,1,0,0
+Basketball,Basketball,basketball,W,"RILEY, Ruth",Women,USA,0,0,1
+Table Tennis,Table Tennis,doubles,W,"NIU, Jianfeng",Women,CHN,1,0,0
+Baseball,Baseball,baseball,M,"SHIMIZU, Naoyuki",Men,JPN,1,0,0
+Canoe / Kayak,Canoe / Kayak F,C-2 500m (canoe double),M,"MENG, Guanliang",Men,CHN,0,0,1
+Modern Pentathlon,Modern Pentath.,Individual competition,W,"VOROS, Zsuzsanna",Women,HUN,0,0,1
+Gymnastics,Trampoline,individual,M,"MOSKALENKO, Alexander",Men,RUS,0,1,0
+Aquatics,Water polo,water polo,M,"MAKSIMOV, Nikolay",Men,RUS,1,0,0
+Athletics,Athletics,shot put,W,"CUMBA, Yumileidi",Women,CUB,0,0,1
+Hockey,Hockey,hockey,W,"HAASE, Mandy",Women,GER,0,0,1
+Canoe / Kayak,Canoe / Kayak F,K-1 500m (kayak single),M,"WYNNE, Ian",Men,GBR,1,0,0
+Boxing,Boxing,48kg (light flywieght),M,"YALCINKAYA, Atagun",Men,TUR,0,1,0
+Gymnastics,Artistic G.,parallel bars,M,"LI, Xiaopeng",Men,CHN,1,0,0
+Basketball,Basketball,basketball,W,"ARTESHINA, Olga",Women,RUS,1,0,0
+Cycling,Cycling Track,points race,W,"CALLE WILLIAMS, Maria Luisa",Women,COL,1,0,0
+Gymnastics,Artistic G.,team competition,W,"STROESCU, Silvia",Women,ROU,0,0,1
+Canoe / Kayak,Canoe / Kayak S,C-1 (canoe single),M,"ESTANGUET, Tony",Men,FRA,0,0,1

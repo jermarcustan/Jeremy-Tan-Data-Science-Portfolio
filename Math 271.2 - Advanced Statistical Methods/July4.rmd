@@ -1,0 +1,92 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(tseries)
+library(TSA)
+library(forecast)
+library(fGarch)
+```
+```{r}
+data("usd.hkd")
+forex = usd.hkd$hkrate
+```
+
+Assume ARMA(0,0) for the X_t
+```{r}
+vol = garchFit(~garch(1,0), data = forex)
+```
+```{r}
+summary(vol)
+```
+Assume ARMA(2,1) for the X_t (the mean model)
+
+```{r}
+vol.arma21 = garchFit(~arma(2,1) + garch(1,0), data = forex)
+```
+```{r}
+summary(vol.arma21)
+```
+Since phi_2 is not significant, we test out ARMA(1,1).
+
+```{r}
+vol.arma11 = garchFit(~arma(1,1) + garch(1,0), data = forex)
+  
+
+```
+```{r}
+summary(vol.arma11)
+```
+
+In terms of AIC, the best model is ARMA(2,1).
+But the AIC is very close, so we choose the reduced model ARMA(1,1) based on parsimony.
+
+
+
+```{r}
+fit.vol = volatility(vol.arma11) # gives the sigma_t
+# This is the standardized residuals
+fit.vol.sr = residuals(vol.arma11) / fit.vol
+
+```
+
+```{r}
+Box.test(fit.vol.sr, type = "Ljung")
+```
+
+We fail to reject the null hypothesis. The residuals are not correlated.
+
+```{r}
+acf(fit.vol.sr)
+```
+
+```{r}
+Box.test(fit.vol.sr^2, type = 'Ljung')
+```
+The squared standardized residuals are uncorrelated.
+
+```{r}
+forex.p = predict(vol.arma11)
+forex.p
+```
+meanForecast is the forecast of X_t
+standardDeviation is the forecast of sigma_t
+
+```{r}
+forex.p = predict(vol.arma11, n.ahead = 5, plot = T)
+```
+
+```{r}
+forex.p$standardDeviation
+```
+
+```{r}
+forex.p
+```
+

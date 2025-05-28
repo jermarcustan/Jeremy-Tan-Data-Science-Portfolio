@@ -1,0 +1,111 @@
+---
+title: "CS"
+output: html_notebook
+---
+
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+library("zoo")
+```
+
+```{r}
+steam = read.csv("AllSteamData.csv")
+CS = filter(steam, Name == "Counter-Strike")
+CS = CS[c(2:112),]
+CS = CS[rev(rownames(CS)), ]
+CS
+```
+
+
+```{r}
+CS = CS["Avg..Players"]
+CS_train = head(CS, 100)
+CS_test = CS
+CS = CS_train
+CS_ts = ts(CS_train, start = c(2012, 7), frequency = 12)
+plot(CS_ts)
+```
+```{r}
+CS_test
+```
+
+
+Check for Stationarity
+```{r}
+adf.test(CS_ts)
+```
+We can clearly see from the graph and from the AD test that the data is not stationary.
+
+We perform log transformation and then difference the data.
+
+```{r}
+CS_ts_ln = log(CS_ts)
+CS_ts_ln_diff = diff(CS_ts_ln)
+plot(CS_ts_ln_diff)
+```
+
+```{r}
+adf.test(CS_ts_ln_diff)
+```
+
+The data is now stationary.
+
+```{r}
+Box.test(CS_ts_ln_diff, type = "Ljung")
+```
+The data is autocorrelated.
+
+We can proceed with modeling.
+
+```{r}
+Acf(CS_ts_ln_diff, main = "ACF Correlogram") # MA(4), MA(12)
+Acf(CS_ts_ln_diff, type = "partial", main = "PACF Correlogram") # AR(2), AR(8)
+```
+
+signficant lags at 2 for the pacf.
+
+```{r}
+arima(CS_ts_ln_diff, order = c(2,0,0))
+arima(CS_ts_ln_diff, order = c(8,0,0))
+arima(CS_ts_ln_diff, order = c(0,0,4))
+arima(CS_ts_ln_diff, order = c(0,0,12))
+arima(CS_ts_ln_diff, order = c(2,0,4))
+arima(CS_ts_ln_diff, order = c(2,0,12))
+arima(CS_ts_ln_diff, order = c(8,0,4))
+arima(CS_ts_ln_diff, order = c(8,0,12))
+```
+ARMA(8,4) has the lowest AIC.
+
+Checking Residuals
+
+```{r}
+fit = arima(CS_ts_ln_diff, order = c(0,0,2))
+checkresiduals(fit)
+```
+
+ 
+ Check accuracy of the predictions
+ 
+```{r}
+accuracy(forecast_10)
+```
+```{r}
+CS_test_2 = ts(CS_test, start = c(2012, 7), frequency = 12)
+model = Arima(CS_ts_ln_diff, order = c(8,0,4))
+AR_forecast = predict(model, n.ahead = 10)$pred
+final.ln.diff = ts(c(CS_ts_ln_diff,AR_forecast), start = c(2012, 8), frequency = 12)
+final.ln = diffinv(final.ln.diff, differences = 1, xi = CS_ts_ln[1])
+final.ln
+game_ts.ln
+final = exp(final.ln)
+
+plot(final, col = "blue", ylim = range(min(CS_test_2, final), max(CS_test_2, final)), main = "2 years forecasts")
+lines(CS_test_2, col = "red")
+legend("topleft", legend = c("Actual Prices", "Predicted Prices"), col = c("red", "blue"), lty = 1)
+```
+ 

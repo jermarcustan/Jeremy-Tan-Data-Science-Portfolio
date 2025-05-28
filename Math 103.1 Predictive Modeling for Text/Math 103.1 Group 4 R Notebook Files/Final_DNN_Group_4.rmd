@@ -1,0 +1,531 @@
+---
+title: "Final_DNN"
+output: html_notebook
+---
+Jeremy Tan, Alex Pino, Benjamin Ang, Dane Rosario
+```{r}
+library(tidyverse)
+library(tidymodels)
+library(keras)
+library(textrecipes)
+library(numDeriv)
+library(tokenizers.bpe)
+```
+
+```{r}
+temp <- tempfile()
+download.file("https://s3.us-east-2.amazonaws.com/blaisecruz.com/datasets/fakenews/fakenews.zip",temp)
+temp_2 <- unzip(temp)
+news_dataset <- read.csv(temp_2)
+```
+
+```{r}
+glimpse(news_dataset)
+```
+
+This is a binary classification task, where our model predicts whether a news article is fake or not. Label 0 = Real, Label 1 = Fake
+```{r}
+news_dataset %>%
+  filter(label == 1) 
+```
+
+
+Split our dataset into training and testing data.
+75% training, 25% testing
+
+```{r}
+set.seed(1234)
+news_split <- news_dataset %>%
+  initial_split()
+
+news_train <- training(news_split)
+news_test <- testing(news_split)
+
+news_split
+```
+Preprocessing Stage
+
+Determine the Length of the Sequence
+
+```{r}
+news_train %>%
+  mutate(n_words = tokenizers::count_words(article)) %>%
+  summary(n_words)
+```
+Set sequence length to be 200 words, equal to the median.
+
+```{r}
+news_train %>%
+  tidytext:: unnest_tokens(output=word, input = article) %>%
+  pull(word) %>% unique() %>% length() 
+```
+We set the vocabulary of our model to 20k words. We filter out the tokens out of the top 20,000. 
+
+Now, we can define our model recipe. We train on the content column of the training data. 
+
+```{r}
+max_subwords <- 2e4
+max_length <- 200
+news_rec <- recipe(~article, data = news_train) %>%
+  step_mutate(article = tolower(article)) %>%
+  step_tokenize(article,
+                engine = "tokenizers.bpe",
+                training_options = list(vocab_size = max_subwords)) %>%
+  step_sequence_onehot(article, sequence_length = max_length)
+news_rec
+```
+Preparing and Applying the Recipe
+```{r}
+news_prep <-  prep(news_rec)
+news_train_bake <- bake(news_prep, new_data = NULL, composition = "matrix")
+dim(news_train_bake)
+```
+Defining our Model.
+
+We use two activation functions: RELU and sigmoid.
+
+```{r}
+ReLU <- function(x){
+  return(pmax(x,0))
+}
+###
+x <- seq(-6,6, by=0.1)
+plot(x, ReLU(x), type="l")
+```
+```{r}
+sigmoid <- function(x){
+  return(1/(1+exp(-x)))
+}
+# x <- seq(-6,6, by=0.1)
+plot(x,sigmoid(x), type="l")
+```
+
+```{r}
+#install_keras()
+```
+
+```{r}
+set.seed(1234)
+library(tictoc)
+tic("Process time")
+dense_model <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_subwords + 1,
+                  output_dim = 12,
+                  input_length = max_length) %>%
+  layer_flatten() %>%
+  layer_dense(units = 32, activation = "relu") %>%
+  layer_dense(units = 1, activation = "sigmoid")
+toc() # Process time: 182 sec elapsed
+dense_model
+```
+
+
+```{r}
+dense_model %>% compile(
+  optimizer = "adam",
+  loss = "binary_crossentropy",
+  metrics = c("accuracy"))
+```
+Fitting our model on the training data.
+```{r}
+set.seed(1234)
+tic("Process")
+dense_history <- dense_model %>%
+  fit(
+    x = news_train_bake,
+    y = news_train$label,
+    batch_size = 512,
+    epochs = 10,
+    validation_split = 0.25,
+    verbose = TRUE
+  )
+toc()
+```
+Check the accuracy of our model over different epochs.
+```{r}
+plot(dense_history)
+```
+We create a validation data split from our training set.
+
+```{r}
+set.seed(1234)
+news_val <- validation_split(news_train, strata = label)
+glimpse(news_val)
+```
+We extract our two splits using analysis() and assessment()
+```{r}
+news_analysis <- bake(news_prep, new_data = analysis(news_val$splits[[1]]),
+                      composition = "matrix")
+dim(news_analysis)
+```
+```{r}
+news_assess <- bake(news_prep, new_data = assessment(news_val$splits[[1]]),
+                    composition = "matrix")
+dim(news_assess)
+```
+
+```{r}
+label_analysis <- analysis(news_val$splits[[1]]) %>% pull(label)
+label_assess <- assessment(news_val$splits[[1]]) %>% pull(label)
+```
+
+```{r}
+dense_model <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_subwords + 1,
+                  output_dim = 12,
+                  input_length = max_length) %>%
+  layer_flatten() %>%
+  layer_dense(units = 32, activation = "relu") %>%
+  layer_dense(units = 1, activation = "sigmoid")
+
+dense_model %>% compile(
+  optimizer = "adam",
+  loss = "binary_crossentropy",
+  metrics = c("accuracy")
+)
+dense_model
+```
+
+
+We fit on our analysis data and evaluate our model on the assessment data. 
+```{r}
+set.seed(1234)
+tic("Process time")
+val_history <- dense_model %>%
+  fit(
+    x = news_analysis,
+    y = label_analysis,
+    batch_size = 512,
+    epochs = 10,
+    validation_data = list(news_assess, label_assess),
+    verbose = FALSE)
+```
+These are the matrics for the final epoch (10th epoch)
+```{r}
+val_history
+```
+
+```{r}
+plot(val_history)
+```
+As we go through more epochs of data, our deep learning model becomes more and more accurate at predicting the validation data.
+
+We can also measure our DNN's performance using the yardstick package from tidymodels
+```{r}
+library(dplyr)
+
+keras_predict <- function(model, baked_data, response) {
+  predictions <- predict(model, baked_data)[, 1]
+  tibble(
+    .pred_1 = predictions,
+    .pred_class = if_else(.pred_1 < 0.5, 0, 1),
+    label = response
+  ) %>%
+    mutate(across(c(label, .pred_class),            ## create factors
+                  ~ factor(.x, levels = c(1, 0))))  ## with matching levels
+}
+```
+
+```{r}
+val_res <- keras_predict(dense_model, news_assess, label_assess)
+val_res
+```
+
+```{r}
+metrics(val_res, label, .pred_class)
+```
+
+At the 10th epoch, the accuracy of our model on the validation set was 90%.
+
+We can also view the confusion matrix.
+
+```{r}
+val_res %>%
+  conf_mat(label, .pred_class) %>%
+  autoplot(type = "heatmap")
+```
+We have more false positives than false negatives. The model more often predicts that real news is false compared to the opposite.
+
+```{r}
+val_res %>%
+  roc_curve(truth = label, .pred_1) %>%
+  autoplot() +
+  labs(
+    title = "Receiver operator curve for Fake News Data"
+  )
+```
+
+
+Let's try using pre-trained word embeddings (glove6b)
+
+```{r}
+library(textdata)
+
+glove6b <- embedding_glove6b(dimensions = 50) %>% select(1:13)
+glove6b
+```
+We have to tidy/change the tibble format.
+```{r}
+tidy(news_prep)
+```
+We extract the model vocabulary.
+```{r}
+tidy(news_prep, number = 3) %>%
+  head(10)
+```
+We join the model vocabulary to the word embeddings
+```{r}
+glove6b_matrix <- tidy(news_prep, 3) %>%
+  select(token) %>%
+  left_join(glove6b, by = "token",) %>%
+  mutate(across(!token, replace_na, 0)) %>%
+  select(-token) %>%
+  as.matrix() %>%
+  rbind(0, .)
+```
+
+Now, in the correct format, we can use the glove6b word embeddings in our keras sequential model.
+```{r}
+dense_model_pte <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_subwords + 1,
+                  output_dim = ncol(glove6b_matrix),
+                  input_length = max_length) %>%
+  layer_flatten() %>%
+  layer_dense(units = 32, activation = "relu") %>%
+  layer_dense(units = 1, activation = "sigmoid")
+```
+
+We get the first layer (embedding layer).
+Set the weights then freeze it. stops the weights from updating
+```{r}
+dense_model_pte %>%
+  get_layer(index = 1) %>%
+  set_weights(list(glove6b_matrix)) %>%
+  freeze_weights()
+```
+We can now fit our model with the pre-trained word embeddings and check for its performance.
+```{r}
+dense_model_pte %>% compile(
+  optimizer = "adam",
+  loss = "binary_crossentropy",
+  metrics = c("accuracy")
+)
+
+dense_pte_history <- dense_model_pte %>%
+  fit(
+    x = news_analysis,
+    y = label_analysis,
+    batch_size = 512,
+    epochs = 20,
+    validation_data = list(news_assess, label_assess),
+    verbose = FALSE
+  )
+
+dense_pte_history
+```
+The accuracy on the validation model is lower compared to our base dense neural network.
+
+```{r}
+pte_res <- keras_predict(dense_model_pte, news_assess, label_assess)
+metrics(pte_res, label, .pred_class)
+```
+Yes, our overall accuracy and KAPPA values went down.
+
+This shows that the word embeddings are not a good fit for our data.
+
+These pre-trained GloVe embeddings (Pennington, Socher, and Manning 2014) are trained on a Wikipedia dump and Gigaword 5, a comprehensive archive of newswire text. 
+
+Let's try not freezing the weights
+
+```{r}
+dense_model_pte2 <- keras_model_sequential() %>%
+  layer_embedding(input_dim = max_subwords + 1,
+                  output_dim = ncol(glove6b_matrix),
+                  input_length = max_length) %>%
+  layer_flatten() %>%
+  layer_dense(units = 32, activation = "relu") %>%
+  layer_dense(units = 1, activation = "sigmoid")
+```
+
+```{r}
+dense_model_pte2 %>%
+  get_layer(index = 1) %>%
+  set_weights(list(glove6b_matrix))
+```
+
+```{r}
+dense_model_pte2 %>% compile(
+  optimizer = "adam",
+  loss = "binary_crossentropy",
+  metrics = c("accuracy")
+)
+```
+
+```{r}
+tic("Process time")
+dense_pte2_history <- dense_model_pte2 %>% fit(
+  x = news_analysis,
+  y = label_analysis,
+  batch_size = 512,
+  epochs = 20,
+  validation_data = list(news_assess, label_assess),
+  verbose = FALSE
+)
+```
+
+```{r}
+pte2_res <- keras_predict(dense_model_pte2, news_assess, label_assess)
+metrics(pte2_res, label, .pred_class)
+```
+The accuracy and KAP went up when we unfroze the weights.
+
+Cross Validation Data
+
+Let's create 5 folds from our training data.
+
+```{r}
+set.seed(12345)
+news_folds <- vfold_cv(news_train, v = 5)
+glimpse(news_folds)
+```
+We will need to create our own function to handle preprocessing, fitting, and evaluation.
+```{r}
+fit_split <- function(split, prepped_rec) {
+  ## preprocessing
+  x_train <- bake(prepped_rec, new_data = analysis(split),
+                  composition = "matrix")
+  x_val   <- bake(prepped_rec, new_data = assessment(split),
+                  composition = "matrix")
+  
+  
+    ## create model
+  y_train <- analysis(split) %>% pull(label)
+  y_val   <- assessment(split) %>% pull(label)
+
+  mod <- keras_model_sequential() %>%
+    layer_embedding(input_dim = max_subwords + 1,
+                    output_dim = 12,
+                    input_length = max_length) %>%
+    layer_flatten() %>%
+    layer_dense(units = 32, activation = "relu") %>%
+    layer_dense(units = 1, activation = "sigmoid") %>% compile(
+      optimizer = "adam",
+      loss = "binary_crossentropy",
+      metrics = c("accuracy")
+    )
+
+  ## fit model
+  mod %>%
+    fit(
+      x_train,
+      y_train,
+      epochs = 10,
+      validation_data = list(x_val, y_val),
+      batch_size = 512,
+      verbose = FALSE
+    )
+
+  ## evaluate model
+  keras_predict(mod, x_val, y_val) %>%
+    metrics(label, .pred_class, .pred_1)
+}
+```
+
+```{r}
+tic("Process time")
+cv_fitted <- news_folds %>%
+  mutate(validation = map(splits, fit_split, news_prep))
+toc() # 125.58 sec elapsed
+```
+
+Let's get the metrics from our resamples.
+
+```{r}
+cv_fitted %>%
+  unnest(validation)
+```
+These are the average metrics of our five folds.
+```{r}
+cv_fitted %>%
+  unnest(validation) %>%
+  group_by(.metric) %>%
+  summarize(
+    mean = mean(.estimate),
+    n = n(),
+    std_err = sd(.estimate) / sqrt(n)
+  )
+```
+
+Let's compare the 3 models we created
+1. dense neural network
+2. locked weights word embeddings
+3. not locked weights pre-trained word embeddings
+
+```{r}
+all_dense_model_res <- bind_rows(
+  val_res %>% mutate(model = "dense"),
+  pte_res %>% mutate(model = "pte (locked weights)"),
+  pte2_res %>% mutate(model = "pte (not locked weights)")
+)
+```
+
+```{r}
+all_dense_model_res %>%
+  group_by(model) %>%
+  metrics(label, .pred_class)
+```
+The dense neural network has the highest accuracy and kappa values.
+
+Compare the ROC Curves
+
+```{r}
+all_dense_model_res %>%
+  group_by(model) %>%
+  roc_curve(truth = label, .pred_1) %>%
+  autoplot() +
+  labs(
+    title = "Receiver operator curve for Fake News Data"
+  )
+```
+The model with locked weights has the lowest ROC curve.
+
+Final Evaluation on the Testing Data
+
+```{r}
+# Using the dense model
+news_test_bake <- bake(news_prep, new_data = news_test,
+                  composition = "matrix")
+```
+
+```{r}
+final_res <- keras_predict(dense_model, news_test_bake, news_test$label)
+dnnbestcv_metrics <- final_res %>% 
+  metrics(label, .pred_class, .pred_1)
+dnnbestcv_metrics 
+```
+
+The metrics are similar to the metrics on the validation set. 
+
+
+ Let’s bind together the predictions on the test set with the original kickstarter_test data. Then let’s look at examples of fake news that our model thought was most likely real news.
+ 
+```{r}
+news_bind <- final_res %>%
+  bind_cols(news_test %>% select(-label))
+
+news_bind %>%
+  filter(label == 1, .pred_1 < 0.2) %>%
+  select(article, .pred_1) %>%
+  slice_sample(n = 10)
+```
+These are examples of real news that our model thought was most likely fake news.
+
+```{r}
+news_bind %>%
+  filter(label == 0, .pred_1 > 0.8) %>%
+  select(article, .pred_1)
+
+```
+. Lastly, deep learning models tend to require more training data than traditional statistical machine learning methods. This means that it can be hard to train a deep learning model if you have a very small data set 
+
+

@@ -1,0 +1,17 @@
+flight_type,airline_operator,january,february,march,april,may,june,july,august,september,october,november,december,grand_total
+Domestic,Air Asia Philippines,-,-,2251,21480,19426,12138,13554,20926,17120,19981,16181,11485,154542
+Domestic,Cebu Pacific,3392,3285,3207,3154,3365,2573,2429,3081,2517,3272,3139,3298,36712
+Domestic,PAL Express,-,-,1262,14357,16556,10413,7117,6164,5236,7948,6289,10189,85531
+Domestic,Seair,441,283,-,-,3128,2267,2480,2515,2529,3145,2790,3393,22971
+Domestic,Simirara Mining Corp,-,-,-,-,-,-,46,-,-,-,-,-,46
+Domestic,Zest Air,-,-,-,-,-,-,-,-,-,314,308,14,636
+International,Air Asia,14271,13481,15677,16627,15122,11945,12610,13433,11987,11938,11690,16443,165224
+International,Air Asia Philippines,-,-,-,-,-,3854,10092,19188,16705,20210,14852,25036,109937
+International,Asiana Airlines,9495,9748,8023,7766,6348,6283,7325,7341,6344,7184,7505,9679,93041
+International,Cebu Pacific,22964,19988,21789,26458,26395,20083,14468,14718,13931,17256,18131,22050,238231
+International,China Southern Airlines,-,-,-,143,-,-,-,-,-,-,-,-,143
+International,Dragon Air,-,-,-,-,419,3172,1981,3083,2885,4330,3528,5903,25301
+International,Jin-Air,3937,3723,3870,3452,3539,3147,2509,2179,2382,2273,2225,3395,36631
+International,PAL Express,6917,9674,7076,-,3266,4346,2419,2362,1743,3757,4558,6926,53044
+International,Seair,28284,18226,20899,24825,25227,18741,19848,22498,21309,24949,26099,28673,279578
+International,Zest Air,-,-,-,-,-,-,-,-,-,822,6088,7279,14189

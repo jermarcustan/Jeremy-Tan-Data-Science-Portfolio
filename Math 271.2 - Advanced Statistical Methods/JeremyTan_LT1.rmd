@@ -1,0 +1,167 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(TSA)
+library(tseries)
+library(forecast)
+```
+
+Item 2
+```{r}
+sales = read.csv("Item2.csv")
+sales_ts = ts(sales)
+```
+
+Plot the data
+```{r}
+plot(sales_ts)
+```
+Do Log Transformation
+```{r}
+sales_ts_log = log(sales_ts)
+plot(sales_ts_log)
+```
+
+Test for Stationarity
+We do the adf test
+```{r}
+adf.test(sales_ts_log)
+```
+
+Since the p value is greater than 0.05, we fail to reject the null hypothesis. Thus, the time series is not stationary.
+
+We do differencing.
+
+```{r}
+sales_ts_log_diff = diff(sales_ts_log)
+```
+
+```{r}
+adf.test(sales_ts_log_diff)
+```
+Since the p value is greater than 0.05, we don't reject the null hypothesis. Thus, our time series is still not stationary.
+
+We do differencing again.
+
+```{r}
+sales_ts_log_diff2 = diff(sales_ts_log_diff)
+adf.test(sales_ts_log_diff2)
+```
+
+Since the p value is less than 0.05, we reject the null hypothesis. The twice differenced time series is now stationary.
+
+```{r}
+plot(sales_ts_log_diff2)
+```
+Check for autocorrelation
+```{r}
+Box.test(sales_ts_log_diff2, type = "Ljung")
+```
+Since p < 0.05, the time series is autocorrelated.
+
+Fit an ARIMA(1,2,1) model to sales_ts_log
+
+```{r}
+arima_121 = Arima(sales_ts_log, order = c(1,2,1))
+arima_121
+```
+The prediction interval of phi_1 includes 0 so the phi_1 term can be dropped.
+
+Let's test out the ARIMA(0,2,1) model.
+
+```{r}
+arima_021 = Arima(sales_ts_log, order = c(0,2,1))
+arima_021
+```
+
+ARIMA(0,2,1) has lower AIC and BIC compared to ARIMA(1,2,1) so we use ARIMA(0,2,1) for forecasting.
+
+```{r}
+sales.f = forecast(arima_021, h = 3)
+sales.f
+```
+```{r}
+sales.f.actual = exp(sales.f$mean)
+sales.f.actual
+```
+
+
+Item 3.
+
+```{r}
+rate = read.csv("Item3.csv")
+rate_ts = ts(rate)
+```
+
+```{r}
+plot(rate_ts)
+```
+We can notice there is a seasonal aspect and a trend.
+
+Do log transform and differencing.
+
+```{r}
+rate_ts_log = log(rate_ts)
+rate_ts_log_diff = diff(rate_ts_log)
+```
+
+```{r}
+plot(rate_ts_log_diff)
+```
+```{r}
+acf(rate_ts_log_diff, lag = 100)
+```
+```{r}
+pacf(rate_ts_log_diff, lag = 100)
+
+```
+For the seasonal component, we have a sARMA(1,0)_12 model.
+
+We test out two different models:
+1. sarima(1,1,2) x (1,1,0)_12
+2. sarima(2,1,1) x (1,1,0)_12
+
+```{r}
+sarima.arma12 = Arima(rate_ts_log, order = c(1,1,2), seasonal = list(order = c(1,1,0), period = 12))
+sarima.arma12
+```
+
+```{r}
+sarima.arma21 = Arima(rate_ts_log, order = c(2,1,1), seasonal = list(order = c(1,1,0), period = 12))
+sarima.arma21
+```
+```{r}
+rate.f = forecast(sarima.arma21, h = 3)
+rate.f
+```
+```{r}
+exp(rate.f$mean)
+```
+
+Item 4
+```{r}
+A = matrix(c(5/32, 3/32, 9/160, 27/800, 3/32, 5/32, 3/32, 9/160, 9/160, 3/32, 5/32, 3/32, 27/800, 9/160, 3/32, 5/32), ncol = 4, byrow = T)
+A
+solve(A)
+```
+
+```{r}
+B = matrix(c(3/32, 9/160, 27/800, 81/4000), ncol = 4)
+Y = matrix(c(-0.1, 0, 0, 0.6), ncol = 1)
+B %*% solve(A) %*% Y
+```
+```{r}
+C = matrix(c(9/160, 27/800, 81/4000, 243/20000), ncol = 4)
+C %*% solve(A) %*% Y
+```
+
+```{r}
+B %*% solve(A) %*% t(B)
+```
+```{r}
+C %*% solve(A) %*% t(C)
+```
+

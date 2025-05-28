@@ -1,0 +1,13 @@
+flight_type,airline_operator,january,february,march,april,may,june,july,august,september,october,november,december,grand_total
+Domestic,Cebu Pacific,3316,2992,2957,3529,3400,2989,2308,2789,2489,3140,3254,3371,36534
+Domestic,King Air Airlines,17,-,-,-,-,-,-,-,-,-,-,-,17
+Domestic,Seair,496,464,540,707,785,455,562,409,157,268,356,368,5567
+International,Air Asia,14527,12112,14956,15153,15408,13611,13940,11234,10965,13413,14437,16413,166169
+International,Asiana Airlines,9393,8346,7292,7186,6313,5716,6394,6277,6051,6802,7477,9014,86261
+International,Beijing Capital Airlines Co. Ltd.,-,-,-,-,23,-,-,-,-,-,-,-,23
+International,Cebu Pacific,19394,16350,18591,20123,19659,16441,15678,15601,14635,17841,17121,22453,213887
+International,China Eastern,-,-,-,-,55,-,-,-,-,-,-,-,55
+International,Corporate World Aviation Corp. Airline,-,-,-,-,-,-,3,-,-,-,-,-,3
+International,Jin-Air,6295,5102,2589,2357,2389,2611,3119,4584,2483,2939,3020,3941,41429
+International,Seair,11743,11002,14214,19572,20153,18811,13664,15434,17806,20327,21870,28981,213577
+International,Spirit of Manila,661,1200,624,1134,-,-,-,-,-,-,-,-,3619

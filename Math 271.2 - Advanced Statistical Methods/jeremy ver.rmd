@@ -1,0 +1,35 @@
+---
+title: ""
+output: html_notebook
+---
+
+
+
+```{r}
+library(TSA)
+library(tseries)
+library(forecast)
+library(fGarch)
+``````
+
+```{r}
+data = read.csv("Sto_nino_2017.csv")
+X = ts(data)
+```
+
+```{r}
+garch31 = garchFit(~arma(3,0) + garch(3,1), data = X)
+
+```
+
+```{r}
+summary(garch31)
+```
+
+```{r}
+garch11 = garchFit(~arma(1,0) + garch(1,1), data = X)
+```
+```{r}
+summary(garch11)
+```
+

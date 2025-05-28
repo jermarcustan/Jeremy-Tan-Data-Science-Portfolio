@@ -1,0 +1,176 @@
+---
+title: "psei_monthly data"
+output: html_notebook
+---
+
+```{r}
+library("TSA")
+library("tseries")
+library("lmtest")
+library("tidyverse")
+library("forecast")
+library("quantmod")
+library("ggplot2")
+library("xts")
+library("MLmetrics")
+```
+
+```{r}
+psei = read.csv("PSEI.PS.csv")
+psei$Date =  as.Date(psei$Date, format = "%d/%m/%Y") # format the dates as date objects
+psei = psei[rowSums(is.na(psei)) != ncol(psei),] # remove empty rows
+rownames(psei) = psei$Date
+psei
+```
+```{r}
+psei = psei["Close"]
+psei_train = head(psei, 399)
+psei_test = psei
+psei = psei_train
+psei_ts = ts(psei_train, start = c(1987, 2), frequency = 12)
+#png(filename = "nonstationary.png")
+plot(psei_ts, main = "Monthly Closing Prices for the PSEi")
+#dev.off()
+```
+```{r}
+psei
+```
+
+
+Check for Stationarity
+```{r}
+adf.test(psei_ts)
+```
+We can clearly see from the graph and from the AD test that the data is not stationary.
+
+We perform log transformation and then difference the data.
+
+```{r}
+#png(filename="stationary.png")
+psei_ts_ln = log(psei_ts)
+psei_ts_ln_diff = diff(psei_ts_ln)
+plot(psei_ts_ln_diff, main = "Stationary Time Series Plot after differencing and log transform")
+#dev.off()
+```
+
+```{r}
+adf.test(psei_ts_ln_diff)
+```
+
+The data is now stationary.
+
+```{r}
+Box.test(psei_ts_ln_diff, type = "Ljung")
+```
+The data is autocorrelated.
+
+We can proceed with modeling.
+
+```{r}
+#png(filename="acf.png")
+Acf(psei_ts_ln_diff, main = "ACF Correlogram") #MA(1)
+#dev.off()
+```
+
+
+```{r}
+#png(filename="pacf.png")
+Acf(psei_ts_ln_diff, type = "partial", main = "PACF Correlogram") #AR(1)
+#dev.off()
+```
+
+signficant lags at 1 for the acf/pacf.
+
+```{r}
+arima(psei_ts_ln_diff, order = c(1,0,0))
+arima(psei_ts_ln_diff, order = c(0,0,1))
+arima(psei_ts_ln_diff, order = c(1,0,1))
+```
+ARMA(1,0) has the lowest AIC.
+
+Checking Residuals
+
+```{r}
+fit = arima(psei_ts_ln_diff, order = c(1,0,0))
+checkresiduals(fit)
+```
+
+```{r}
+residuals = fit$residuals
+Acf(residuals)
+Pacf(residuals)
+```
+
+At any lag, our residuals do not exhibit any autocorrelation. 
+
+
+```{r}
+psei_test_2 = ts(psei_test, start = c(1987, 2), frequency = 12)
+model = Arima(psei_ts_ln_diff, order = c(1,0,0))
+forecast_2yrs = predict(model, n.ahead = 24)$pred
+final.ln.diff_2yrs = ts(c(psei_ts_ln_diff,forecast_2yrs), start = c(1987, 3), frequency = 12)
+final.ln_2yrs = diffinv(final.ln.diff_2yrs, differences = 1, xi = psei_ts_ln[1])
+final_2yrs = exp(final.ln_2yrs)
+
+train = psei_ts
+test = ts(psei_test_2[c(400:423)], start = c(2020,5), frequency = 12)
+predicted = ts(final_2yrs[c(400:423)], start = c(2020,5), frequency = 12)
+
+#png("forecast_2yrs.png")
+
+plot(train, col = "blue", ylim = range(min(train, predicted), max(train, predicted)), main = "2-year forecast for the PSEi", xlab = "Year", ylab = "Price", xlim = c(1987, 2023), xaxt = "n")
+
+lines(test, col = "#028A0F")
+lines(predicted, col = "red")
+legend("topleft", legend = c("Training Data", "Testing Data", "Forecasted Values"), col = c("blue", "#028A0F", "red"), lty = 1)
+axis(1, at = seq(1987, 2026, by = 5), labels = seq(1987, 2026, by = 5))
+
+
+# Close the PNG graphics device
+#dev.off()
+```
+
+
+```{r}
+#Finding the MAPE 
+comparison = data.frame(
+  actual = test,
+  forecast = predicted
+)
+comparison
+```
+Computing the Mean Absolute Percentage Error
+```{r}
+mean(abs((comparison$actual-comparison$forecast)/comparison$actual)) * 100
+
+```
+MAPE of 6.62%. 
+
+```{r}
+psei_test = ts(psei_test, start = c(1987, 2), frequency = 12)
+psei_test_ln = log(psei_test)
+psei_test_ln_diff = diff(psei_test_ln)
+model_2 = Arima(psei_test_ln_diff, order = c(1,0,0))
+forecast_5yrs = predict(model_2, n.ahead = 60)$pred
+final.ln.diff_5yrs = ts(c(psei_test_ln_diff,forecast_5yrs), start = c(1987, 3), frequency = 12)
+final.ln_5yrs = diffinv(final.ln.diff_5yrs, differences = 1, xi = psei_ts_ln[1])
+final_5yrs = exp(final.ln_5yrs)
+
+train = psei_test
+predicted = ts(final_5yrs[c(424:483)], start = c(2022,5), frequency = 12)
+
+#png("forecast_5yrs.png")
+
+plot(train, col = "blue", main = "5-year forecast for the PSEi", ylim = range(min(train, predicted), max(train, predicted)), xlab = "Year", ylab = "Price", xlim = c(1987, 2027), xaxt = "n")
+lines(predicted, col = "red")
+legend("topleft", legend = c("Training Data", "Forecasted Values"), col = c("blue", "red"), lty = 1)
+axis(1, at = seq(1987, 2027, by = 5), labels = seq(1987, 2027, by = 5))
+
+
+# Plot is saved as "forecast_plot.png"
+
+# Close the PNG graphics device
+#dev.off()
+```
+
+
