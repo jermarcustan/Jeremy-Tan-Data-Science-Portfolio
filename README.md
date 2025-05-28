@@ -14,7 +14,7 @@ The goal of my master's capstone project was to create an accurate forecasting m
 </a>
 
 <figure>
-  <img src="/img/Capstone_24hr_stonino_2.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
+  <img src="/img/Capstone_24hr_stonino.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
   <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event, highlighting the model's responsiveness to extreme weather.</figcaption>
 </figure>
 
