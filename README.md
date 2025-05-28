@@ -24,3 +24,9 @@ I compared the classification performance of three neural networks: dense neural
 
 ![Results of the Neural Networks on the Test Set](/img/Predictive_Modeling_for_Text.png)
 
+
+<figure>
+  <img src="/img/Predictive_Modeling_for_Text.png" alt="Results of the Neural Networks on the Test Set" style="width:100%;">
+  <figcaption><strong>Figure:</strong> Results of the Neural Networks on the Test Set </figcaption>
+</figure>
+
