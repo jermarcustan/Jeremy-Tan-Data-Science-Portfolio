@@ -13,8 +13,10 @@ The goal of my master's capstone project was to create an accurate forecasting m
   </button>
 </a>
 
-![A 24-hour nippet from the Sto. Niño predictions during a high-rainfall event](/img/Capstone_24hr_stonino_2.png)
-
+<figure>
+  <img src="/img/Capstone_24hr_stonino_2.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
+  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event, highlighting the model's responsiveness to extreme weather.</figcaption>
+</figure>
 
 ### Math 103.1: Classification of Fake and Real News from Filipino Sources using Neural Networks
 
