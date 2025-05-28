@@ -15,7 +15,7 @@ The goal of my master's capstone project was to create an accurate forecasting m
 
 <figure>
   <img src="/img/Capstone_24hr_stonino.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
-  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event, highlighting the model's responsiveness to extreme weather.</figcaption>
+  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event.</figcaption>
 </figure>
 
 ### Math 103.1: Classification of Fake and Real News from Filipino Sources using Neural Networks
