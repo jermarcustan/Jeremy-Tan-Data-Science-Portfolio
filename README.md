@@ -7,8 +7,16 @@ This repository contains all the data science and applied mathematics-related pr
 
 The goal of my master's capstone project was to create an accurate forecasting model for the water level at the Sto. Niño station along the Marikina River Basin. Three artificial neural networks were trained and evaluated using historical rainfall and water level data obtained from the MMDA and PAG-ASA. The Long Short-Term Memory (LSTM) model outperformed the basic time series model and the other artificial neural networks in terms of MSE and NSE in the univariate and multivariate cases. Moreover, different lag structures were implemented to asses how varying input configurations influence the predictive performance of the models. The results show that shorter lag values generally yield better performance. 
 
-![A 24-hour nippet from the Sto. Niño predictions during a high-rainfall event](/img/Capstone_24hr_stonino.png)
+<a href="/Final Thesis and Capstone Project/Final Manuscript/Final Manuscript.pdf" download>
+  <button style="padding: 10px 15px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    📄 Download Full Capstone PDF
+  </button>
+</a>
 
+<figure>
+  <img src="/img/Capstone_24hr_stonino_2.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
+  <figcaption><strong>Figure:</strong> A 24-hour snippet of Sto. Niño water level predictions during a high-rainfall event, highlighting the model's responsiveness to extreme weather.</figcaption>
+</figure>
 
 ### Math 103.1: Classification of Fake and Real News from Filipino Sources using Neural Networks
 
