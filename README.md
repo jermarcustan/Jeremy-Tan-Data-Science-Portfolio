@@ -7,8 +7,17 @@ This repository contains all the data science and applied mathematics-related pr
 
 The goal of my master's capstone project was to create an accurate forecasting model for the water level at the Sto. Niño station along the Marikina River Basin. Three artificial neural networks were trained and evaluated using historical rainfall and water level data obtained from the MMDA and PAG-ASA. The Long Short-Term Memory (LSTM) model outperformed the basic time series model and the other artificial neural networks in terms of MSE and NSE in the univariate and multivariate cases. Moreover, different lag structures were implemented to asses how varying input configurations influence the predictive performance of the models. The results show that shorter lag values generally yield better performance. 
 
-![Capstone PDF Download](https://raw.githubusercontent.com/jermarcustan/Jeremy-Tan-Data-Science-Portfolio/main/Final Thesis and Capstone Project/Final Manuscript/Final Manuscript.pdf)
-
+<a href="https://raw.githubusercontent.com/jermarcustan/Jeremy-Tan-Data-Science-Portfolio/main/Final Thesis and Capstone Project/Final Manuscript/Final Manuscript.pdf" download style="
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #28a745;
+  border-radius: 5px;
+  text-decoration: none;
+">
+📄 Download Master's Capstone PDF
+</a>
 
 <figure>
   <img src="https://raw.githubusercontent.com/jermarcustan/Jeremy-Tan-Data-Science-Portfolio/main/img/Capstone_24hr_stonino.png" alt="A 24-hour snippet from the Sto. Niño predictions during a high-rainfall event" style="width:100%;">
