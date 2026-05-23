@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  This template is for provisioning of
+  any resource that uses instances such as
+  EC2 and RDS
+Resources:
+  DevEnvironment:
+    Type: AWS::Cloud9::EnvironmentEC2
+    Properties: 
+      AutomaticStopTimeMinutes: 120
+      Description: "Development IDE for Cloud 9"
+      ImageId: "ubuntu-18.04-x86_64"
+      InstanceType: "t2.micro"
+      Name: "DevEnvironment"

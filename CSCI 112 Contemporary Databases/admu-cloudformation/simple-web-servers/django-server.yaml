@@ -1,0 +1,202 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  This template is for provisioning of
+  any resource that uses instances such as
+  EC2 and RDS
+Parameters:
+  ProjectName:
+    Description: Project Name to identify stack and infrastructure
+    Type: String
+    Default: WebServer
+  Environment:
+    Description: Environment to deploy the Stack
+    Type: String
+    Default: Dev
+    AllowedValues:
+      - Stage
+      - Prod
+      - Test
+      - Dev
+  KeyPair:
+    Description: Key used to SSH into the instance.
+    Type: AWS::EC2::KeyPair::KeyName
+  WebPort:
+    Description: Port used by web server
+    Type: Number
+    Default: 8000
+  DbUser:
+    Type: String
+    Description: Username for the database superuser
+    Default: student
+  DbPassword:
+    Type: String
+    Description: Password for the database superuser
+    Default: Pa55w0rd
+    NoEcho: true
+  LatestAmazonLinuxAmiId:
+    Type : 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
+    Default: '/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2'
+    
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      - Label:
+          default: Project Details
+        Parameters:
+          - ProjectName
+          - Environment
+      - Label:
+          default: Server Details
+        Parameters:
+          - KeyPair
+          - WebPort
+          - LatestAmazonLinuxAmiId
+      - Label:
+          default: Database Details
+        Parameters:
+          - DbUsername
+          - DbPassword
+
+    ParameterLabels:
+      DbUsername:
+        default: Database Username
+      DbPassword:
+        default: Database Password
+      ProjectName:
+        default: Project Name
+      Environment:
+        default: Environment
+      KeyPair:
+        default: SSH Key Pair
+      WebPort:
+        default: Web Server Port
+
+Resources:
+
+  DbSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupName: !Sub ${ProjectName}-${Environment}-DbSg
+      GroupDescription: Allow postgres access only from within the security group
+
+  SGDbIngress1:
+    Type: 'AWS::EC2::SecurityGroupIngress'
+    Properties:
+      GroupId: !GetAtt DbSecurityGroup.GroupId
+      IpProtocol: tcp
+      FromPort: 3306
+      ToPort: 3306
+      SourceSecurityGroupId: !GetAtt InstanceSecurityGroup.GroupId
+      
+  InstanceSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupName: !Sub ${ProjectName}-${Environment}-InstanceSg
+      GroupDescription: Allow postgres access only from within the security group
+
+  SgInstanceIngress1:
+    Type: 'AWS::EC2::SecurityGroupIngress'
+    Properties:
+      GroupId: !GetAtt InstanceSecurityGroup.GroupId
+      IpProtocol: tcp
+      FromPort: !Ref WebPort
+      ToPort: !Ref WebPort
+      CidrIp: "0.0.0.0/0"
+      
+  SgInstanceIngress2:
+    Type: 'AWS::EC2::SecurityGroupIngress'
+    Properties:
+      GroupId: !GetAtt InstanceSecurityGroup.GroupId
+      IpProtocol: tcp
+      FromPort: 22
+      ToPort: 22
+      CidrIp: "0.0.0.0/0"
+
+  RDSCluster:
+    Type: 'AWS::RDS::DBCluster'
+    DeletionPolicy: Delete
+    Properties:
+      MasterUsername: !Ref DbUser
+      MasterUserPassword: !Ref DbPassword
+      DBClusterIdentifier: demo-mysql
+      Engine: aurora-mysql
+      EngineVersion: "5.7.mysql_aurora.2.08.0"
+      EngineMode: serverless
+      ScalingConfiguration:
+        AutoPause: true
+        MinCapacity: 2
+        MaxCapacity: 4
+        SecondsUntilAutoPause: 1800
+      VpcSecurityGroupIds:
+        - !GetAtt DbSecurityGroup.GroupId
+
+  BastionRole:
+    Type: AWS::IAM::Role
+    Properties: 
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+            - ec2.amazonaws.com
+          Action:
+          - sts:AssumeRole
+      Path: !Sub /${ProjectName}/instances/
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforSSM
+
+  BastionInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties: 
+      Roles:
+        - !Ref BastionRole
+
+  BastionHost: 
+    Type: "AWS::EC2::Instance"
+    Metadata:
+      AWS::CloudFormation::Init:
+        configSets:
+          django:
+            - "django-dependencies"
+        django-dependencies:
+          commands:
+            installDependencies:
+              command: yum update -y && yum install -y python3-devel mysql mysql-devel gcc
+    CreationPolicy:
+      ResourceSignal:
+        Count: 1
+        Timeout: PT15M
+    Properties: 
+      ImageId: !Ref LatestAmazonLinuxAmiId
+      KeyName: !Ref KeyPair
+      InstanceType: t2.micro
+      NetworkInterfaces: 
+        - AssociatePublicIpAddress: true
+          DeviceIndex: "0"
+          GroupSet: 
+            - !GetAtt InstanceSecurityGroup.GroupId
+          DeleteOnTermination: true
+      IamInstanceProfile: !Ref BastionInstanceProfile
+      Tags:
+        - Key: Name
+          Value: !Sub ${Environment}-Bastion
+        - Key: Environment
+          Value: !Sub ${Environment}
+      UserData:
+        Fn::Base64: !Sub |
+            #!/bin/bash -xe
+            yum update -y
+            # Install the files and packages from the metadata
+            /opt/aws/bin/cfn-init -v --stack ${AWS::StackName} --resource BastionHost --configsets django --region ${AWS::Region}
+            # Signal the status from cfn-init
+            /opt/aws/bin/cfn-signal -e $? --stack ${AWS::StackName} --resource BastionHost --region ${AWS::Region}
+            
+
+Outputs:
+
+  DatabaseEndpoint:
+    Value: !GetAtt RDSCluster.Endpoint.Address
+  
+  Ec2InstanceDns:
+    Value: !GetAtt BastionHost.PublicDnsName
